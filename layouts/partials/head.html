@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $seoDesc := .Params.seo_description -}}
+{{- $desc := $seoDesc | default .Description -}}
+{{- if not $desc }}{{ with .Params.hero }}{{ $desc = .subhead }}{{ end }}{{ end -}}
+{{- if not $desc }}{{ if and (not .IsHome) (eq .Kind "page") }}{{ $desc = .Summary | plainify | truncate 160 }}{{ end }}{{ end -}}
+{{- if not $desc }}{{ $desc = "Board-certified prosthetic and orthotic care for children and adults, with clinics across the country." }}{{ end -}}
+{{- if not $seoDesc }}{{ $desc = $desc | plainify | truncate 160 }}{{ end -}}
+{{- $title := .Params.seo_title | default (cond .IsHome .Title (printf "%s | %s" .Title site.Title)) -}}
+{{- $img := .Params.image -}}
+{{- if not $img }}{{ with .Params.hero }}{{ $img = .image }}{{ end }}{{ end -}}
+{{- if not $img }}{{ $img = site.Params.ogImage }}{{ end -}}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">
+{{ end }}<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+{{ with hugo.Data.site.google_site_verification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:type" content="{{ if eq .Type "blog-post" }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with $img }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+<meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+{{ with $img }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+{{ $css := slice (resources.Get "css/style.css") (resources.Get "css/components.css") | resources.Concat "css/site.css" | resources.Minify | resources.Fingerprint }}<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ $hx := partial "asset.html" "css/heroes.css" }}<link rel="stylesheet" href="{{ $hx.RelPermalink }}" integrity="{{ $hx.Data.Integrity }}">
+{{ if eq .Type "blog-post" }}{{ $pc := partial "asset.html" "css/post.css" }}<link rel="stylesheet" href="{{ $pc.RelPermalink }}" integrity="{{ $pc.Data.Integrity }}">{{ end }}
+{{ $tab := partial "asset.html" "css/responsive/tablet.css" }}<link rel="stylesheet" href="{{ $tab.RelPermalink }}" integrity="{{ $tab.Data.Integrity }}" media="(max-width: 1024px)">
+{{ $mob := partial "asset.html" "css/responsive/mobile.css" }}<link rel="stylesheet" href="{{ $mob.RelPermalink }}" integrity="{{ $mob.Data.Integrity }}" media="(max-width: 640px)">

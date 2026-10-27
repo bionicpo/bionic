@@ -1,0 +1,17 @@
+{{- /* Shared blog post card. Context: post page */ -}}
+<a href="{{ .RelPermalink }}" class="blog-card reveal" data-reveal="up">
+  <div class="blog-card-media"{{ with .Params.image }} style="background-image:url('{{ . }}');background-size:cover;background-position:center;"{{ end }}></div>
+  <div class="blog-card-body">
+    <div class="blog-card-meta">
+      {{ with .GetTerms "categories" }}<span class="blog-card-category">{{ (index . 0).Page.Title }}</span>{{ end }}
+    </div>
+    <h3>{{ .Title }}</h3>
+    {{- $ex := .Params.description -}}
+    {{- if not $ex -}}
+      {{- $t := .Summary | plainify | replaceRE `^\s*Updated:\s*[A-Za-z]{3,9}\.?\s*\d{1,2}(?:,\s*\d{4})?\s*` "" | strings.TrimSpace -}}
+      {{- $w := split $t " " -}}
+      {{- $ex = cond (gt (len $w) 25) (printf "%s…" (delimit (first 25 $w) " ")) $t -}}
+    {{- end -}}
+    {{ with $ex }}<p class="blog-card-excerpt">{{ . }}</p>{{ end }}
+  </div>
+</a>

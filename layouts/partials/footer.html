@@ -1,0 +1,65 @@
+{{ $s := hugo.Data.site }}
+{{ $nav := hugo.Data.navigation }}
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <a href="/" class="footer-brand-mark">
+        <img src="{{ $s.logo_footer }}" alt="{{ site.Title }}" class="footer-logo">
+      </a>
+      <p>{{ $s.footer.blurb }}</p>
+      <div class="footer-contact">
+        {{ $s.phone }}<br>
+        {{ $s.email }}<br>
+        {{ $s.address }}
+      </div>
+      <div class="social-links" aria-label="Social media">
+        <a href="{{ $s.social.facebook | default "#" }}" aria-label="Facebook" class="footer-link">{{ partial "icon.html" "facebook" }}</a>
+        <a href="{{ $s.social.instagram | default "#" }}" aria-label="Instagram" class="footer-link">{{ partial "icon.html" "instagram" }}</a>
+        <a href="{{ $s.social.linkedin | default "#" }}" aria-label="LinkedIn" class="footer-link">{{ partial "icon.html" "linkedin" }}</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>{{ $s.footer.links_heading }}</h4>
+      <ul>
+        {{ range $nav.footer_links }}
+        <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>{{ $s.footer.services_heading }}</h4>
+      <ul>
+        {{ range $nav.footer_services }}
+        <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>{{ $s.footer.locations_heading | default "Locations" }}</h4>
+      <ul>
+        {{ range $nav.footer_locations }}
+        <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>{{ $s.footer.career_heading | default "Career" }}</h4>
+      <ul>
+        {{ range $nav.footer_career }}
+        <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; {{ now.Year }} {{ $s.legal_name | default site.Title }}. {{ $s.footer.rights_text }}</p>
+    <div class="footer-bottom-links">
+      {{ range $nav.footer_legal }}<a href="{{ .url }}" class="footer-link">{{ .name }}</a>{{ end }}
+    </div>
+  </div>
+</footer>

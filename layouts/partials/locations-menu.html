@@ -1,0 +1,16 @@
+{{- $d := partialCached "locations-data.html" . -}}
+<div class="dropdown-panel mega-panel">
+  <div class="clinic-qs">
+    <input type="search" class="clinic-qs-input" placeholder="Search by city, state or ZIP" autocomplete="off" aria-label="Search clinics" role="combobox" aria-autocomplete="list" aria-expanded="false">
+    <ul class="clinic-qs-results" role="listbox" hidden></ul>
+  </div>
+  <div class="mega-head">
+    <strong>Find a clinic near you</strong>
+    <a href="/locations/" class="mega-all">View all locations <span class="icon-sm">{{ partial "icon.html" "arrow-right" }}</span></a>
+  </div>
+  <ul class="mega-grid">
+    {{ range $d.states }}
+    <li><a href="{{ .url }}" class="mega-link"><span>{{ .name }}</span></a></li>
+    {{ end }}
+  </ul>
+</div>

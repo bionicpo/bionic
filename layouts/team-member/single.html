@@ -1,0 +1,65 @@
+{{ define "head" }}
+{{- $s := dict "@context" "https://schema.org" "@type" "Person" "name" .Params.name "url" .Permalink "worksFor" (dict "@type" "Organization" "name" site.Title "url" site.Home.Permalink) -}}
+{{- with .Params.role }}{{ $s = merge $s (dict "jobTitle" .) }}{{ end -}}
+{{- with .Params.photo }}{{ $s = merge $s (dict "image" (. | absURL)) }}{{ end -}}
+{{- with .Params.credentials }}{{ $s = merge $s (dict "hasCredential" .) }}{{ end -}}
+<script type="application/ld+json">{{ $s | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ define "main" }}
+{{- $locs := slice -}}
+{{- with .Params.location }}{{ $locs = $locs | append . }}{{ end -}}
+{{- range .Params.locations }}{{ $locs = $locs | append . }}{{ end -}}
+{{ partial "hero.html" . }}
+
+<section class="section">
+  <div class="container">
+    {{ partial "breadcrumbs.html" (dict "page" .) }}
+    <div class="tm-grid">
+      <aside class="tm-aside">
+        <div class="team-profile-avatar tm-avatar">
+          {{ if .Params.photo }}<img src="{{ .Params.photo }}" alt="{{ .Params.name }}">{{ else }}{{ partial "initials.html" .Params.name }}{{ end }}
+        </div>
+        <h2 class="tm-name">{{ .Params.name }}</h2>
+        {{ with .Params.credentials }}<div class="team-credentials">{{ . }}</div>{{ end }}
+        {{ with .Params.role }}<div class="team-role">{{ . }}</div>{{ end }}
+        {{ $self := . }}{{ range where site.RegularPages "Type" "executive-member" }}{{ $ex := . }}{{ with .Params.clinical_profile }}{{ with site.GetPage . }}{{ if eq .RelPermalink $self.RelPermalink }}
+        <p class="tm-also"><a href="{{ $ex.RelPermalink }}">Also on our Executive Team <span aria-hidden="true">→</span></a></p>
+        {{ end }}{{ end }}{{ end }}{{ end }}
+        {{ with .Params.email }}<p class="tm-email"><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+        {{ with .Params.clinic_details }}
+        <h3 class="tm-label">Clinics</h3>
+        <ul class="tm-list">
+          {{ range . }}
+          {{ $c := site.GetPage (printf "/clinics/%s" (.clinic | default (.name | urlize))) }}
+          <li><span class="icon-sm">{{ partial "icon.html" "pin" }}</span><span>{{ if $c }}<a href="{{ $c.RelPermalink }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ range .address }}<br>{{ . }}{{ end }}{{ with .phone }}<br><a href="tel:{{ partial "tel.html" . }}">{{ . }}</a>{{ end }}{{ with .email }}<br><a href="mailto:{{ . }}">{{ . }}</a>{{ end }}</span></li>
+          {{ end }}
+        </ul>
+        {{ else }}
+        {{ if $locs }}
+        <h3 class="tm-label">Clinics</h3>
+        <ul class="tm-list">
+          {{ range $locs }}
+          {{ $c := partial "clinics-for-location.html" . }}
+          <li><span class="icon-sm">{{ partial "icon.html" "pin" }}</span>{{ if $c }}<a href="{{ $c.RelPermalink }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+        {{ end }}
+        {{ with .Params.specialties }}
+        <h3 class="tm-label">Specialties</h3>
+        <ul class="cl-plans">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        {{ end }}
+      </aside>
+      <div class="tm-bio">
+        <h2 class="tm-bio-title">About {{ .Params.name }}</h2>
+        <div class="article-body tm-body">{{ with .Params.bio }}{{ . | safeHTML }}{{ else }}{{ .Content }}{{ end }}</div>
+      </div>
+    </div>
+    <p class="tm-back"><a href="/team/" class="btn btn-outline-dark">Back to All Clinicians</a></p>
+  </div>
+</section>
+
+{{ $c := hugo.Data.cta.team_member }}
+{{ partial "cta-band.html" (dict "title" $c.title "body" (replace $c.body "{name}" .Params.name) "primary" $c.primary "primary_link" $c.primary_link "secondary" $c.secondary "secondary_link" $c.secondary_link) }}
+{{ end }}

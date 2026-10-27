@@ -1,0 +1,4 @@
+{{ define "main" }}
+{{ partial "page-sections.html" . }}
+{{ if not (where (.Params.sections | default slice) "type" "children-grid") }}{{ partial "children-grid.html" (dict "page" .) }}{{ end }}
+{{ end }}

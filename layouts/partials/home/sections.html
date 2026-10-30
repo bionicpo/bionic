@@ -97,10 +97,10 @@
       <h2 id="hm-proc-title" class="hm-h2">How getting a device works</h2>
     </div>
     <ol class="hm-steps">
-      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "search" }}</span><h3>Evaluation</h3><p>A certified clinician looks at your limb, strength, mobility, and goals. For a prosthetic leg, we also assess your K-level.</p></li>
-      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "file" }}</span><h3>Design and coverage</h3><p>We design your device, get your doctor's prescription, and help you through insurance approval.</p></li>
-      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "spark" }}</span><h3>Fitting and testing</h3><p>We fit your device, watch how you move, and fine-tune it until it feels right.</p></li>
-      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "heart" }}</span><h3>Training and follow-up</h3><p>Gait training helps you build confidence. After that, we see you whenever your body or goals change.</p></li>
+      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "search" }}</span><h3>Evaluation</h3><p>A certified clinician will examine your limb, strength, mobility, goals, and K-level.</p></li>
+      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "file" }}</span><h3>Coverage and Design</h3><p>We obtain your prescription, help with insurance approval, and design your device.</p></li>
+      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "spark" }}</span><h3>Fitting and testing</h3><p>We fit your device and make adjustments to ensure comfortability.</p></li>
+      <li><span class="hm-step-ico">{{ partial "heroes/parts/icon.html" "heart" }}</span><h3>Training and follow-up</h3><p>We will continue to support you as your goals shift.</p></li>
     </ol>
     <p class="hm-center"><a class="btn btn-primary btn-lg" href="{{ $book }}">Book a Free Consultation</a></p>
   </div>
@@ -112,10 +112,9 @@
     <div>
       <span class="hm-eyebrow is-light">Innovation in Motion</span>
       <h2 id="hm-tech-title" class="hm-h2">Advanced solutions</h2>
-      <p class="hm-lead">We evaluate and fit microprocessor-controlled devices and functional electrical stimulation (FES) options, matched to how each person moves. Bionic was also the first orthotic and prosthetic provider chosen to distribute the Ekso Indego&reg; Personal, a powered exoskeleton that helps people with spinal cord injuries stand and walk.</p>
+      <p class="hm-lead">We evaluate and fit microprocessor-controlled devices matched to how each person moves. Bionic was also the first orthotic and prosthetic provider chosen to distribute the Ekso Indego&reg; Personal, a powered exoskeleton that helps people with spinal cord injuries stand and walk.</p>
       <ul class="hm-chips">
         <li>{{ partial "heroes/parts/icon.html" "cpu" }}Microprocessor devices</li>
-        <li>{{ partial "heroes/parts/icon.html" "spark" }}FES options</li>
         <li>{{ partial "heroes/parts/icon.html" "award" }}Ekso Indego&reg; Personal</li>
       </ul>
       <a class="btn btn-primary btn-lg" href="{{ "/prosthetics/technology/" | relURL }}">Explore Technology</a>
@@ -132,7 +131,7 @@
     <div class="hm-head">
       <span class="hm-eyebrow">Know your mobility level</span>
       <h2 id="hm-k-title" class="hm-h2">What is a K-level?</h2>
-      <p class="hm-lead">Medicare and most insurers rate how active you can be with a prosthetic leg on a scale from K0 to K4. Your K-level decides what your plan will cover, so we assess it carefully at your first visit.</p>
+      <p class="hm-lead">A K-level measures how active you can be with a prosthetic leg. It also decides what your plan will cover.</p>
     </div>
     <div class="hm-kscale" role="list">
       <div class="hm-kl" role="listitem" style="--k:0"><b>K0</b><strong>Non-ambulatory</strong><p>Can't walk or transfer safely, even with help. A prosthesis wouldn't improve mobility.</p></div>
@@ -151,7 +150,7 @@
   <div class="container">
     <div class="hm-head">
       <span class="hm-eyebrow">Insurance and cost</span>
-      <h2 id="hm-cost-title" class="hm-h2">Cost and Coverage</h2>
+      <h2 id="hm-cost-title" class="hm-h2">Prosthetic and Orthotic Coverage</h2>
     </div>
     <div class="hm-qa">
       <div><span class="hm-qa-ico">{{ partial "heroes/parts/icon.html" "shield" }}</span><h3>Does Medicare cover prosthetics and braces?</h3><p>Yes. Medicare Part B covers prosthetic limbs and medically necessary arm, leg, back, and neck braces your doctor orders. After the Part B deductible, you pay 20% of the Medicare-approved amount.</p></div>
@@ -168,7 +167,7 @@
     <div class="hm-find-copy">
       <span class="hm-eyebrow">Find a Clinic</span>
       <h2 id="hm-find-title" class="hm-h2">Prosthetics and orthotics clinics in 12 states</h2>
-      <p class="hm-lead">Certified prosthetists and orthotists in Florida, Illinois, Indiana, Kentucky, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Texas, and Wisconsin. Search by ZIP code or state to find your closest clinic.</p>
+      <p class="hm-lead">Search by ZIP code or state to find your closest clinic.</p>
       <div class="hm-search">{{ partial "home/clinic-search.html" . }}</div>
       <a class="btn btn-primary" href="{{ $book }}">Request a Consultation</a>
     </div>

@@ -14,7 +14,7 @@ hero:
   cta_secondary_link: /team/
 sections:
 - type: richtext
-  body: <p>We are a fully accredited orthotic and prosthetic facility, committed to delivering care that meets the highest clinical and professional standards. Our team includes certified and state-licensed prosthetists and orthotists with experience across a wide range of specialties, including upper and lower limb prosthetics, spinal and extremity orthotics, pediatric care, and functional electrical stimulation (FES).</p><p>At Bionic, we believe quality care begins with listening. Every patient’s needs, goals, and daily life are different, and our approach reflects that. From evaluation through long-term follow-up, we focus on providing thoughtful, personalized solutions designed to support comfort, function, and confidence.</p><p>We are here to provide competent, compassionate care every step of the way.</p>
+  body: <p>We are a fully accredited orthotic and prosthetic facility, committed to delivering care that meets the highest clinical and professional standards. Our team includes certified and state-licensed prosthetists and orthotists with experience across a wide range of specialties, including upper and lower limb prosthetics, spinal and extremity orthotics, pediatric care.</p><p>At Bionic, we believe quality care begins with listening. Every patient’s needs, goals, and daily life are different, and our approach reflects that. From evaluation through long-term follow-up, we focus on providing thoughtful, personalized solutions designed to support comfort, function, and confidence.</p><p>We are here to provide competent, compassionate care every step of the way.</p>
 - type: richtext
   layout: cards
   cols: '3'

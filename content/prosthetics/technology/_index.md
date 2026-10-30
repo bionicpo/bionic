@@ -1,9 +1,9 @@
 ---
 title: "Prosthetic & Orthotic Technology"
-description: "Microprocessor-controlled joints, functional electrical stimulation, myoelectric devices and 3D printing at Bionic."
+description: "Microprocessor-controlled joints, myoelectric devices and 3D printing at Bionic."
 
 hero_image: "/images/technology-device.png"
-hero_chips: ["Microprocessor-controlled joints", "Myoelectric arms & hands", "Electrical stimulation (FES)", "3D printing & scanning"]
+hero_chips: ["Microprocessor-controlled joints", "Myoelectric arms & hands", "3D printing & scanning"]
 hero:
   eyebrow: "TECHNOLOGY"
   title: "Technology That Moves With You"
@@ -33,11 +33,6 @@ sections:
         icon: "hand"
         tone: prosthetic
         link: "/upper-limb/"
-      - title: "Functional Electrical Stimulation (FES)"
-        description: "Systems that stimulate nerves to help lift the foot or support movement after neurological conditions."
-        icon: "technology"
-        tone: orthotic
-        link: "/lower-extremity/"
       - title: "3D Printing & Digital Scanning"
         description: "Digital scans and 3D-printed designs for faster, precisely customized sockets and orthoses."
         icon: "box"

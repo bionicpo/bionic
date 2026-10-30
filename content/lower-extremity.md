@@ -22,9 +22,9 @@ sections:
   body: Our lower extremity orthoses cover a wide range of conditions, from wound care off-loading to joint instability and post-surgical recovery.
   items:
   - title: Neuro-Rehab Solutions
-    description: '**TENS - walkaide, microprosessor bracing (C-bracing)'
+    description: Microprocessor bracing (C-Brace) and neuro-rehab solutions for movement after neurological conditions.
     image: /images/lower-extremity-neuro-rehab-solutions.webp
-    image_alt: Neuro-rehab electrical stimulation device
+    image_alt: Neuro-rehab orthosis
     tone: light
   - title: Off-Loading Solutions
     description: Custom fabricated and off the shelf solutions for the lower extremity to provide off-loading essential in wound care.

@@ -30,8 +30,8 @@ stats:
   label: Founded & Still Growing
 - number: Board-Certified
   label: Prosthetists & Orthotists
-- number: FES Enabled
-  label: Functional E-Stim Options
+- number: Microprocessor
+  label: Advanced Device Options
 about:
   eyebrow: OUR APPROACH
   title: Empowering Your Next Step
@@ -50,7 +50,6 @@ credentials:
   - Certified & state-licensed prosthetists & orthotists
   - Custom solutions for children & adults
   - Full-service fittings, adjustments & follow-up care
-  - Functional Electrical Stimulation (FES) options
 services:
   eyebrow: WHAT WE OFFER
   title: Services We Offer
@@ -99,7 +98,7 @@ services:
 technology:
   eyebrow: INNOVATION IN MOTION
   title: Advanced Bionic & Microprocessor Solutions
-  body: We evaluate and fit the latest FES systems and microprocessor-controlled prosthetic and orthotic technology, matched carefully to what actually helps you move.
+  body: We evaluate and fit the latest microprocessor-controlled prosthetic and orthotic technology, matched carefully to what actually helps you move.
   cta_text: Explore Technology
   cta_link: /prosthetics/technology/
   image: /images/technology-device.png

@@ -34,6 +34,10 @@ main:
     url: /lower-limb/
     icon: footprints
     desc: Leg and foot prosthetic solutions
+  - name: Pediatric Prosthetics
+    url: /prosthetics/pediatric/
+    icon: baby
+    desc: Prosthetic care for growing children
 - name: Orthotics
   url: /orthotics/
   children:

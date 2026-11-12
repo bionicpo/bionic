@@ -30,4 +30,6 @@ team:
     location: ""
     clinician: "madelyn-person"
 entry_type: clinic
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---

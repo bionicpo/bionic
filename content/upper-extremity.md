@@ -3,7 +3,7 @@ breadcrumbs:
 - /orthotics
 title: Upper Extremity Orthotics
 seo_title: Upper Extremity | Bionic Prosthetics and Orthotics | USA
-seo_description: Discover innovative upper extremity prosthetics and orthotics solutions at Bionic. Explore advanced technology and personalized care to restore functionality and improve quality of life.
+seo_description: Discover innovative upper extremity prosthetics and orthotics solutions at Bionic. Explore advanced technology and personalized care to help improve function and quality of life.
 hero_region: upper
 hero_chips: ["Contracture management", "Fracture bracing", "Post-op bracing"]
 hero_image: "/images/upper-extremity-orthotics.webp"
@@ -38,6 +38,17 @@ sections:
     image: /images/upper-extremity-post-op-bracing.webp
     image_alt: Hinged elbow brace with a sling for post-op recovery
     tone: photo
+- type: points
+  eyebrow: WHAT TO EXPECT
+  title: What Can Happen in an Evaluation
+  points:
+  - 'History and goals: Your orthotist may review your diagnosis, any surgery or injury, and what you want to be able to do.'
+  - 'Physical exam: This can include checking range of motion, strength, swelling, and skin condition in the shoulder, elbow, wrist, and hand.'
+  - 'Recommendation: Your orthotist can explain whether a custom or prefabricated brace may suit you, in coordination with your physician.'
+  - 'Fitting and follow-up: The brace is fitted, you learn how to wear and care for it, and adjustments are scheduled as needed.'
+- type: richtext
+  title: Common Reasons for Bracing
+  body: <ul><li>Fractures, to protect the bone while it heals</li><li>Carpal tunnel and other nerve compression</li><li>Contractures or stiffness that limit joint movement</li><li>Recovery after surgery or ligament injury</li><li>Joint instability, weakness, or arthritis</li></ul>
 - type: cta-band
   title: Call Today to Schedule Your Free Consultation
   body: Our certified orthotists will work with you and your physician to find the right upper extremity solution.

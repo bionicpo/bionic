@@ -13,4 +13,8 @@ email: "evansville@bionicpo.com"
 hours: "M-F: 8AM-12PM, 1PM-5PM"
 description: "Personalized prosthetic and orthotic care for patients in the Evansville area."
 entry_type: clinic
+# Clinicians (to be provided). Each entry: name, title, credentials, photo, or clinician: <team page slug>
+team: []
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---

@@ -7,7 +7,6 @@
       (dict "t" "Move" "d" "Ongoing support")) -}}
 <section class="hx hx-stride {{ if not $img }}hx-noimg{{ end }}">
   {{- with $img }}<div class="hx-edge" aria-hidden="true"></div><div class="hx-photo" style="background-image:url('{{ . }}')"></div>{{ end }}
-  <div class="hx-ghost" aria-hidden="true">{{ .LinkTitle }}</div>
   <div class="container hx-inner">
     <div class="hx-copy">
       {{ partial "heroes/parts/head.html" . }}

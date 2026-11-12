@@ -6,7 +6,7 @@ credentials: "CP"
 role: "Certified Prosthetist"
 location: "San Antonio, TX"
 email: "Bwilkerson@Bionicpo.com"
-photo: "/images/team/billy-wilkerson.jpg"
+photo: "/images/team/billy-wilkerson.webp"
 bio: "<p>Billy Wilkerson joined Bionic Prosthetics &amp; Orthotics in May 2026, bringing more than 30 years of experience in prosthetic fabrication. He specializes in advanced upper and lower extremity prosthetic technology and is committed to providing personalized solutions that help patients achieve their mobility goals and improve their quality of life. Throughout his career, Billy has also contributed to research and development alongside leading innovators in the prosthetics and orthotics field.Billy is certified in Prosthetics by the American Board for Certification in Orthotics, Prosthetics &amp; Pedorthics (ABC) and is licensed to practice prosthetics in the state of Texas. Outside of work, he enjoys spending time with his family, fishing, golfing, and traveling.</p>"
 clinic_details:
   - name: "Laredo"

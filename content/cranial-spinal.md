@@ -24,7 +24,7 @@ sections:
 - type: product-cards
   items:
   - title: Cranial Remolding Helmet
-    description: The Cranial Molding Helmet treats deformational plagiocephaly, brachycephaly, or scaphocephaly in children ages 4 to 12 months. All of our Cranial Molding Helmets are custom-fabricated.
+    description: The cranial molding helmet is used to treat deformational plagiocephaly, brachycephaly, or scaphocephaly in children ages 4 to 12 months. Our cranial molding helmets are custom-fabricated.
     image: /images/cranial-spinal-cranial-remolding-helmet.webp
     image_alt: Baby wearing a cranial remolding helmet
     tone: photo
@@ -44,7 +44,7 @@ sections:
   body: Custom back braces designed to stabilize the spine, reduce pain, and support recovery.
   items:
   - title: Scoliosis Orthoses
-    description: Custom fabricated back brace designed to reduce the unwanted curvature of the spine known as scoliosis. The devices are highly custom and require frequent adjustments and follow-up care.
+    description: Custom fabricated back brace designed to help manage curve progression in scoliosis. The devices are highly custom and require frequent adjustments and follow-up care.
     image: /images/cranial-spinal-scoliosis-orthoses.webp
     image_alt: Scoliosis back brace
     tone: dark
@@ -59,7 +59,7 @@ sections:
     image_alt: Lumbar sacral orthosis back brace
     tone: photo
   - title: Thoracic Lumbar Sacral Orthoses (TLSO)
-    description: This type of back brace supports the thoracic, lumbar and sacral sections of the spine. Utilized in post-operative support, motion restriction, pain relief and spinal off-loading while healing.
+    description: This type of back brace supports the thoracic, lumbar and sacral sections of the spine. Utilized in post-operative support, motion restriction, pain management and spinal off-loading while healing.
     image: /images/cranial-spinal-tlso.webp
     image_alt: Thoracic lumbar sacral orthosis back brace
     tone: dark

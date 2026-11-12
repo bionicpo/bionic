@@ -26,6 +26,8 @@ team:
     location: "North Carolina"
     clinician: "kyndall-mayer"
 entry_type: clinic
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---
 
 Bionic Prosthetics and Orthotics is an organization aimed at providing the very best in prosthetic and orthotic care in orthopedic rehabilitation. Bionic Prosthetics and Orthotics was founded with the vision of creating a Prosthetic and Orthotic practice that treats every patient with dignity and first-rate care. We evaluate every patient in detail and design a prosthetic / orthotic rehabilitation program to specifically cater to their needs and demands. The Charlotte clinic helps a local school (Metro School) once a week during the school year. They specialize in cranial helmets in addition to the orthotics and prosthetics the rest of our clinics offer.

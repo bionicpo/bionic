@@ -18,4 +18,6 @@ team:
     location: "Ohio"
     clinician: "christine-geeding"
 entry_type: clinic
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---

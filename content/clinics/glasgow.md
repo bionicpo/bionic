@@ -22,4 +22,6 @@ team:
     location: "Tennessee / Kentucky"
     clinician: "lynn-brad-watson"
 entry_type: clinic
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---

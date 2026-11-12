@@ -6,7 +6,7 @@ credentials: "CPO"
 role: "Certified Prosthetist and Orthotist"
 location: "Bowling Green, KY"
 email: "adinkins@bionicpo.com"
-photo: "/images/team/austin-dinkins.jpg"
+photo: "/images/team/austin-dinkins.webp"
 bio: "<p>Austin is a Certified Prosthetist and Orthotist working in Bowling Green, Kentucky. He received his Bachelor's degree in Biology from Central Michigan University and his Masters Degree of Orthotics and Prosthetics from Alabama State University.He joined the Bionic team in 2025 and is passionate about providing patents with the tools they need to be successful.In his free time he enjoys exercising and playing board games.</p>"
 clinic_details:
   - name: "Bowling Green"

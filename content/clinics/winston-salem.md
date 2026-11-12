@@ -26,6 +26,8 @@ team:
     location: "North Carolina"
     clinician: "michael-mcdonald"
 entry_type: clinic
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---
 
 Our clinic in Winston-Salem is dedicated to helping the less fortunate in their community. This includes several years of clinicians visiting schools in Forsyth County and Reidsville, working alongside physical and occupational therapists to provide custom DME for less fortunate students. They also occasionally donate to Wake Forest Baptist Hospital\'s PT/OT department for families who cannot afford orthotics. They also specialize in cranial remolding treatment and pediatric care.

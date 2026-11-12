@@ -7,11 +7,11 @@ cascade:
   type: "clinic"
 hero:
   title: "Bionic Prosthetics & Orthotics In Kentucky"
-  subhead: "At Bionic, we are dedicated to providing high-quality prosthetic and orthotic care in Kentucky. Our clinics offer personalized care to help you regain your mobility, comfort, and confidence with the latest prosthetic technology."
+  subhead: "At Bionic, we are dedicated to providing high-quality prosthetic and orthotic care in Kentucky. Our clinics offer personalized care to help you improve your mobility, comfort, and confidence with the latest prosthetic technology."
 locations_title: "Our Kentucky Locations"
 consult:
   title: "Schedule Your Consultation Today!"
-  body: "If you're ready to regain your mobility, contact your nearest Kentucky clinic to schedule a free consultation or get more information about our services."
+  body: "If you're ready to take the next step toward better mobility, contact your nearest Kentucky clinic to schedule a free consultation or get more information about our services."
   cta_text: "Schedule a Free Consultation"
   cta_link: "/book-appointment-pay-bill/"
 faq:

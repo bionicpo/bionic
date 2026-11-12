@@ -14,7 +14,7 @@ hero:
   cta_secondary_link: /team/
 sections:
 - type: richtext
-  body: <p>We are a fully accredited orthotic and prosthetic facility, committed to delivering care that meets the highest clinical and professional standards. Our team includes certified and state-licensed prosthetists and orthotists with experience across a wide range of specialties, including upper and lower limb prosthetics, spinal and extremity orthotics, pediatric care.</p><p>At Bionic, we believe quality care begins with listening. Every patient’s needs, goals, and daily life are different, and our approach reflects that. From evaluation through long-term follow-up, we focus on providing thoughtful, personalized solutions designed to support comfort, function, and confidence.</p><p>We are here to provide competent, compassionate care every step of the way.</p>
+  body: <p>We are a fully accredited orthotic and prosthetic facility, committed to delivering care that meets the highest clinical and professional standards. Our team includes certified and state-licensed prosthetists and orthotists with experience across a wide range of specialties, including upper and lower limb prosthetics, spinal and extremity orthotics, pediatric care.</p><p>Quality care begins with listening. We take time to understand each patient’s needs, goals, and daily life, and we stay involved from evaluation through long-term follow-up.</p>
 - type: richtext
   layout: cards
   cols: '3'
@@ -23,21 +23,20 @@ sections:
   - personalized
   - eye
   - target
-  body: <h3>Our Mission</h3><p>Our mission is to provide advanced, personalized prosthetic and orthotic care that supports comfort, function, and confidence in everyday life. We strive to deliver clinical excellence through thoughtful solutions and compassionate patient care.</p><h3>Our Vision</h3><p>Our vision is to build a collaborative community of dedicated clinicians and partners who share a commitment to improving mobility and quality of life. By expanding our clinical presence nationally and internationally, we aim to strengthen partnerships across the healthcare continuum and elevate the standard of prosthetic and orthotic care.</p><h3>Our Purpose</h3><p>We are committed to creating awareness and access to high-quality prosthetic and orthotic care, becoming a trusted and active part of the communities we serve. Our goal is to support patients, families, and caregivers through education, engagement, and long-term care relationships.</p>
+  body: <h3>Our Mission</h3><p>To provide personalized prosthetic and orthotic care that supports comfort, function, and confidence in everyday life.</p><h3>Our Vision</h3><p>A collaborative community of clinicians and partners working to improve mobility, with a clinical presence that keeps growing nationally and internationally.</p><h3>Our Purpose</h3><p>To build awareness of and access to prosthetic and orthotic care, and to support patients, families, and caregivers through education and long-term relationships.</p>
 - type: points
   eyebrow: WHAT DRIVES US
   title: Our Values
   image: /images/blog/bionic-patients-and-team-shine-at-aopa-2024-a-journey-of-learning-and-innovation.png
   image_alt: Bionic team members in matching light-blue shirts posing together at the Bionic booth at the AOPA 2024 conference
   points:
-  - "**Compassion** - We listen first and treat every patient with respect, empathy, and understanding."
-  - "**Clinical Excellence** - We uphold the highest standards of care through expertise, precision, and ongoing education."
-  - "**Integrity** - We act with honesty, transparency, and accountability in everything we do."
-  - "**Community** - We believe strong relationships and local engagement are essential to meaningful care."
-  - "**Commitment to Patients** - We are dedicated to improving lives through competent, compassionate, and personalized care."
+  - "**Compassion** - We listen first and treat every patient with empathy and respect."
+  - "**Clinical Excellence** - We keep our standards high through expertise and ongoing education."
+  - "**Integrity** - We act with honesty and accountability."
+  - "**Community** - We value strong relationships and local engagement."
 - type: richtext
   title: Our Commitment to Community
-  body: <p>We aim to be more than a clinic; we strive to be a trusted partner within every community we serve. By creating awareness around prosthetic and orthotic care, supporting local needs, and fostering connection, we work toward a world where mobility challenges don’t limit a person’s potential.</p>
+  body: '<p>We aim to be more than a clinic: a trusted partner in every community we serve, working toward a world where mobility challenges don’t limit a person’s potential.</p>'
 - type: leadership
   eyebrow: LEADERSHIP
   title: The People Guiding Bionic
@@ -52,7 +51,7 @@ sections:
     icon: stethoscope
     link: /team/
   - title: Patient Success Stories
-    description: Real stories from patients who regained mobility, confidence, and independence with our team.
+    description: Stories from patients about their progress in mobility, confidence, and independence.
     icon: star
     link: /success-stories/
   - title: Prosthetic Care
@@ -61,7 +60,7 @@ sections:
     tone: prosthetic
     link: /prosthetics/
   - title: Orthotic Care
-    description: Custom bracing solutions that restore comfort, alignment, and mobility.
+    description: Custom and prefabricated bracing to support comfort, alignment, and mobility.
     icon: layout-grid
     tone: orthotic
     link: /orthotics/

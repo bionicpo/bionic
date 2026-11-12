@@ -7,11 +7,11 @@ cascade:
   type: "clinic"
 hero:
   title: "Bionic Prosthetics & Orthotics In Indiana"
-  subhead: "At Bionic, we offer personalized prosthetic and orthotic care through our network of clinics in Indiana. Whether you're looking to regain your mobility or need post-fitting support, our team is here to help you every step of the way."
+  subhead: "At Bionic, we offer personalized prosthetic and orthotic care through our network of clinics in Indiana. Whether you're looking to improve your mobility or need post-fitting support, our team is here to help you every step of the way."
 locations_title: "Our Indiana Locations"
 consult:
   title: "Schedule Your Consultation Today!"
-  body: "Ready to regain your mobility? Contact your nearest Indiana clinic to schedule a free consultation or learn more about our services."
+  body: "Ready to take the next step toward better mobility? Contact your nearest Indiana clinic to schedule a free consultation or learn more about our services."
   cta_text: "Schedule a Free Consultation"
   cta_link: "/book-appointment-pay-bill/"
 faq:

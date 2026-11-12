@@ -7,7 +7,7 @@ credentials: "CFo"
 role: "Certified Orthotic Fitter"
 location: "Bowling Green, KY"
 email: "kturner@bionicpo.com"
-photo: "/images/team/kasey-turner.jpg"
+photo: "/images/team/kasey-turner.webp"
 bio: "<p>Kasey Turner is a Licensed, Certified Orthotic Fitter. She attended Southcentral Kentucky Community &amp; Technical College, where she graduated with a Diploma in Surgical Technology. She worked several years alongside local Ortho and Neuro physicians in surgery. Kasey then decided to pursue a career in O&amp;P, to provide patient care in a more relaxed setting. She has been certified since 2011. Kasey's favorite part of her profession is getting to know her patients and providing individual care. In her free time, Kasey enjoys spending time on the lake and being with her family.</p>"
 clinic_details:
   - name: "Bowling Green"

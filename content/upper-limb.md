@@ -3,7 +3,7 @@ breadcrumbs:
 - /prosthetics
 title: Upper Limb Prosthetics
 seo_title: Upper Limb | Bionic Prosthetics and Orthotics
-seo_description: Advanced upper limb prosthetic solutions, including myoelectric and bionic hands. Bionic P&O offers custom fittings across states to restore function.
+seo_description: Advanced upper limb prosthetic solutions, including myoelectric and bionic hands. Bionic P&O offers custom fittings across states to help improve function.
 hero_region: arm
 hero_chips: ["Shoulder", "Above the elbow", "Below the elbow", "Hand & partial hand", "Silicone restoration"]
 hero_image: "/images/prosthetics-upper-limb.webp"
@@ -19,7 +19,7 @@ sections:
 - type: text-image
   eyebrow: RESTORING FUNCTION
   title: Solutions for Every Level of Upper Limb Loss
-  body: From the shoulder to the hand, upper limb prosthetics restore function and independence for daily activities. Thanks to advanced technology, we offer solutions that help you regain control and live life on your terms, whether you need a partial hand or a full arm prosthesis.
+  body: From the shoulder to the hand, upper limb prosthetics can help improve function and independence in daily activities. Thanks to advanced technology, we offer solutions that can help you do more on your own terms, whether you need a partial hand or a full arm prosthesis.
   image: /images/clinical-team.png
   image_alt: A person's black bionic hand resting on their lap during a visit in a clinic
   image_position: right
@@ -42,13 +42,13 @@ sections:
     tone: light
   - title: Below the Elbow
     subtitle: Transradial
-    description: Prosthetic solutions for patients with amputation through the long bones of the forearm. Numerous componentry options can restore patients' fine motor skills.
+    description: Prosthetic solutions for patients with amputation through the long bones of the forearm. Many component options can help improve fine motor skills.
     image: /images/upper-limb-below-the-elbow-transradial.webp
     image_alt: Below-elbow prosthetic arm
     tone: light
   - title: Hand & Partial Hand
     subtitle: Wrist Disarticulation / Partial Hand
-    description: Solutions for patients with amputation through the wrist or hand. Bionic offers lightweight, highly cosmetic devices which can restore the patient’s wrist and hand function as closely as possible to their ability prior to amputation.
+    description: Solutions for patients with amputation through the wrist or hand. Bionic offers lightweight, highly cosmetic devices which can help support wrist and hand function.
     image: /images/upper-limb-hand-and-partial-hand.webp
     image_alt: Prosthetic hand
     tone: light

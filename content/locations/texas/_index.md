@@ -11,7 +11,7 @@ hero:
 locations_title: "Our Texas Locations"
 consult:
   title: "Schedule Your Consultation Today!"
-  body: "Ready to regain your mobility and independence? Contact your nearest Texas clinic to schedule a free consultation or learn more about our prosthetics and orthotics services."
+  body: "Ready to take the next step toward mobility and independence? Contact your nearest Texas clinic to schedule a free consultation or learn more about our prosthetics and orthotics services."
   cta_text: "Schedule a Free Consultation"
   cta_link: "/book-appointment-pay-bill/"
 faq:

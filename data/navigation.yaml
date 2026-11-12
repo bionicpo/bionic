@@ -106,8 +106,8 @@ main:
 footer_links:
 - name: About Us
   url: /about-us/
-- name: Book Appointment
-  url: /book-appointment-pay-bill/
+- name: Request a Consultation
+  url: /contact/
 - name: Find Nearest Clinic
   url: /locations/
 - name: Clinical Team
@@ -121,7 +121,7 @@ footer_links:
 - name: Newsletter
   url: /bionic-beats/
 - name: Contact
-  url: /book-appointment-pay-bill/
+  url: /contact/
 footer_services:
 - name: Prosthetics
   url: /prosthetics/

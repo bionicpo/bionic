@@ -18,4 +18,6 @@ team:
     location: "Pennsylvania / New Jersey"
     clinician: "peter-marx"
 entry_type: clinic
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---

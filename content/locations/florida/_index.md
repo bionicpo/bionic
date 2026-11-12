@@ -11,7 +11,7 @@ hero:
 locations_title: "Our Florida Locations"
 consult:
   title: "Schedule Your Consultation Today!"
-  body: "Ready to regain your mobility? Contact your nearest Florida clinic to schedule a free consultation or get more information about our prosthetics and orthotics services."
+  body: "Ready to take the next step toward better mobility? Contact your nearest Florida clinic to schedule a free consultation or get more information about our prosthetics and orthotics services."
   cta_text: "Schedule a Free Consultation"
   cta_link: "/book-appointment-pay-bill/"
 faq:

@@ -50,6 +50,11 @@ sections:
     body: "Bionic accepts most major insurances. Please call to learn more about our in-network insurances. We are constantly working on expanding the list of insurances we have in-network benefits with."
     note_html: "<a href=\"tel:2194002201\">Call to learn more about your insurance compatibility (219) 400-2201</a>"
 
+  - type: "richtext"
+    eyebrow: "COVERAGE AND COST"
+    title: "Prosthetic and Orthotic Coverage"
+    body: "<h3>Does Medicare cover prosthetics and braces?</h3><p>Yes. Medicare Part B covers prosthetic limbs and medically necessary arm, leg, back, and neck braces ordered by your doctor. After the Part B deductible, you generally pay 20% of the Medicare-approved amount.</p><h3>How much does a prosthetic leg cost?</h3><p>Cost depends on the level of amputation, your K-level, and the components you need. Insurance often covers much of the cost, so what you pay usually comes down to your deductible and coinsurance. Your <a href=\"/lower-limb/\">K-level</a> is a rating of your mobility that many plans use when deciding coverage.</p><h3>What is included?</h3><p>All consultations are free. Routine visits and adjustments are included in the cost of your device, and home and facility visits are also free.</p>"
+
   - type: "cta-band"
     title: "Questions About Your Appointment or Bill?"
     body: "Our team is happy to help. Call us at 1-855-524-6642 or reach out anytime."

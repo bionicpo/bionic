@@ -7,7 +7,7 @@ credentials: "MSPO"
 role: "Prosthetist & Orthotist"
 location: "Lafayette, IN"
 email: "jpadhi@bionicpo.com"
-photo: "/images/team/jayanta-padhi.jpg"
+photo: "/images/team/jayanta-padhi.webp"
 bio: "<p>Jayanta Padhi earned his bachelor’s degree in Prosthetics and Orthotics from SVNIRTAR, a respected institute in India, in 2014. He went on to complete his master’s degree in Prosthetics and Orthotics from the University of Strathclyde in the UK in 2023.With nine years of clinical experience in both national and international organizations, Jayanta joined Bionic in 2019 and has been committed to providing exceptional care to communities in and around Lafayette, Indianapolis, and Terre Haute.Outside of work, he is an outgoing and fun-loving person who enjoys outdoor adventures, hiking, camping, spending time with family, and cooking.</p>"
 clinic_details:
   - name: "Lafayette"

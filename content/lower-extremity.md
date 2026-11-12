@@ -3,7 +3,7 @@ breadcrumbs:
 - /orthotics
 title: Lower Extremity Orthotics
 seo_title: Lower Extremity | Bionic Prosthetics and Orthotics | USA
-seo_description: Expert lower extremity care specializing in custom leg bracing, AFOs, and advanced prosthetic legs. Our ABC-certified clinicians restore mobility and function.
+seo_description: Expert lower extremity care specializing in custom leg bracing, AFOs, and advanced prosthetic legs. Our ABC-certified clinicians help improve mobility and function.
 hero_region: lower
 hero_chips: ["Neuro-rehab", "Off-loading", "Foot & ankle", "Knee", "Hip"]
 hero_image: "/images/lower-extremity-orthotics.webp"
@@ -46,6 +46,17 @@ sections:
     image: /images/lower-extremity-hip-solutions.webp
     image_alt: Hip orthosis with a hinged joint and thigh cuff
     tone: light
+- type: points
+  eyebrow: WHAT TO EXPECT
+  title: What Can Happen in an Evaluation
+  points:
+  - 'History and goals: Your orthotist may review your diagnosis, any surgery or injury, and your daily activities.'
+  - 'Physical exam and gait: This can include checking alignment, strength, range of motion, skin condition, and how you walk.'
+  - 'Recommendation: Your orthotist can explain whether a custom or prefabricated device may suit you, in coordination with your physician.'
+  - 'Fitting and follow-up: The device is fitted, you learn how to wear and care for it, and adjustments are scheduled as needed.'
+- type: richtext
+  title: Common Reasons for Bracing
+  body: <ul><li>Foot drop or ankle instability</li><li>Arthritis or ligament injury in the knee</li><li>Wound care and off-loading, including diabetic foot conditions</li><li>Recovery after fracture, hip surgery, or other surgery</li><li>Weakness after a neurological condition</li></ul>
 - type: cta-band
   title: Call Today to Schedule Your Free Consultation
   body: Our certified orthotists will design a lower extremity solution built around your condition and recovery goals.

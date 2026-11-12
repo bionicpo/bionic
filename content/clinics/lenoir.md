@@ -18,6 +18,8 @@ team:
     location: "North Carolina"
     clinician: "matthew-paruch"
 entry_type: clinic
+# Services offered at this clinic (to be provided). Each entry: title, description
+services: []
 ---
 
 The clinicians in our Lenoir location have been helping people in this community alone for over half a decade. They serve the Lenoir community as well as the surrounding communities of Boone, Wilkesboro, Hudson, Taylorsville, Granite Falls, and Morganton. In addition to prosthetics and orthotics, the Lenoir clinic also provides pediatric and spinal treatment. Some of the diagnoses they treat are scoliosis, plagiocephaly, foot drop, congenital hypotonia, foot/ankle deformities such as congenital pes planus, and diabetic neuropathy.

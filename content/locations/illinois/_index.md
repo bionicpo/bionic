@@ -7,11 +7,11 @@ cascade:
   type: "clinic"
 hero:
   title: "Bionic Prosthetics & Orthotics In Illinois"
-  subhead: "We are committed to providing high-quality prosthetic and orthotic care throughout Illinois. With clinics across the state, we’re here to help you regain mobility, comfort, and confidence, no matter where you are."
+  subhead: "We are committed to providing high-quality prosthetic and orthotic care throughout Illinois. With clinics across the state, we’re here to help you improve mobility, comfort, and confidence, no matter where you are."
 locations_title: "Our Illinois Locations"
 consult:
   title: "Schedule Your Consultation Today!"
-  body: "Are you ready to regain your mobility? Contact your nearest Illinois clinic to schedule a free consultation or learn more about our prosthetic and orthotic services."
+  body: "Are you ready to take the next step toward better mobility? Contact your nearest Illinois clinic to schedule a free consultation or learn more about our prosthetic and orthotic services."
   cta_text: "Schedule a Free Consultation"
   cta_link: "/book-appointment-pay-bill/"
 faq:

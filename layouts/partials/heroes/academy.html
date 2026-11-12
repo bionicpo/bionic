@@ -17,15 +17,8 @@
       {{ partial "heroes/parts/head.html" . }}
       {{ partial "heroes/parts/actions.html" (dict "p" . "default" (slice (dict "label" "Apply Now" "url" "/contact/") (dict "label" "Explore Careers" "url" "/careers/"))) }}
     </div>
-    <div class="hx-ticket">
-      <div class="hx-ticket-top">
-        <span class="hx-ticket-ico">{{ partial "heroes/parts/icon.html" "cap" }}</span>
-        <div><small>Bionic P&amp;O</small><b>{{ .Params.hero_ticket_title | default .LinkTitle }}</b></div>
-      </div>
-      <dl>
-        {{- range $facts }}<div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>{{ end }}
-      </dl>
-      <div class="hx-ticket-foot"><span>{{ .Params.hero_ticket_note | default "Learn · Practice · Grow" }}</span><span class="hx-barcode" aria-hidden="true"></span></div>
-    </div>
+    {{- /* Residency hero photo. To swap: set hero_image in front matter, or replace the file below. */ -}}
+    {{- $img := partial "heroes/parts/img.html" (dict "p" . "src" (.Params.hero_image | default "/images/about-team-group-photo.webp")) }}
+    <figure class="hx-academy-photo"><img src="{{ $img }}" alt="{{ .Params.hero_image_alt | default "Members of the Bionic P&O clinical team" }}" fetchpriority="high"></figure>
   </div>
 </section>

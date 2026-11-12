@@ -34,6 +34,17 @@ sections:
       - "[[Amputee Support Group Of Titusville|/_files/ugd/45f797_ef0c921e76a94e0fa7997991048e3400.pdf|_blank]] :: Information from a local amputee peer support group in Titusville (PDF)."
 
   - type: "points"
+    eyebrow: "ORTHOTICS"
+    title: "Orthotics Resources"
+    body: "Organizations offering information and support for people who use braces and other orthotic devices."
+    points:
+      - "[[American Orthotic & Prosthetic Association (AOPA)|https://www.aopanet.org/|_blank]] :: Patient information about orthotic care and how to find a qualified provider."
+      - "[[Arthritis Foundation|https://www.arthritis.org/|_blank]] :: Education and support for people managing arthritis and joint pain."
+      - "[[Scoliosis Research Society|https://www.srs.org/patients-and-families|_blank]] :: Information for patients and families about scoliosis and bracing."
+      - "[[American Stroke Association|https://www.stroke.org/|_blank]] :: Recovery information and support for stroke survivors, including mobility and bracing."
+      - "[[American Academy of Orthopaedic Surgeons: OrthoInfo|https://orthoinfo.aaos.org/|_blank]] :: Patient guides on fractures, joint conditions, and recovery after surgery."
+
+  - type: "points"
     eyebrow: "FOR YOUNG AMPUTEES"
     title: "Children Resources"
     points:

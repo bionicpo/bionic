@@ -1,16 +1,7 @@
 {{- /*
-  Team wall — centred intro (no card over photos), with a strip of clinician portraits shown in full beneath it. (Clinical Team list)
-  Uses the team section's pages; photo param name: photo | image | headshot (ADAPT if different).
+  Team hero (Clinical Team list): breadcrumb, eyebrow, heading, subtext, search box and a short note on a clean background.
+  (The clinician photo strip was removed - the full directory grid sits right below.)
 */ -}}
-{{- $people := where site.RegularPages "Section" "team" -}}
-{{- $faces := slice -}}
-{{- range $people -}}
-  {{- $s := .Params.photo | default .Params.headshot -}}
-  {{- if and $s (fileExists (path.Join "static" $s)) -}}
-    {{- $u := partial "heroes/parts/img.html" (dict "p" . "src" $s) -}}
-    {{- with $u }}{{ $faces = $faces | append (dict "u" . "n" $.Params.name) }}{{ end -}}
-  {{- end -}}
-{{- end -}}
 <section class="hx hx-teamwall">
   <div class="container hx-inner">
     <div class="hx-intro">
@@ -21,9 +12,6 @@
         <button type="submit" class="btn btn-primary">Search</button>
       </form>
       <p class="hx-count">{{ partial "heroes/parts/icon.html" "shield" }} Board-certified prosthetists, orthotists and fitters</p>
-    </div>
-    <div class="hx-wall" aria-hidden="true">
-      {{- range first 14 $faces }}<span><img src="{{ .u }}" alt="" loading="lazy"></span>{{ end }}
     </div>
   </div>
 </section>

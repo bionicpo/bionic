@@ -29,10 +29,6 @@ team:
     title: "Certified Prosthetist"
     location: "Wisconsin"
     clinician: "tim-kading"
-  - name: "Ellyson Martens, CPOA, BEPO, MSOP, BSE"
-    title: "Certified Prosthetic/ Orthotic Assistant"
-    location: "Wisconsin"
-    clinician: "ellyson-martens"
 entry_type: clinic
 # Services offered at this clinic (to be provided). Each entry: title, description
 services: []

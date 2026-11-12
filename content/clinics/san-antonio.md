@@ -12,11 +12,7 @@ fax: "(210) 341-3164"
 email: "sanantonio@bionicpo.com"
 hours: "M-F: 8AM-12PM, 1PM-5PM"
 description: "Treating patients with dignity and personalized care plans in prosthetic and orthotic rehabilitation."
-team:
-  - name: "Billy Wilkerson, CP"
-    title: "Certified Prosthetist"
-    location: "Texas"
-    clinician: "billy-wilkerson"
+team: []
 entry_type: clinic
 # Services offered at this clinic (to be provided). Each entry: title, description
 services: []

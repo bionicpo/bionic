@@ -6,7 +6,7 @@
 {{- if and $photo (not (fileExists (path.Join "static" $photo))) }}{{ $photo = "" }}{{ end -}}
 <a href="{{ .RelPermalink }}" class="team-card reveal" data-reveal="up">
   <div class="team-avatar">
-    {{ if $photo }}<img src="{{ $photo }}" alt="{{ $name }}" loading="lazy">{{ else }}{{ partial "initials.html" $name }}{{ end }}
+    {{ if $photo }}<img src="{{ $photo }}" alt="{{ $name }}" loading="lazy"{{ with .Params.photo_position }} style="object-position:{{ . }}"{{ end }}>{{ else }}{{ partial "initials.html" $name }}{{ end }}
   </div>
   <h3>{{ $label }}</h3>
   {{ if not $isClin }}{{ with .Params.credentials }}<div class="team-credentials">{{ . }}</div>{{ end }}{{ end }}

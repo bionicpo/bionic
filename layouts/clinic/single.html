@@ -120,13 +120,13 @@
 <!-- ===== ABOUT / TEAM ===== -->
 {{- $members := slice -}}
 {{- range .Params.team -}}
-  {{- $name := .name -}}{{- $named := .name -}}{{- $title := .title -}}{{- $photo := .photo -}}{{- $creds := .credentials -}}{{- $link := .link | default "" -}}{{- $loc := .location -}}
+  {{- $name := .name -}}{{- $named := .name -}}{{- $title := .title -}}{{- $photo := .photo -}}{{- $pos := .pos -}}{{- $creds := .credentials -}}{{- $link := .link | default "" -}}{{- $loc := .location -}}
   {{- with .clinician -}}
     {{- with site.GetPage (printf "/team/%s" .) -}}
-      {{- $name = $name | default .Params.name -}}{{- $title = $title | default .Params.role -}}{{- $photo = $photo | default .Params.photo -}}{{- if not $named }}{{ $creds = $creds | default .Params.credentials }}{{ end -}}{{- $link = $link | default .RelPermalink -}}
+      {{- $name = $name | default .Params.name -}}{{- $title = $title | default .Params.role -}}{{- $photo = $photo | default .Params.photo -}}{{- $pos = $pos | default .Params.photo_position -}}{{- if not $named }}{{ $creds = $creds | default .Params.credentials }}{{ end -}}{{- $link = $link | default .RelPermalink -}}
     {{- end -}}
   {{- end -}}
-  {{- if $name }}{{ $members = $members | append (dict "name" $name "title" $title "photo" $photo "creds" $creds "link" $link "location" $loc) }}{{ end -}}
+  {{- if $name }}{{ $members = $members | append (dict "name" $name "title" $title "photo" $photo "pos" $pos "creds" $creds "link" $link "location" $loc) }}{{ end -}}
 {{- end -}}
 {{- $gallery := slice -}}
 {{- range .Params.gallery -}}{{- if reflect.IsMap . }}{{ with .image }}{{ $gallery = $gallery | append (dict "src" . "alt" ($.Title | printf "%s clinic")) }}{{ end }}{{ else }}{{ $gallery = $gallery | append (dict "src" . "alt" ($.Title | printf "%s clinic")) }}{{ end -}}{{- end -}}
@@ -179,7 +179,7 @@
     <div class="card-grid team-grid">
       {{ range $members }}
       {{ if .link }}<a href="{{ .link }}" class="team-card reveal" data-reveal="up">{{ else }}<div class="team-card reveal" data-reveal="up">{{ end }}
-        <div class="team-avatar">{{ if .photo }}<img src="{{ .photo }}" alt="{{ .name }}" loading="lazy">{{ else }}{{ substr .name 0 1 }}{{ end }}</div>
+        <div class="team-avatar">{{ if .photo }}<img src="{{ .photo }}" alt="{{ .name }}" loading="lazy"{{ with .pos }} style="object-position:{{ . }}"{{ end }}>{{ else }}{{ substr .name 0 1 }}{{ end }}</div>
         <h3>{{ .name }}</h3>
         {{ with .creds }}<div class="team-credentials">{{ . }}</div>{{ end }}
         {{ with .title }}<div class="team-role">{{ . }}</div>{{ end }}

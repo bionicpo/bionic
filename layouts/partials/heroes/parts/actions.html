@@ -10,6 +10,6 @@
       (dict "label" "Find a Clinic" "url" "/locations/")) -}}
 <div class="hx-actions">
   {{- range $i, $b := $btns }}
-  <a class="btn btn-lg {{ if eq $i 0 }}btn-primary{{ else }}btn-outline hx-btn-ghost{{ end }}" href="{{ $b.url | relURL }}">{{ $b.label }}</a>
+  <a class="btn btn-lg {{ if eq $i 0 }}btn-primary{{ else }}btn-outline hx-btn-ghost{{ end }}" href="{{ $b.url | relURL | safeURL }}">{{ $b.label }}</a>
   {{- end }}
 </div>

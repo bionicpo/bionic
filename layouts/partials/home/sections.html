@@ -24,7 +24,25 @@
       </div>
     </div>
     <div class="hm-hero-media">
-      {{ partial "home/pic.html" (dict "src" "images/hero-care" "alt" "Collage of Bionic patients wearing prosthetic legs and orthotic braces, including a smiling baby in a cranial helmet" "w" 1200 "eager" true) }}
+      {{- /* Collage of 7 separate photos (was one baked image). Faces are kept inside each tile with object-position.
+           kneebrace / hand / runner / stairs are crops of the old baked collage (originals not found) - replace the files in static/images/home-hero/ when the originals arrive. */ -}}
+      {{- $rowA := slice
+            (dict "f" "kneebrace" "pos" "50% 40%" "alt" "Woman sitting on a rock wearing an ankle-foot orthosis")
+            (dict "f" "pink"      "pos" "75% 0%"  "alt" "Smiling woman in a pink T-shirt standing by a red car, wearing a prosthetic leg")
+            (dict "f" "hand"      "pos" "50% 50%" "alt" "An adult hand holding a child's hand in a prosthetic glove")
+            (dict "f" "baby"      "pos" "50% 40%" "alt" "Smiling baby in a pink cranial helmet with a bow") -}}
+      {{- $rowB := slice
+            (dict "f" "runner" "pos" "50% 0%"   "alt" "Man running with a knee brace")
+            (dict "f" "stairs" "pos" "50% 50%"  "alt" "Prosthetic leg climbing stone steps")
+            (dict "f" "wrist"  "pos" "50% 50%"  "alt" "Close-up of a wrist brace") -}}
+      <div class="hm-collage" role="group" aria-label="Photos of Bionic patients wearing prosthetic and orthotic devices">
+        <div class="hm-row hm-row-a">
+          {{- range $rowA }}{{ $r := resources.Get (printf "images/home-hero/%s.webp" .f) }}<img class="hm-tile hm-tile-{{ .f }}" src="{{ printf "/images/home-hero/%s.webp" .f }}"{{ with $r }} width="{{ .Width }}" height="{{ .Height }}"{{ end }} alt="{{ .alt }}" style="--pos:{{ .pos }}" fetchpriority="high" decoding="async">{{ end }}
+        </div>
+        <div class="hm-row hm-row-b">
+          {{- range $rowB }}{{ $r := resources.Get (printf "images/home-hero/%s.webp" .f) }}<img class="hm-tile hm-tile-{{ .f }}" src="{{ printf "/images/home-hero/%s.webp" .f }}"{{ with $r }} width="{{ .Width }}" height="{{ .Height }}"{{ end }} alt="{{ .alt }}" style="--pos:{{ .pos }}" decoding="async">{{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </section>

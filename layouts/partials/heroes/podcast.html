@@ -10,7 +10,7 @@
       {{ partial "heroes/parts/actions.html" (dict "p" . "default" (slice (dict "label" "Watch the Latest" "url" "#episodes") (dict "label" "All Episodes" "url" "#episodes"))) }}
     </div>
     <div class="hx-studio">
-      {{- with $img }}<figure class="hx-cover"><img src="{{ . }}" alt="{{ $.Params.hero_image_alt | default "" }}"></figure>{{ end }}
+      {{- with $img }}<figure class="hx-cover"><img src="{{ . }}" width="1200" height="900" alt="{{ $.Params.hero_image_alt | default "" }}" fetchpriority="high" decoding="async"></figure>{{ end }}
       {{- /* PLACEHOLDER SLOT: the sound-wave graphic was removed here. Add new content (e.g. latest edition, signup, video) inside this div. */ -}}
       <div class="hx-slot"></div>
     </div>

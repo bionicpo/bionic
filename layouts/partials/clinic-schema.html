@@ -16,7 +16,7 @@
 {{- with .Params.phone }}{{ $s = merge $s (dict "telephone" .) }}{{ end -}}
 {{- with .Params.fax }}{{ $s = merge $s (dict "faxNumber" .) }}{{ end -}}
 {{- with .Params.email }}{{ $s = merge $s (dict "email" .) }}{{ end -}}
-{{- with .Params.image }}{{ $s = merge $s (dict "image" (. | absURL)) }}{{ end -}}
+{{- with (.Params.image | default .Params.hero_image) }}{{ $s = merge $s (dict "image" (. | absURL)) }}{{ end -}}
 {{- if and .Params.lat .Params.lng -}}
   {{- $s = merge $s (dict "geo" (dict "@type" "GeoCoordinates" "latitude" .Params.lat "longitude" .Params.lng) "hasMap" (printf "https://www.google.com/maps/search/?api=1&query=%s,%s" (string .Params.lat) (string .Params.lng))) -}}
 {{- end -}}

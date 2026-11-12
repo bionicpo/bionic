@@ -2,6 +2,7 @@
 title: "Lenoir"
 seo_title: "Lenoir"
 state: "North Carolina"
+hero_image: "/images/clinics/lenoir.webp"
 address: "415 Blowing Rock Blvd."
 address2: "Lenoir, NC 28645"
 zip: "28645"

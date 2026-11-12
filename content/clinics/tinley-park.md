@@ -2,6 +2,7 @@
 title: "Tinley Park"
 seo_title: "Tinley Park"
 state: "Illinois"
+hero_image: "/images/clinics/tinley-park.webp"
 address: "8505 183rd St Suite B, Tinley Park, IL 60487, USA"
 lat: 41.556710
 lng: -87.823770

@@ -1,6 +1,7 @@
 {{- /* Shared clinic card. Context: dict "page" <clinic page> ["dist" miles] ["pin" index for map sync] */ -}}
 {{- $c := .page -}}
 <article class="clinic-card"{{ with .pin }}{{ if ne . "" }} data-pin="{{ . }}"{{ end }}{{ end }}>
+  {{ with $c.Params.hero_image }}<a class="clinic-card-photo" href="{{ $c.RelPermalink }}" style="--ph:url('{{ . }}')" tabindex="-1" aria-hidden="true"><img src="{{ . }}" alt="" loading="lazy" decoding="async"></a>{{ end }}
   <div class="clinic-card-top">
     <h3><a href="{{ $c.RelPermalink }}">{{ $c.Title }}</a></h3>
     {{ with .dist }}<span class="clinic-result-dist">{{ printf "%.1f" . }} mi</span>{{ end }}

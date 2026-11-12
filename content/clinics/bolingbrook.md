@@ -2,6 +2,7 @@
 title: "Bolingbrook"
 seo_title: "Bolingbrook"
 state: "Illinois"
+hero_image: "/images/clinics/bolingbrook.webp"
 address: "303 Quadrangle Dr, Bolingbrook, IL 60440, USA"
 address2: "Bolingbrook, IL 60440"
 zip: "60440"

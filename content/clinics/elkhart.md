@@ -2,6 +2,7 @@
 title: "Elkhart"
 seo_title: "Elkhart"
 state: "Indiana"
+hero_image: "/images/clinics/elkhart.webp"
 address: "3130A Windsor Ct."
 address2: "Elkhart, IN 46514"
 zip: "46514"

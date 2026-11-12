@@ -2,6 +2,7 @@
 title: "Laredo"
 seo_title: "Laredo"
 state: "Texas"
+hero_image: "/images/clinics/laredo.webp"
 address: "1306 N Malinche Ave."
 address2: "Laredo, TX 78043"
 zip: "78043"

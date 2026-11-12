@@ -104,13 +104,14 @@
         '<p class="clinic-results-empty-sub">Try a different ZIP, city or state, or <a href="/contact/">contact us</a> and we’ll connect you with the closest care.</p>';
     } else {
       html += '<ul class="clinic-results-list">' + list.map(function (c, i) {
-        return '<li class="clinic-result" data-i="' + i + '">' +
-          '<div class="clinic-result-top"><a class="clinic-result-name" href="' + esc(c.url) + '">' + esc(c.name) + ', ' + esc(c.state) + '</a>' +
+        return '<li class="clinic-result' + (c.photo ? ' has-photo' : '') + '" data-i="' + i + '">' +
+          (c.photo ? '<a class="clinic-result-photo" href="' + esc(c.url) + '" style="--ph:url(\'' + esc(c.photo) + '\')" tabindex="-1" aria-hidden="true"><img src="' + esc(c.photo) + '" alt="" loading="lazy"></a>' : '') +
+          '<div class="clinic-result-body"><div class="clinic-result-top"><a class="clinic-result-name" href="' + esc(c.url) + '">' + esc(c.name) + ', ' + esc(c.state) + '</a>' +
           (c._dist != null ? '<span class="clinic-result-dist">' + c._dist.toFixed(1) + ' mi</span>' : '') + '</div>' +
           '<div class="clinic-result-addr">' + esc(c.address) + '</div>' +
           '<div class="clinic-result-actions">' +
           (c.phone ? '<a href="tel:' + esc(c.phone.replace(/[^\d+]/g, "")) + '">' + esc(c.phone) + '</a>' : '') +
-          '<a href="' + dirUrl(c) + '" target="_blank" rel="noopener">Get Directions</a></div></li>';
+          '<a href="' + dirUrl(c) + '" target="_blank" rel="noopener">Get Directions</a></div></div></li>';
       }).join("") + '</ul>';
     }
     resultsEl.innerHTML = html;

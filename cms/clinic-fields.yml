@@ -35,6 +35,7 @@ fields:
       - { name: icon, label: Icon, widget: select, required: false, options: [prosthetic, orthotic, pediatric, diabetic, certified, personalized, technology, people] }
       - { name: link, label: Link (optional), widget: string, required: false }
   - { name: description, label: Short description, widget: text, required: false }
+  - { name: hero_image, label: Top-of-page photo (shown in full), widget: image, required: false }
   - { name: image, label: Clinic photo, widget: image, required: false }
   - { name: image_alt, label: Photo alt text, widget: string, required: false }
   - { name: gallery, label: Gallery, widget: list, required: false, field: { name: image, label: Image, widget: image } }

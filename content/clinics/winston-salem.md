@@ -2,6 +2,7 @@
 title: "Winston-Salem"
 seo_title: "Winston-Salem"
 state: "North Carolina"
+hero_image: "/images/clinics/winston-salem.webp"
 address: "1673 Westbrook Plaza Dr, Ste. 230"
 address2: "Winston-Salem, NC 27103"
 zip: "27103"

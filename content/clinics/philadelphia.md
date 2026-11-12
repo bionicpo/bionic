@@ -2,6 +2,7 @@
 title: "Philadelphia"
 seo_title: "Philadelphia"
 state: "Pennsylvania"
+hero_image: "/images/clinics/philadelphia.webp"
 address: "3751 Island Ave, Ste. 101"
 address2: "Philadelphia, PA 19153"
 zip: "19153"

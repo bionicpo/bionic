@@ -2,6 +2,7 @@
 title: "Palatine"
 seo_title: "Palatine"
 state: "Illinois"
+hero_image: "/images/clinics/palatine.webp"
 address: "1290 W. Northwest Hwy."
 address2: "Palatine, IL 60067"
 zip: "60067"

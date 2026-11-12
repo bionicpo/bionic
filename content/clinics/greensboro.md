@@ -2,6 +2,7 @@
 title: "Greensboro"
 seo_title: "Greensboro"
 state: "North Carolina"
+hero_image: "/images/clinics/greensboro.webp"
 address: "1103 N Elm St., Ste. 201"
 address2: "Greensboro, NC 27401"
 zip: "27401"

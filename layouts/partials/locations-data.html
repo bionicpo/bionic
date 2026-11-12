@@ -11,6 +11,7 @@
       {{- with findRE `\b\d{5}\s*$` (partial "clinic-address.html" . | strings.TrimSpace) 1 -}}{{- $zip = strings.TrimSpace (index . 0) -}}{{- end -}}
     {{- end -}}
     {{- $c := dict "name" .Title "city" (.Params.city | default .Title) "state" $st.Title "stateUrl" $st.RelPermalink "address" (partial "clinic-address.html" .) "phone" (.Params.phone | default "") "zip" ($zip | default "") "url" .RelPermalink -}}
+    {{- with .Params.hero_image }}{{ $c = merge $c (dict "photo" .) }}{{ end -}}
     {{- with .Params.lat }}{{ $c = merge $c (dict "lat" .) }}{{ end -}}
     {{- with .Params.lng }}{{ $c = merge $c (dict "lng" .) }}{{ end -}}
     {{- $clinics = $clinics | append $c -}}

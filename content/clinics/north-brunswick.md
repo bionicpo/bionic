@@ -2,6 +2,7 @@
 title: "North Brunswick"
 seo_title: "North Brunswick"
 state: "New Jersey"
+hero_image: "/images/clinics/north-brunswick.webp"
 address: "1950 Rt. 27, Suite G"
 address2: "North Brunswick, NJ 08902"
 zip: "08902"

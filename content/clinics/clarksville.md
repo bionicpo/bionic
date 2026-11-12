@@ -2,6 +2,7 @@
 title: "Clarksville"
 seo_title: "Clarksville"
 state: "Tennessee"
+hero_image: "/images/clinics/clarksville.webp"
 address: "980 Professional Park Dr, Ste. B"
 address2: "Clarksville, TN 37040"
 zip: "37040"

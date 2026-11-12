@@ -2,6 +2,7 @@
 title: "Merrillville"
 seo_title: "Merrillville"
 state: "Indiana"
+hero_image: "/images/clinics/merrillville.webp"
 address: "8695 Connecticut St, Ste. E"
 address2: "Merrillville, IN 46410"
 zip: "46410"

@@ -2,6 +2,7 @@
 title: "Appleton"
 seo_title: "Appleton"
 state: "Wisconsin"
+hero_image: "/images/clinics/appleton.webp"
 address: "3315A North Ballard Rd, Appleton, WI 54911"
 address2: "Appleton, WI 54911"
 zip: "54911"

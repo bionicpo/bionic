@@ -2,6 +2,7 @@
 title: "Ormond Beach"
 seo_title: "Ormond Beach"
 state: "Florida"
+hero_image: "/images/clinics/ormond-beach.webp"
 address: "1414 W. Granada Blvd, Ste. 3"
 address2: "Ormond Beach, FL 32117"
 zip: "32117"

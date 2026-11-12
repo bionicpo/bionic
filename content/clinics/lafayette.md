@@ -2,6 +2,7 @@
 title: "Lafayette"
 seo_title: "Lafayette"
 state: "Indiana"
+hero_image: "/images/clinics/lafayette.webp"
 address: "5 Executive Dr, Ste. D2"
 address2: "Lafayette, IN 47905"
 zip: "47905"

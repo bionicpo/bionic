@@ -2,6 +2,7 @@
 title: "Munster"
 seo_title: "Munster"
 state: "Indiana"
+hero_image: "/images/clinics/munster.webp"
 address: "759 45th St suite 102, Munster, IN, USA"
 address2: "Munster, IN 46321"
 zip: "46321"

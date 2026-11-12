@@ -2,6 +2,7 @@
 title: "Eastgate"
 seo_title: "Eastgate"
 state: "Ohio"
+hero_image: "/images/clinics/eastgate.webp"
 address: "4357 Ferguson Dr, Ste. 110"
 address2: "Cincinnati, OH 45245"
 zip: "45245"

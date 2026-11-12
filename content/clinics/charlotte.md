@@ -2,6 +2,7 @@
 title: "Charlotte"
 seo_title: "Charlotte"
 state: "North Carolina"
+hero_image: "/images/clinics/charlotte.webp"
 address: "1901 Brunswick Ave, Ste. 240"
 address2: "Charlotte, NC 28207"
 zip: "28207"

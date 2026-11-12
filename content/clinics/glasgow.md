@@ -2,6 +2,7 @@
 title: "Glasgow"
 seo_title: "Glasgow"
 state: "Kentucky"
+hero_image: "/images/clinics/glasgow.webp"
 address: "4288 North Jackson Hwy."
 address2: "Glasgow, KY 42141"
 zip: "42141"

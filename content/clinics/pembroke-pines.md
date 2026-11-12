@@ -2,6 +2,7 @@
 title: "Pembroke Pines"
 seo_title: "Pembroke Pines"
 state: "Florida"
+hero_image: "/images/clinics/pembroke-pines.webp"
 address: "9921 Pines Blvd."
 address2: "Pembroke Pines, FL 33024"
 zip: "33024"

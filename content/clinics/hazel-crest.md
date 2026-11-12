@@ -2,6 +2,7 @@
 title: "Hazel Crest"
 seo_title: "Hazel Crest"
 state: "Illinois"
+hero_image: "/images/clinics/hazel-crest.webp"
 address: "17530 S. Kedzie Ave."
 address2: "Hazel Crest, IL 60429"
 zip: "60429"

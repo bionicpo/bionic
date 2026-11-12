@@ -2,6 +2,7 @@
 title: "Rockledge"
 seo_title: "Rockledge"
 state: "Florida"
+hero_image: "/images/clinics/rockledge.webp"
 address: "966 US Hwy 1"
 address2: "Rockledge, FL 32955"
 zip: "32955"

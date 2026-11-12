@@ -2,6 +2,7 @@
 title: "Michigan City"
 seo_title: "Michigan City"
 state: "Indiana"
+hero_image: "/images/clinics/michigan-city.webp"
 address: "1200 S. Woodland Ave, Ste. A"
 address2: "Michigan City, IN 46360"
 zip: "46360"

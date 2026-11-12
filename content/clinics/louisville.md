@@ -2,6 +2,7 @@
 title: "Louisville"
 seo_title: "Louisville"
 state: "Kentucky"
+hero_image: "/images/clinics/louisville.webp"
 address: "1169 Eastern Parkway, Ste 4423"
 address2: "Louisville, KY 40217"
 zip: "40217"

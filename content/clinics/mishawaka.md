@@ -2,6 +2,7 @@
 title: "Mishawaka"
 seo_title: "Mishawaka"
 state: "Indiana"
+hero_image: "/images/clinics/mishawaka.webp"
 address: "221 Red Coach Dr, Ste. D"
 address2: "Mishawaka, IN 46545"
 zip: "46545"

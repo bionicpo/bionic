@@ -2,6 +2,7 @@
 title: "Indianapolis"
 seo_title: "Indianapolis"
 state: "Indiana"
+hero_image: "/images/clinics/indianapolis.webp"
 address: "3935 Eagle Creek Parkway suite a, Indianapolis, IN, USA"
 address2: "Indianapolis, IN 46254"
 zip: "46254"

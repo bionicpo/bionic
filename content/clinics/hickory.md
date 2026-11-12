@@ -2,6 +2,7 @@
 title: "Hickory"
 seo_title: "Hickory"
 state: "North Carolina"
+hero_image: "/images/clinics/hickory.webp"
 address: "715 Fairgrove Church Rd, Ste. 203"
 address2: "Conover, NC 28613"
 zip: "28613"

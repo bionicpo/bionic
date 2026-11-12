@@ -2,6 +2,7 @@
 title: "Hamilton"
 seo_title: "Hamilton"
 state: "New Jersey"
+hero_image: "/images/clinics/hamilton.webp"
 address: "3575 Quakerbridge Rd, Ste. 204"
 address2: "Hamilton, NJ 08619"
 zip: "08619"

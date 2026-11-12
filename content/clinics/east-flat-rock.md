@@ -2,6 +2,7 @@
 title: "East Flat Rock"
 seo_title: "East Flat Rock"
 state: "North Carolina"
+hero_image: "/images/clinics/east-flat-rock.webp"
 address: "107 E. Walker St."
 address2: "East Flat Rock, NC 28726"
 zip: "28726"

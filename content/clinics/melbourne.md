@@ -2,6 +2,7 @@
 title: "Melbourne"
 seo_title: "Melbourne"
 state: "Florida"
+hero_image: "/images/clinics/melbourne.webp"
 address: "3040 N Wickham Rd Ste 7, Melbourne, FL 32935, USA"
 lat: 28.156715
 lng: -80.671985

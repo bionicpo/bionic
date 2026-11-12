@@ -26,7 +26,6 @@
 .hm-dot .hx-ico{width:20px;height:20px}
 .hm-split{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
 .hm-media img,.hm-tech-media img{display:block;width:100%;height:auto;object-fit:contain}
-.hm-hero-media img{display:block;width:100%;height:auto}
 
 /* ---- 1 · hero ---- */
 .hm-hero{position:relative;overflow:hidden;background:radial-gradient(60% 80% at 100% 0%,rgba(147,194,81,.12),transparent 60%),linear-gradient(180deg,#fff 0%,var(--hm-cream) 100%);padding:56px 0 72px}
@@ -37,7 +36,11 @@
 .hm-stats strong{display:block;font-family:var(--font-serif);font-size:30px;font-weight:600;line-height:1.1;color:var(--hm-navy)}
 .hm-stats span{display:block;margin-top:4px;font-size:14px;color:var(--hm-muted)}
 .hm-hero-media{position:relative;border-radius:24px;overflow:visible}
-.hm-hero-media img{border-radius:inherit;box-shadow:0 30px 60px rgba(22,48,92,.18)}
+.hm-collage{display:grid;grid-template-rows:1fr 1fr;gap:6px;aspect-ratio:1563/1028;border-radius:inherit;overflow:hidden;box-shadow:0 30px 60px rgba(22,48,92,.18);background:#fff}
+.hm-row{display:grid;gap:6px;min-height:0}
+.hm-row-a{grid-template-columns:273fr 229fr 242fr 256fr}
+.hm-row-b{grid-template-columns:184fr 345fr 472fr}
+.hm-tile{display:block;width:100%;height:100%;min-width:0;min-height:0;object-fit:cover;object-position:var(--pos,50% 50%)}
 .hm-hero-media::before{content:"";position:absolute;inset:auto -22px -22px auto;width:62%;height:62%;border-radius:32px;background:radial-gradient(rgba(37,49,141,.18) 1.6px,transparent 1.7px) 0 0/15px 15px;z-index:-1}
 @keyframes hm-bob{50%{transform:translateY(-8px)}}
 
@@ -187,6 +190,10 @@
   .hm-stats{grid-template-columns:1fr;gap:14px}
   .hm-stats li+li{padding-left:0;border-left:0;padding-top:14px;border-top:1px solid var(--hm-line)}
   .hm-hero-media{border-radius:20px}
+  .hm-collage{aspect-ratio:auto;grid-template-rows:none;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hm-row{display:contents}
+  .hm-tile{height:auto;aspect-ratio:1/1}
+  .hm-tile-wrist{grid-column:1/-1;aspect-ratio:2/1}
       .hm-hero-media::before{display:none}
   .hm-define,.hm-cards,.hm-steps,.hm-kscale{grid-template-columns:1fr}
   .hm-media-tilt{border-radius:20px}

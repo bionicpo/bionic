@@ -101,8 +101,8 @@
 }
 
 /* Clinician card: location and Read More on their own lines */
-.team-card .team-location { display: flex; justify-content: center; }
-.team-card .team-readmore { display: flex; justify-content: center; margin-top: 18px; }
+.team-card .team-location { display: flex; justify-content: flex-start; }
+.team-card .team-readmore { display: flex; justify-content: flex-start; margin-top: 18px; }
 
 /* Clinician profile: each clinic is its own block with its own pin icon */
 .tm-aside .tm-list { align-items: stretch; gap: 0; text-align: left; }

@@ -84,7 +84,14 @@ h2 { font-size: 24px; }
 .cl-services-grid { grid-template-columns: 1fr; }
 .cl-step { padding: 16px; }
 .cl-insurance { flex-direction: column; }
-.team-grid, .clinic-list-grid { grid-template-columns: 1fr; }
+.clinic-list-grid { grid-template-columns: 1fr; }
+.team-grid { --tg-cols: 2; --tg-gap: 14px; }
+.team-avatar { font-size: 36px; margin-bottom: 12px; }
+.team-card > *:not(.team-avatar) { padding-left: 14px; padding-right: 14px; }
+.team-card > *:last-child { padding-bottom: 14px; }
+.team-card h3 { font-size: 14px; }
+.team-card .team-credentials, .team-card .team-role, .team-card .team-location { font-size: 11.5px; }
+.team-card .team-readmore { margin-top: 12px; font-size: 12.5px; }
 .st-map-col .cl-map { height: 300px; }
 .st-chips { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .clinic-card-actions .btn { flex: 1; }

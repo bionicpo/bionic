@@ -3,7 +3,7 @@
   Usage in baseof.html <head>:  {{ if .IsHome }}{{ partial "home/head.html" . }}{{ end }}
   Title + description come from content/_index.md front matter (see prompt).
 */ -}}
-<link rel="stylesheet" href="{{ "css/home.css" | relURL }}">
+{{ $hm := partial "asset.html" "css/home.css" }}<link rel="stylesheet" href="{{ $hm.RelPermalink }}" integrity="{{ $hm.Data.Integrity }}">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

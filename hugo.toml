@@ -14,12 +14,6 @@ title = "Bionic Prosthetics & Orthotics"
     source = "static/images"
     target = "assets/images"
   [[module.mounts]]
-    source = "static/css"
-    target = "assets/css"
-  [[module.mounts]]
-    source = "static/js"
-    target = "assets/js"
-  [[module.mounts]]
     source = "content"
     target = "content"
   [[module.mounts]]

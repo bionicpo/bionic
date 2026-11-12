@@ -10,7 +10,7 @@
       {{ partial "heroes/parts/head.html" . }}
       {{ partial "heroes/parts/actions.html" (dict "p" . "default" (slice (dict "label" "Contact HR" "url" "/contact/") (dict "label" "Explore the Residency" "url" "/residency-program/"))) }}
     </div>
-    <div class="hx-ladder"{{ with $img }} style="--bg:url('{{ . }}')"{{ end }}>
+    <div class="hx-ladder">
       <ol>
         {{- range $i, $s := $ladder }}
         <li style="--h:{{ add 28 (mul $i 16) }}%;--i:{{ $i }}"><span>{{ $s }}</span></li>

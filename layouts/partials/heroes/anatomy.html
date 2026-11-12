@@ -1,5 +1,5 @@
 {{- /*
-  Anatomy (v2) — copy left; rounded photo right with a floating "What we treat" card.
+  Anatomy (v2) — copy left (with the "What we treat" checklist under the buttons); full, uncropped rounded photo right - nothing sits on the photo.
   (Upper Limb, Lower Limb, Upper Extremity, Lower Extremity, Cranial & Spinal)
   Front matter:
     hero_image: "/images/....webp"           (falls back to image / featured_image / first bundle image)
@@ -19,20 +19,20 @@
         <li>{{ partial "heroes/parts/icon.html" "check" }}Free consultation</li>
         <li>{{ partial "heroes/parts/icon.html" "check" }}Custom-fit by certified clinicians</li>
       </ul>
+      {{- with $chips }}
+      <div class="hx-treat">
+        <p class="hx-av-label">{{ $.Params.hero_chips_title | default "What we treat" }}</p>
+        <ul class="hx-chips">
+          {{- range . }}<li>{{ partial "heroes/parts/icon.html" "check" }}<span>{{ . }}</span></li>{{ end }}
+        </ul>
+      </div>
+      {{- end }}
     </div>
     <div class="hx-av">
       {{- with $img }}
       <img class="hx-av-img" src="{{ . }}" alt="" fetchpriority="high">
       {{- else }}
       <div class="hx-av-img hx-av-blank" aria-hidden="true"></div>
-      {{- end }}
-      {{- with $chips }}
-      <div class="hx-av-card">
-        <p class="hx-av-label">{{ $.Params.hero_chips_title | default "What we treat" }}</p>
-        <ul class="hx-chips">
-          {{- range . }}<li>{{ partial "heroes/parts/icon.html" "check" }}<span>{{ . }}</span></li>{{ end }}
-        </ul>
-      </div>
       {{- end }}
     </div>
   </div>

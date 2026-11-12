@@ -20,8 +20,9 @@
     {{- with $feat }}
     {{- $u := partial "heroes/parts/img.html" (dict "p" .) }}
     <a class="hx-feature" href="{{ .RelPermalink }}">
-      <div class="hx-feature-img"{{ with $u }} style="background-image:url('{{ . }}')"{{ end }}><span class="hx-tag">Latest</span></div>
+      <div class="hx-feature-img">{{ with $u }}<img src="{{ . }}" alt="" loading="eager" decoding="async">{{ end }}</div>
       <div class="hx-feature-body">
+        <span class="hx-tag">Latest</span>
         <span class="hx-meta">{{ with .Params.categories }}{{ index . 0 }} · {{ end }}{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
         <h2>{{ .Title }}</h2>
         <p>{{ .Description | default (.Summary | plainify | replaceRE `^\s*Updated:\s*\w+\s*\d+\s*` "" | truncate 150) }}</p>

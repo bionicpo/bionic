@@ -25,10 +25,10 @@
     </div>
     <div class="hm-hero-media">
       {{- /* Collage of 7 separate photos (was one baked image). Faces are kept inside each tile with object-position.
-           kneebrace / hand / runner / stairs are crops of the old baked collage (originals not found) - replace the files in static/images/home-hero/ when the originals arrive. */ -}}
+           hand / runner / stairs are crops of the old baked collage (originals not found) - replace the files in static/images/home-hero/ when the originals arrive. Photos with faces (orthosis, pink, baby, runner) are full originals: keep --pos on the face so no tile cuts one. */ -}}
       {{- $rowA := slice
-            (dict "f" "kneebrace" "pos" "50% 40%" "alt" "Woman sitting on a rock wearing an ankle-foot orthosis")
-            (dict "f" "pink"      "pos" "75% 0%"  "alt" "Smiling woman in a pink T-shirt standing by a red car, wearing a prosthetic leg")
+            (dict "f" "orthosis" "pos" "50% 4%" "alt" "Smiling toddler wearing a custom spinal orthosis")
+            (dict "f" "pink"     "pos" "50% 30%" "alt" "Smiling woman in a pink T-shirt leaning on a red car, wearing a prosthetic leg")
             (dict "f" "hand"      "pos" "50% 50%" "alt" "An adult hand holding a child's hand in a prosthetic glove")
             (dict "f" "baby"      "pos" "50% 40%" "alt" "Smiling baby in a pink cranial helmet with a bow") -}}
       {{- $rowB := slice

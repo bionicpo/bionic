@@ -4,7 +4,6 @@
   <div class="container hx-grid">
     <div class="hx-copy">
       {{ partial "heroes/parts/crumbs.html" . }}
-      <span class="hx-onair"><i></i> Podcast &amp; video series</span>
       <h1 class="hx-title">{{ partial "heroes/parts/title.html" . }}</h1>
       {{- with (partial "heroes/parts/f.html" (dict "p" $ "k" "subhead") | default .Description) }}<p class="hx-sub">{{ . }}</p>{{ end }}
       {{ partial "heroes/parts/actions.html" (dict "p" . "default" (slice (dict "label" "Watch the Latest" "url" "#episodes") (dict "label" "All Episodes" "url" "#episodes"))) }}

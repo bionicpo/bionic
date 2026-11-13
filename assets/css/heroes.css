@@ -441,9 +441,6 @@
 
 /* ---------- 24 · podcast (Bionic Beats) ---------- */
 .hx-podcast{background:linear-gradient(135deg,#111637 0%,var(--hx-navy) 100%);padding:40px 0 64px}
-.hx-onair{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.1);padding:7px 12px;border-radius:999px;margin-bottom:14px}
-.hx-onair i{width:9px;height:9px;border-radius:50%;background:#ff4d6d;box-shadow:0 0 0 0 rgba(255,77,109,.6);animation:hx-live 1.6s infinite}
-@keyframes hx-live{70%{box-shadow:0 0 0 10px rgba(255,77,109,0)}100%{box-shadow:0 0 0 0 rgba(255,77,109,0)}}
 .hx-podcast .hx-title{font-size:clamp(40px,5.4vw,76px)}
 .hx-studio{display:grid;gap:18px}
 .hx-studio .hx-cover{margin:0;border-radius:22px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.35)}

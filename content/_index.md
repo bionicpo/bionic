@@ -66,8 +66,8 @@ services:
     icon: layout-grid
     tone: prosthetic
     link: /prosthetics/
-    image: /images/home-service-prosthetic-care.webp
-    image_alt: A man seated in a clinic wearing a black prosthetic arm
+    image: /images/home-card-prosthetic-men.webp
+    image_alt: Four men standing together outdoors, three wearing prosthetic legs and one a prosthetic hand
   - title: Orthotic Care
     description: Orthotic care is designed to support the body’s structure, improve alignment, and reduce strain on muscles and joints.
     lead: 'We provide custom orthotic solutions for:'
@@ -80,8 +80,8 @@ services:
     icon: layout-grid
     tone: orthotic
     link: /orthotics/
-    image: /images/home-card-orthotic-boy-brace.webp
-    image_alt: A smiling boy in a spinal brace lying on a bed
+    image: /images/home-card-orthotic-brace-walker.webp
+    image_alt: A man standing with a walker, wearing a colorful ankle-foot brace on his lower leg
   - title: Pediatric Prosthetics & Orthotics
     description: Children’s prosthetic and orthotic needs change as they grow, develop, and become more active.
     lead: 'Our pediatric care emphasizes:'
@@ -93,8 +93,8 @@ services:
     icon: baby
     tone: pediatric
     link: /prosthetics/pediatric/
-    image: /images/home-card-pediatric-boy.webp
-    image_alt: A smiling boy wearing a spinal orthosis
+    image: /images/home-card-pediatric-boy-bed.webp
+    image_alt: A smiling boy lying on a bed wearing a patterned spinal brace
 technology:
   eyebrow: INNOVATION IN MOTION
   title: Advanced Bionic & Microprocessor Solutions

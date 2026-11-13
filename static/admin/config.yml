@@ -800,9 +800,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -1310,9 +1310,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -1820,9 +1820,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -2338,9 +2338,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -2854,9 +2854,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -3364,9 +3364,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -3874,9 +3874,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -4384,9 +4384,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -4894,9 +4894,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -5410,9 +5410,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -5920,9 +5920,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -6430,9 +6430,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -6940,9 +6940,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -7450,9 +7450,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -7960,9 +7960,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -8567,9 +8567,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -9077,9 +9077,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -9587,9 +9587,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -10097,9 +10097,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -10613,9 +10613,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -11123,9 +11123,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -11633,9 +11633,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -12143,9 +12143,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -12659,9 +12659,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -13169,9 +13169,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -13679,9 +13679,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -14189,9 +14189,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object
@@ -14705,9 +14705,9 @@ collections:
           - label: Photo background
             name: tone
             widget: select
-            options: [light, dark, photo]
+            options: [light, dark, photo, blur]
             default: light
-            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo."
+            hint: "light = white-background product photo, dark = black-background photo, photo = ordinary photo, blur = photo on a busy background (shown whole over a blurred copy of itself)."
       - label: Edition covers (Bionic Beats)
         name: edition-covers
         widget: object

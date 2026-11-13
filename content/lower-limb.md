@@ -53,8 +53,8 @@ sections:
   - title: Silicone Restoration
     description: Silicone restoration replicates the patient’s intact limb in fine detail such as wrinkles, hair, freckles, skin tone and shape.
     image: /images/lower-limb-silicone-restoration.webp
-    image_alt: Silicone restoration of the feet
-    tone: flat
+    image_alt: Silicone restoration prosthesis
+    tone: blur
 - type: points
   eyebrow: KNOW YOUR MOBILITY LEVEL
   title: What Is a K-Level?

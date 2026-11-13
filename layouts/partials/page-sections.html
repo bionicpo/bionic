@@ -44,7 +44,7 @@
     <div class="product-grid{{ if eq (len $s.items) 4 }} is-quad{{ end }}">
       {{ range $j, $item := $s.items }}
       <article class="product-card reveal" data-reveal="up" style="--delay: {{ mul (mod $j 3) 0.08 }}s">
-        <div class="product-media tone-{{ .tone | default "light" }}">{{ partial "img.html" (dict "src" .image "alt" .image_alt "sizes" "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px") }}</div>
+        <div class="product-media tone-{{ .tone | default "light" }}"{{ if and (eq .tone "blur") .image }} style="--ph:url('{{ .image }}')"{{ end }}>{{ partial "img.html" (dict "src" .image "alt" .image_alt "sizes" "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px") }}</div>
         <div class="product-body">
           <h3>{{ .title }}</h3>
           {{ with .subtitle }}<p class="product-sub">{{ . }}</p>{{ end }}

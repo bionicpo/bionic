@@ -5,3 +5,10 @@ _drive/
 public/
 resources/_gen/
 .hugo_build.lock
+
+# raw source photos and exports: optimise into static/images/ instead of committing these
+bionicpo image/
+bionicpo images/
+drive-download-*/
+drive-download-*.zip
+*.zip

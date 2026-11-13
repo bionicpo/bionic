@@ -34,6 +34,6 @@
   {{ $j := partial "asset.html" "js/main.js" }}<script src="{{ $j.RelPermalink }}" integrity="{{ $j.Data.Integrity }}" defer></script>
   {{ $j2 := partial "asset.html" "js/clinic-search.js" }}<script src="{{ $j2.RelPermalink }}" integrity="{{ $j2.Data.Integrity }}" defer></script>
   {{ if eq .Type "blog-post" }}{{ $j3 := partial "asset.html" "js/post-reading.js" }}<script src="{{ $j3.RelPermalink }}" integrity="{{ $j3.Data.Integrity }}" defer></script>{{ end }}
-  {{ if eq .RelPermalink "/grow/" }}{{ $j4 := partial "asset.html" "js/grow-form.js" }}<script src="{{ $j4.RelPermalink }}" integrity="{{ $j4.Data.Integrity }}" defer></script>{{ end }}
+  {{ if where (.Params.sections | default slice) "type" "resource-directory" }}{{ $j5 := partial "asset.html" "js/resources.js" }}<script src="{{ $j5.RelPermalink }}" integrity="{{ $j5.Data.Integrity }}" defer></script>{{ end }}
 </body>
 </html>

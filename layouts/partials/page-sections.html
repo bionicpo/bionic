@@ -291,6 +291,72 @@
   </div>
 </section>
 
+{{ else if eq $s.type "action-cards" }}
+<section class="section res-before">
+  <div class="container res-container">
+    {{ with $s.title }}<div class="section-heading reveal" data-reveal="fade"><h2>{{ . }}</h2></div>{{ end }}
+    <div class="res-actions">
+      {{ range $s.cards }}
+      <article class="res-action reveal" data-reveal="up"{{ with .id }} id="{{ . }}"{{ end }}>
+        <span class="res-icon">{{ partial "icon.html" (.icon | default "file-text") }}</span>
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+        <ul class="res-btns">
+          {{ range $k, $b := .buttons }}
+          <li><a href="{{ $b.link | safeURL }}" class="btn {{ if eq $k 0 }}btn-primary{{ else }}btn-outline-dark{{ end }}"{{ if $b.new_tab }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ $b.text }}</a>{{ with $b.hint }}<span class="res-hint">{{ . }}</span>{{ end }}</li>
+          {{ end }}
+        </ul>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ else if eq $s.type "resource-directory" }}
+{{- /* Points are authored as "[[Name|url|_blank]] (tag) :: description" (same format as checklist points). */ -}}
+<section class="section res-section"{{ with $s.id }} id="{{ . }}"{{ end }}>
+  <div class="container res-container" data-res-dir>
+    <nav class="res-chips" aria-label="Resource categories">
+      <button type="button" class="res-chip is-active" data-cat="all">All</button>
+      {{ range $s.groups }}<button type="button" class="res-chip" data-cat="{{ .id }}">{{ .label }}</button>{{ end }}
+    </nav>
+    {{ range $s.groups }}
+    <section class="res-group" id="res-{{ .id }}" data-cat="{{ .id }}">
+      <header class="res-head">
+        <span class="res-icon">{{ partial "icon.html" (.icon | default "layout-grid") }}</span>
+        <div>
+          <h2>{{ .title }} <span class="res-count">&middot; <span data-count>{{ len .points }}</span></span></h2>
+          {{ with .description }}<p>{{ . }}</p>{{ end }}
+        </div>
+      </header>
+      <div class="res-grid">
+        {{ range .points }}
+        {{- $name := "" }}{{ $url := "" }}{{ $tag := "" }}{{ $desc := "" -}}
+        {{- $m := findRESubmatch `^\[\[([^|\]]+)\|([^|\]]+)(?:\|[^\]]*)?\]\]\s*(.*?)\s*::\s*(.*)$` . 1 -}}
+        {{- if $m }}{{ $g := index $m 0 }}{{ $name = index $g 1 }}{{ $url = index $g 2 }}{{ $tag = index $g 3 }}{{ $desc = index $g 4 }}
+        {{- else }}{{ with findRESubmatch `^(.*?)\s*::\s*(.*)$` . 1 }}{{ $g := index . 0 }}{{ $name = index $g 1 }}{{ $desc = index $g 2 }}{{ end }}{{ end -}}
+        {{- $full := trim (printf "%s %s" $name $tag) " " -}}
+        {{ if $url }}
+        <a class="res-card" href="{{ if hasPrefix $url "/" }}{{ $url | relURL }}{{ else }}{{ $url }}{{ end }}" target="_blank" rel="noopener noreferrer" data-search="{{ lower (printf "%s %s" $full $desc) }}">
+          <h3>{{ $full }}</h3>
+          <p>{{ $desc }}</p>
+          <span class="res-link">Visit website <span aria-hidden="true">&#8599;</span></span>
+        </a>
+        {{ else }}
+        <div class="res-card is-static" data-search="{{ lower (printf "%s %s" $full $desc) }}">
+          <h3>{{ $full }}</h3>
+          <p>{{ $desc }}</p>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+    <p class="res-empty" hidden>No resources found &ndash; <a href="{{ "/contact/" | relURL }}">contact us</a> and we will help you find the right one.</p>
+    {{ with $s.note }}<p class="res-note">{{ . | safeHTML }}</p>{{ end }}
+  </div>
+</section>
+
 {{ else if eq $s.type "richtext" }}
 {{ partial "content-section.html" (dict "s" $s "bg" $mine "scratch" $.Scratch) }}
 

@@ -865,8 +865,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -1375,8 +1375,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -1885,8 +1885,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -2403,8 +2403,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -2919,8 +2919,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -3429,8 +3429,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -3939,8 +3939,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -4449,8 +4449,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -4959,8 +4959,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -5475,8 +5475,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -5985,8 +5985,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -6495,8 +6495,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -7005,8 +7005,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -7515,8 +7515,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -8025,8 +8025,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -8231,6 +8231,103 @@ collections:
       typeKey: type
       hint: Content blocks shown under the banner, in this order. Add, remove or drag to reorder.
       types:
+      - label: Action cards (Before your visit)
+        name: action-cards
+        widget: object
+        summary: 'Action cards: {{fields.title}}'
+        fields:
+        - label: Heading
+          name: title
+          widget: string
+          required: false
+        - label: Cards
+          name: cards
+          widget: list
+          required: false
+          summary: '{{fields.title}}'
+          fields:
+          - label: Anchor id
+            name: id
+            widget: string
+            hint: Lets links point to this card, e.g. patient-forms
+            required: false
+          - label: Icon
+            name: icon
+            widget: string
+            hint: e.g. file-text, card
+            required: false
+          - label: Title
+            name: title
+            widget: string
+          - label: One-line text
+            name: text
+            widget: string
+            required: false
+          - label: Buttons
+            name: buttons
+            widget: list
+            required: false
+            summary: '{{fields.text}}'
+            fields:
+            - label: Button text
+              name: text
+              widget: string
+            - label: Link
+              name: link
+              widget: string
+            - label: Open in a new tab
+              name: new_tab
+              widget: boolean
+              required: false
+            - label: Small note under the button
+              name: hint
+              widget: string
+              required: false
+      - label: Resource directory (filterable cards)
+        name: resource-directory
+        widget: object
+        summary: 'Resource directory'
+        fields:
+        - label: Anchor id
+          name: id
+          widget: string
+          hint: Use "resources" so the quick links can jump here.
+          required: false
+        - label: Categories
+          name: groups
+          widget: list
+          required: false
+          summary: '{{fields.title}}'
+          fields:
+          - label: Id (letters only)
+            name: id
+            widget: string
+          - label: Chip label
+            name: label
+            widget: string
+          - label: Heading
+            name: title
+            widget: string
+          - label: Icon
+            name: icon
+            widget: string
+            required: false
+          - label: One-line description
+            name: description
+            widget: string
+            required: false
+          - label: Resources
+            name: points
+            widget: list
+            hint: 'Format: [[Name|https://link|_blank]] :: Short description'
+            field:
+              label: Resource
+              name: item
+              widget: string
+        - label: Note at the end
+          name: note
+          widget: text
+          required: false
       - label: Text + Image
         name: text-image
         widget: object
@@ -8535,8 +8632,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -9045,8 +9142,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -9555,8 +9652,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -10065,8 +10162,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -10581,8 +10678,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -11091,8 +11188,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -11601,8 +11698,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -12111,8 +12208,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -12627,8 +12724,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -13137,8 +13234,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -13647,8 +13744,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -14157,8 +14254,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string
@@ -14673,8 +14770,8 @@ collections:
           name: layout
           widget: select
           required: false
-          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text.
-          options: [prose, cards, features, feature-list, blocks, programs, chips, quote, split]
+          hint: How the text is designed. The text itself is never changed. "prose" = readable text with check-lists; "cards" = each sub-heading becomes a card; "features" = icon cards from the list; "blocks" = each main heading becomes its own section; "programs" = heading + text on the left, check-list on the right; "chips" = list shown as chips; "quote" = testimonial card; "split" = image next to text; "feature-side" = photo left, heading + text + 2x2 cards right; "text-media" = text and bullets left, photo and quote right; "heading-side" = heading left, paragraphs right.
+          options: [prose, cards, features, feature-list, feature-side, text-media, heading-side, blocks, programs, chips, quote, split]
         - label: Cards per row
           name: cols
           widget: string

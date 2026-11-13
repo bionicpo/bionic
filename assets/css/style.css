@@ -46,6 +46,12 @@
 
   --container-max: 1360px;
   --section-py: 80px;
+  /* navy blocks (final CTA, stat bands, tech band): inner padding, rounded CTA box, outer spacing */
+  --navy-py: 80px;
+  --navy-px: 64px;
+  --navy-radius: 24px;
+  --navy-gap: 64px;
+  --navy-gutter: 24px;
 }
 
 * { box-sizing: border-box; }
@@ -299,7 +305,8 @@ button { font-family: inherit; cursor: pointer; }
    Stat band
    ========================================================================== */
 .stat-band { background: var(--brand); }
-.stat-grid { display: grid; grid-template-columns: repeat(var(--stat-cols, 4), minmax(0, 1fr)); padding-block: 34px; }
+.stat-grid { display: grid; grid-template-columns: repeat(var(--stat-cols, 4), minmax(0, 1fr)); }
+.stat-band .stat-grid { padding-block: var(--navy-py); }
 .stat-item { text-align: center; padding: 0 10px; border-right: 1px solid rgba(255, 255, 255, 0.14); }
 .stat-item:last-child { border-right: none; }
 .stat-item .stat-number { font-family: var(--font-serif); font-size: 30px; font-weight: 600; color: #fff; }
@@ -357,7 +364,8 @@ button { font-family: inherit; cursor: pointer; }
    Technology banner
    ========================================================================== */
 .technology-band { background: var(--brand-darker); }
-.technology-inner { display: flex; align-items: center; gap: 60px; padding-block: 70px; }
+.technology-inner { display: flex; align-items: center; gap: 60px; }
+.technology-band .technology-inner { padding-block: var(--navy-py); }
 .technology-copy { flex: 1; }
 .technology-copy h2 { color: #fff; font-size: 32px; line-height: 1.25; }
 .technology-copy p { font-size: 15px; color: rgba(255, 255, 255, 0.72); line-height: 1.7; margin-bottom: 26px; max-width: 460px; }
@@ -464,10 +472,12 @@ button.current-location-link:disabled { opacity: 0.6; cursor: wait; }
 /* ==========================================================================
    Final CTA
    ========================================================================== */
-.final-cta { background: var(--brand); text-align: center; }
-.final-cta-inner { max-width: 900px; padding-block: 78px; }
-.final-cta h2 { color: #fff; font-size: 34px; margin-bottom: 16px; }
-.final-cta p { font-size: 15.5px; color: rgba(255, 255, 255, 0.75); line-height: 1.7; margin-bottom: 32px; }
+/* Final CTA: a rounded navy box inside the page gutters, with its own outer spacing, so it never touches the section
+   above it or the footer. The box owns the padding (var(--navy-py)); .container's side padding does not apply to it. */
+.final-cta { background: transparent; text-align: center; margin-block: var(--navy-gap); padding-inline: var(--navy-gutter); }
+.final-cta .final-cta-inner { max-width: calc(var(--container-max) - 48px); margin-inline: auto; padding: var(--navy-py) var(--navy-px); background: var(--brand); border-radius: var(--navy-radius); }
+.final-cta h2 { color: #fff; font-size: 34px; margin: 0 auto 16px; max-width: 820px; }
+.final-cta p { font-size: 15.5px; color: rgba(255, 255, 255, 0.75); line-height: 1.7; margin: 0 auto 32px; max-width: 760px; }
 .final-cta-actions { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
 .final-cta-tertiary { display: inline-block; margin-top: 22px; font-size: 14px; font-weight: 700; color: #fff; text-decoration: underline; text-underline-offset: 3px; }
 
@@ -1112,7 +1122,7 @@ figure.cs-quote { display: block; }
 .cs-overlay-inner .cs-prose { color: rgba(255,255,255,.94); font-size: 18px; max-width: 70ch; }
 
 /* phone CTA: primary button + small alternate number */
-.final-cta-alt { margin: 16px 0 0; font-size: 15px; }
+.final-cta .final-cta-alt { margin: 16px auto 0; font-size: 15px; }
 .final-cta-alt a { color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; opacity: .92; }
 .final-cta-alt a:hover { opacity: 1; }
 /* feature split ("Why Choose Bionic"): photo left (~40%), 2x2 cards right (~60%), vertically centred */

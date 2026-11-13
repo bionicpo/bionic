@@ -82,7 +82,7 @@
 .hm-steps p{margin:0;font-size:15px;line-height:1.6;color:var(--hm-muted)}
 
 /* ---- 5 · tech ---- */
-.hm-tech{position:relative;overflow:hidden;background:radial-gradient(70% 90% at 0% 100%,#3442a8 0%,var(--hm-navy) 50%,var(--hm-navy-d) 100%);color:#fff;padding:var(--section-pad,96px) 0}
+.hm-tech{position:relative;overflow:hidden;background:radial-gradient(70% 90% at 0% 100%,#3442a8 0%,var(--hm-navy) 50%,var(--hm-navy-d) 100%);color:#fff;padding:var(--navy-py) 0}
 .hm-tech .hm-h2{color:#fff}
 .hm-tech .hm-lead{color:rgba(255,255,255,.82)}
 .hm-chips{list-style:none;display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 32px;padding:0}
@@ -156,7 +156,7 @@
 
 /* ---- 11 · CTA ---- */
 .hm-cta-wrap{padding:var(--section-pad,96px) 0}
-.hm-cta{position:relative;overflow:hidden;display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:center;padding:64px;border-radius:32px;background:var(--hm-navy);color:#fff}
+.hm-cta{position:relative;overflow:hidden;display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:center;padding:var(--navy-py) 64px;border-radius:calc(var(--navy-radius) + 8px);background:var(--hm-navy);color:#fff}
 .hm-cta::before,.hm-cta::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
 .hm-cta::before{width:420px;height:420px;right:-120px;top:-180px;background:rgba(147,194,81,.18)}
 .hm-cta::after{width:260px;height:260px;left:-90px;bottom:-140px;border:40px solid rgba(255,255,255,.06)}
@@ -183,7 +183,7 @@
   .hm-steps::before{display:none}
   .hm-qa,.hm-quotes,.hm-blog-grid{grid-template-columns:1fr}
   .hm-faq-side,.hm-find-tool{position:static}
-  .hm-cta{padding:44px 28px}
+  .hm-cta{padding:var(--navy-py) 28px}
 }
 @media (max-width:600px){
   .hm-hero{padding:32px 0 56px}
@@ -222,7 +222,7 @@ ul.hm-text li{margin:8px 0}
   .hm-quotes figure:hover,.hm-card:hover{transform:none}
   .hm-head{margin-bottom:32px}
   .hm-hero{padding:32px 0 48px}
-  .hm-cta{padding:36px 22px}
+  .hm-cta{padding:var(--navy-py) 22px}
 }
 @media (max-width:640px){
   .hm-quotes,.hm-cards,.hm-blog-grid,.hm-qa,.hm-kscale{scroll-padding-inline:16px;margin-inline:-16px;padding-inline:16px}

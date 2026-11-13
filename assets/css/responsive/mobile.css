@@ -6,6 +6,11 @@
 :root {
   --section-py: 48px;
   --section-pad: 48px;
+  --navy-py: 56px;
+  --navy-px: 22px;
+  --navy-radius: 20px;
+  --navy-gap: 40px;
+  --navy-gutter: 16px;
 }
 
 .container { padding: 0 16px; }
@@ -52,7 +57,6 @@ h2 { font-size: 24px; }
 .testimonials-media { max-height: 200px; }
 
 /* Technology banner */
-.technology-inner { padding-block: 36px; }
 .technology-media { height: 180px; }
 
 /* Find a clinic */
@@ -61,7 +65,7 @@ h2 { font-size: 24px; }
 .state-chip-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 /* Final CTA */
-.final-cta-actions { flex-direction: column; align-items: stretch; }
+.final-cta-actions { flex-direction: column; align-items: stretch; gap: 12px; }
 .final-cta-actions .btn { width: 100%; }
 
 /* Footer */
@@ -141,7 +145,7 @@ body { padding-bottom: 72px; }
 
 /* Hero buttons: full width, stacked, on every page (same as the homepage) */
 @media (max-width: 480px) {
-  .hx-actions, .cs-btn-row, .page-hero-actions, .section-actions, .res-actions, .final-cta-actions { flex-direction: column; align-items: stretch; }
+  .hx-actions, .cs-btn-row, .page-hero-actions, .section-actions, .res-actions, .final-cta-actions { flex-direction: column; align-items: stretch; gap: 12px; }
   .hx-actions .btn, .cs-btn-row .btn, .page-hero-actions .btn, .section-actions .btn, .res-actions .btn, .final-cta-actions .btn { width: 100%; justify-content: center; text-align: center; }
 }
 

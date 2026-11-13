@@ -18,6 +18,10 @@ hero:
   cta_secondary_link: "/locations/"
 
 sections:
+  - type: "children-grid"
+    eyebrow: "FULL DIRECTORY"
+    title: "Our Clinicians"
+
   - type: "text-image"
     eyebrow: "EXPERIENCE YOU CAN TRUST"
     title: "Dozens of Certified Specialists, One Standard of Care"
@@ -36,10 +40,6 @@ sections:
       - "Close collaboration with your physicians and physical therapists"
       - "Continuity of care from evaluation through fitting, adjustment, and follow-up"
       - "Specialized experience in pediatric, adult, and complex-case care"
-
-  - type: "children-grid"
-    eyebrow: "FULL DIRECTORY"
-    title: "Our Clinicians"
 
   - type: "cta-band"
     title: "Meet the Team Behind Your Care"

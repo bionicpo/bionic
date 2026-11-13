@@ -24,25 +24,20 @@
       </div>
     </div>
     <div class="hm-hero-media">
-      {{- /* Collage of 7 separate photos (was one baked image). Faces are kept inside each tile with object-position.
-           hand / runner / stairs are crops of the old baked collage (originals not found) - replace the files in static/images/home-hero/ when the originals arrive. Photos with faces (orthosis, pink, baby, runner) are full originals: keep --pos on the face so no tile cuts one. */ -}}
-      {{- $rowA := slice
-            (dict "f" "orthosis" "pos" "50% 4%" "alt" "Smiling toddler wearing a custom spinal orthosis")
-            (dict "f" "pink"     "pos" "50% 30%" "alt" "Smiling woman in a pink T-shirt leaning on a red car, wearing a prosthetic leg")
-            (dict "f" "hand"      "pos" "50% 50%" "alt" "An adult hand holding a child's hand in a prosthetic glove")
-            (dict "f" "baby"      "pos" "50% 40%" "alt" "Smiling baby in a pink cranial helmet with a bow") -}}
-      {{- $rowB := slice
-            (dict "f" "runner" "pos" "50% 0%"   "alt" "Man running with a knee brace")
-            (dict "f" "stairs" "pos" "50% 50%"  "alt" "Prosthetic leg climbing stone steps")
-            (dict "f" "wrist"  "pos" "50% 50%"  "alt" "Close-up of a wrist brace") -}}
-      <div class="hm-collage" role="group" aria-label="Photos of Bionic patients wearing prosthetic and orthotic devices">
-        <div class="hm-row hm-row-a">
-          {{- range $rowA }}{{ $r := resources.Get (printf "images/home-hero/%s.webp" .f) }}<img class="hm-tile hm-tile-{{ .f }}" src="{{ printf "/images/home-hero/%s.webp" .f }}"{{ with $r }} width="{{ .Width }}" height="{{ .Height }}"{{ end }} alt="{{ .alt }}" style="--pos:{{ .pos }}" fetchpriority="high" decoding="async">{{ end }}
-        </div>
-        <div class="hm-row hm-row-b">
-          {{- range $rowB }}{{ $r := resources.Get (printf "images/home-hero/%s.webp" .f) }}<img class="hm-tile hm-tile-{{ .f }}" src="{{ printf "/images/home-hero/%s.webp" .f }}"{{ with $r }} width="{{ .Width }}" height="{{ .Height }}"{{ end }} alt="{{ .alt }}" style="--pos:{{ .pos }}" decoding="async">{{ end }}
-        </div>
-      </div>
+      {{- /* Three staggered portrait photos, caption under each. Faces/products are kept in frame with --pos (object-position);
+           photos are 3:4 boxes. The old 7-photo collage files stay in static/images/home-hero/ but are not used. */ -}}
+      {{- $shots := slice
+            (dict "f" "pink"  "pos" "50% 20%" "cap" "Prosthetics"   "alt" "Smiling woman in a pink T-shirt leaning on a red car, wearing a prosthetic leg")
+            (dict "f" "baby"  "pos" "55% 35%" "cap" "Pediatric Care" "alt" "Smiling baby in a pink cranial helmet with a bow")
+            (dict "f" "wrist" "pos" "50% 50%" "cap" "Orthotics"     "alt" "Close-up of a wrist brace") -}}
+      <ul class="hm-trio" aria-label="Bionic patients and devices">
+        {{- range $i, $s := $shots }}
+        <li class="hm-shot" style="--pos: {{ $s.pos }}">
+          {{ partial "img.html" (dict "src" (printf "/images/home-hero/%s.webp" $s.f) "alt" $s.alt "loading" (cond (eq $i 0) "eager" "lazy") "sizes" "(max-width: 600px) 30vw, 200px") }}
+          <span class="hm-shot-cap">{{ $s.cap }}</span>
+        </li>
+        {{- end }}
+      </ul>
     </div>
   </div>
 </section>

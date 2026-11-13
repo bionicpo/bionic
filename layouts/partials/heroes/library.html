@@ -1,16 +1,18 @@
 {{- /*
   Library — heading and intro on the left, one photo on the right (Resources hub).
-  Front matter: hero_image / hero_image_alt (optional); defaults to the clinician-with-patient photo used on the homepage.
+  Front matter: hero_image / hero_image_alt. No default photo: a photo may only be used once on the whole site.
 */ -}}
-{{- $img := .Params.hero_image | default "/images/about-empowering.png" -}}
-{{- $alt := .Params.hero_image_alt | default "A Bionic clinician talking with a seated patient who wears a prosthetic leg" -}}
+{{- $img := .Params.hero_image -}}
+{{- $alt := .Params.hero_image_alt | default "" -}}
 <section class="hx hx-library">
   <div class="container hx-grid">
     <div class="hx-copy">
       {{ partial "heroes/parts/head.html" . }}
     </div>
+    {{- with $img }}
     <figure class="hx-photo">
-      {{ partial "img.html" (dict "src" $img "alt" $alt "loading" "eager" "sizes" "(max-width: 1024px) 100vw, 600px") }}
+      {{ partial "img.html" (dict "src" . "alt" $alt "loading" "eager" "sizes" "(max-width: 1024px) 100vw, 600px") }}
     </figure>
+    {{- end }}
   </div>
 </section>

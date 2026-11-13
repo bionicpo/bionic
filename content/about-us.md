@@ -27,8 +27,8 @@ sections:
 - type: points
   eyebrow: WHAT DRIVES US
   title: Our Values
-  image: /images/blog/bionic-patients-and-team-shine-at-aopa-2024-a-journey-of-learning-and-innovation.png
-  image_alt: Bionic team members in matching light-blue shirts posing together at the Bionic booth at the AOPA 2024 conference
+  image: /images/about-values-aopa-entrance.webp
+  image_alt: The Bionic team gathered in front of the Bionic sign at the AOPA National Assembly
   points:
   - "**Compassion** - We listen first and treat every patient with empathy and respect."
   - "**Clinical Excellence** - We keep our standards high through expertise and ongoing education."

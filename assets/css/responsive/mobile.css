@@ -149,13 +149,33 @@ body { padding-bottom: 72px; }
   .hx-actions .btn, .cs-btn-row .btn, .page-hero-actions .btn, .section-actions .btn, .res-actions .btn, .final-cta-actions .btn { width: 100%; justify-content: center; text-align: center; }
 }
 
-/* Long card lists become a swipe carousel: scroll-snap, the next card peeks in from the right */
+/* Card lists with 3+ cards become a swipe carousel: scroll-snap, the next card peeks in from the right.
+   Carousels always start at the left (justify-content: flex-start, never center - centre clips the first cards off-screen).
+   Cards in the row are stretched to one height; the card body grows and links stay at the bottom.
+   Lists with 1-2 cards are not carousels: they stack full width. */
 @media (max-width: 640px) {
-  .services-grid:has(.service-card-media), .product-grid, .product-grid.is-quad, .cs-grid.cols-3, .cs-grid.cols-4 {
-    display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(82%, 340px); gap: 14px; align-items: start;
-    overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: 16px;
+  .services-grid:has(.service-card-media):has(> :nth-child(3)),
+  .product-grid:has(> :nth-child(3)),
+  .product-grid.is-quad:has(> :nth-child(3)),
+  .cs-grid.cols-3:has(> :nth-child(3)),
+  .cs-grid.cols-4:has(> :nth-child(3)) {
+    display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(82%, 340px); gap: 14px; align-items: stretch;
+    justify-content: flex-start;
+    overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-left: 16px; scroll-padding-right: 16px;
     margin-inline: -16px; padding: 4px 16px 14px; scrollbar-width: none;
   }
-  .services-grid:has(.service-card-media)::-webkit-scrollbar, .product-grid::-webkit-scrollbar, .product-grid.is-quad::-webkit-scrollbar, .cs-grid.cols-3::-webkit-scrollbar, .cs-grid.cols-4::-webkit-scrollbar { display: none; }
-  .services-grid:has(.service-card-media) > *, .product-grid > *, .cs-grid.cols-3 > *, .cs-grid.cols-4 > * { scroll-snap-align: start; min-width: 0; max-width: none; }
+  .services-grid:has(.service-card-media):has(> :nth-child(3))::-webkit-scrollbar,
+  .product-grid:has(> :nth-child(3))::-webkit-scrollbar,
+  .product-grid.is-quad:has(> :nth-child(3))::-webkit-scrollbar,
+  .cs-grid.cols-3:has(> :nth-child(3))::-webkit-scrollbar,
+  .cs-grid.cols-4:has(> :nth-child(3))::-webkit-scrollbar { display: none; }
+  .services-grid:has(.service-card-media):has(> :nth-child(3)) > *, .product-grid:has(> :nth-child(3)) > *, .product-grid.is-quad:has(> :nth-child(3)) > *, .cs-grid.cols-3:has(> :nth-child(3)) > *, .cs-grid.cols-4:has(> :nth-child(3)) > * { scroll-snap-align: start; min-width: 0; max-width: none; }
+  .services-grid:has(.service-card-media):not(:has(> :nth-child(3))),
+  .product-grid:not(:has(> :nth-child(3))),
+  .product-grid.is-quad:not(:has(> :nth-child(3))),
+  .cs-grid.cols-3:not(:has(> :nth-child(3))),
+  .cs-grid.cols-4:not(:has(> :nth-child(3))) {
+    display: grid; grid-template-columns: minmax(0, 1fr); grid-auto-flow: row; grid-auto-columns: auto; gap: 18px; justify-content: stretch; align-items: stretch;
+  }
+  .services-grid:has(.service-card-media):not(:has(> :nth-child(3))) > *, .product-grid:not(:has(> :nth-child(3))) > *, .product-grid.is-quad:not(:has(> :nth-child(3))) > *, .cs-grid.cols-3:not(:has(> :nth-child(3))) > *, .cs-grid.cols-4:not(:has(> :nth-child(3))) > * { flex: none; max-width: none; min-width: 0; }
 }

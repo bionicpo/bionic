@@ -4,7 +4,7 @@ seo_title: Careers at Bionic Prosthetics & Orthotics | Join Our Team
 seo_description: Explore careers and job openings at Bionic Prosthetics & Orthotics. Join a compassionate P&O team with opportunities for clinicians, support staff, and growth.
 body_class: page-hiring
 hero_lines: ["Build a career", "that moves", "people."]
-hero_images: ["/images/careers/grow-team-3.jpg", "/images/careers/grow-team-1.jpg", "/images/blog/aopa-2024-team-bionic-beats.webp", "/images/careers/residency-1.jpg", "/images/careers/grow-team-2.jpg", "/images/blog/bionic-s-brad-watson-named-to-naaop-board-of-directors.jpg", "/images/blog/preventing-muscle-contractures-after-amputation.jpg"]
+hero_images: ["/images/careers/strip-1-group.webp", "/images/careers/strip-2-clinic-bars.webp", "/images/careers/strip-3-sign.webp", "/images/careers/strip-4-booth.webp", "/images/careers/strip-5-team.webp", "/images/careers/strip-6-dinner.webp", "/images/careers/strip-7-costumes.webp"]
 hero:
   eyebrow: JOIN OUR TEAM
   title: Build a Career That Moves People
@@ -24,8 +24,8 @@ sections:
   - technology
   - trending-up
   - personalized
-  image: /images/about-team-group-photo.webp
-  image_alt: The Bionic team gathered for a group photo
+  image: /images/careers-family-dinner.webp
+  image_alt: The Bionic team gathered around a table at the conference dinner
 - type: cards
   eyebrow: THREE PATHWAYS TO JOIN US
   title: Wherever You Are in Your Career, We Have a Place for You
@@ -59,8 +59,8 @@ sections:
   title: Train Where It Matters. Graduate Ready.
   body: '<p>Our nationally recognized O&amp;P Residency Program is built around one idea: give residents the real world clinical experience, mentorship, and technology access to become confident, capable clinicians not just credentialed ones.</p><p>"Bionic offers a unique learning experience where you will be challenged, supported, and given meaningful opportunities to grow into a confident and capable clinician."</p><p>- Mohit Srivastava, Bionic Resident | Laredo, TX &amp; San Antonio, TX</p><ul><li>Exposure to a variety of clinical settings and diverse patient populations across our national network</li><li>Training in advanced imaging, 3D scanning, and 3D printing technologies at our fabrication center</li><li>Internal and external CEU opportunities through manufacturers, in services, and training events</li><li>Guidance on documentation, coding, and outcome based care, with hands on fabrication lab involvement from day one</li></ul>'
   layout: text-media
-  image: /images/careers/grow-team-3.jpg
-  image_alt: A group of Bionic clinicians and residents standing together in a clinic
+  image: /images/careers-train-lecture.webp
+  image_alt: A Bionic clinician teaching residents about AFO designs
   buttons:
   - text: Learn About the Residency Program
     link: /residency-program/

@@ -2,7 +2,7 @@
 title: Orthotics
 seo_title: Orthotics | Bionic Prosthetics and Orthotics
 seo_description: Discover custom orthotics and support solutions at Bionic Prosthetics. Custom and prefabricated braces and inserts designed to support comfort, alignment, and improved mobility.
-hero_images: ["/images/orthotics-overview.webp", "/images/home-service-orthotic-care.webp", "/images/upper-extremity-orthotics.webp", "/images/lower-extremity-orthotics.webp"]
+hero_images: ["/images/orthotics-overview.webp", "/images/orthotics-mosaic-baby-helmet.webp", "/images/orthotics-mosaic-spinal-brace.webp"]
 hero:
   eyebrow: YOUR PATH TO BETTER MOVEMENT
   title: Orthotic Solutions
@@ -40,24 +40,24 @@ sections:
     tone: orthotic
     link: /cranial-spinal/
     link_text: Explore Cranial & Spinal Solutions
-    image: /images/orthotics-cranial-spinal.webp
-    image_alt: Two children wearing cranial remolding helmets
+    image: /images/orthotics-card-cranial-helmet.webp
+    image_alt: A baby wearing a pink cranial helmet with a bow
   - title: Upper Extremity Orthotics
     description: Upper extremity orthotics help provide support and stability for conditions affecting the arm, wrist, or hand. Whether you need a brace for carpal tunnel, fractures, or rehabilitation post-surgery, our solutions can help improve function and reduce pain.
     icon: hand
     tone: orthotic
     link: /upper-extremity/
     link_text: Explore Upper Extremity Solutions
-    image: /images/orthotics-upper-extremity.webp
-    image_alt: A person wearing a black forearm and wrist brace
+    image: /images/orthotics-card-wrist-brace.webp
+    image_alt: A patient wearing a black forearm and wrist brace
   - title: Lower Extremity Orthotics
     description: For those dealing with foot pain, ankle instability, or knee conditions, our lower extremity orthotics are designed to improve alignment, reduce discomfort, and support mobility. From foot insoles to knee braces, we work to fit your lifestyle needs.
     icon: footprints
     tone: orthotic
     link: /lower-extremity/
     link_text: Explore Lower Extremity Solutions
-    image: /images/orthotics-lower-extremity.webp
-    image_alt: A person walking in a hinged knee brace and sneakers
+    image: /images/home-hero/kneebrace.webp
+    image_alt: A woman sitting on a rock wearing an ankle-foot orthosis
 - type: points
   eyebrow: OUR PROCESS
   title: Your Path to Better Movement

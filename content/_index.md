@@ -80,8 +80,8 @@ services:
     icon: layout-grid
     tone: orthotic
     link: /orthotics/
-    image: /images/home-service-orthotic-care.webp
-    image_alt: A close-up of a hand wearing a black custom wrist and forearm brace
+    image: /images/home-card-orthotic-boy-brace.webp
+    image_alt: A smiling boy in a spinal brace lying on a bed
   - title: Pediatric Prosthetics & Orthotics
     description: Children’s prosthetic and orthotic needs change as they grow, develop, and become more active.
     lead: 'Our pediatric care emphasizes:'
@@ -93,8 +93,8 @@ services:
     icon: baby
     tone: pediatric
     link: /prosthetics/pediatric/
-    image: /images/home-service-pediatric.webp
-    image_alt: A smiling baby wearing a pink cranial helmet with an orange bow
+    image: /images/home-card-pediatric-boy.webp
+    image_alt: A smiling boy wearing a spinal orthosis
 technology:
   eyebrow: INNOVATION IN MOTION
   title: Advanced Bionic & Microprocessor Solutions

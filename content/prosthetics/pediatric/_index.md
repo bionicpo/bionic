@@ -2,7 +2,8 @@
 title: "Pediatric Prosthetics"
 description: "Prosthetic care for children, designed to grow and adapt with them."
 
-hero_image: "/images/blog/jada-s-pediatric-afo-success-story.jpg"
+hero_image: "/images/pediatric-hero-boy-orthosis.webp"
+hero_image_alt: "A smiling boy wearing a spinal orthosis"
 hero:
   eyebrow: "PEDIATRIC CARE"
   title: "Prosthetic Care That Grows With Your Child"
@@ -23,8 +24,8 @@ sections:
       - "Clinicians experienced in working with children and families"
       - "Help understanding insurance and what to plan for as your child grows"
       - "Support resources for families and young patients"
-    image: "/images/blog/understanding-cranial-helmets-supporting-healthy-head-growth-in-babies.jpg"
-    image_alt: "A baby in a decorated cranial remolding helmet sitting on a blanket outdoors, smiling and reaching out"
+    image: "/images/pediatric-baby-cranial-helmet.webp"
+    image_alt: "A smiling baby in a cranial helmet with a rainbow bib"
 
   - type: "cards"
     eyebrow: "RELATED CARE"

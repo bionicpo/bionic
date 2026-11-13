@@ -1060,6 +1060,9 @@ figure.cs-quote { display: block; }
    Whole photo visible (contain) over a blurred copy of itself - no grey bars, nothing cropped or overlaid. */
 .services-grid .service-card { display: flex; flex-direction: column; padding: 24px; overflow: hidden; }
 .services-grid .service-card .card-link { margin-top: auto; }
+/* equal-height rows: card = column, body grows, link pinned to the bottom (no extra flex-grow on inner parts) */
+.services-grid .service-card-body { display: flex; flex-direction: column; flex: 1 1 auto; min-width: 0; }
+.services-grid .service-card-body .card-link { margin-top: auto; }
 .service-card-media { position: relative; isolation: isolate; overflow: hidden; aspect-ratio: 4 / 3; margin: -24px -24px 20px; border-radius: 0; background: #2b3550; }
 .service-card-media::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--ph) center / cover no-repeat; filter: blur(20px) brightness(.85); transform: scale(1.1); }
 .service-card-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block; }

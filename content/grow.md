@@ -32,8 +32,8 @@ sections:
   body: '<p>Do you want to be part of a team where your work makes a meaningful difference in people''s lives? At Bionic Prosthetics &amp; Orthotics, we believe great care starts with great people.</p><p>Founded in Merrillville, Indiana, Bionic has expanded from a local clinic into a network of clinics across 12 states. While we''ve expanded, we''ve stayed connected to our roots and remain committed to the communities we serve.</p><p>We''re looking for people who are passionate about their work, care about the people they serve, and want to develop their careers alongside a team that values collaboration, compassion, and innovation.</p><p>At each of our clinics, our team works together to advance prosthetic and orthotic care while keeping the patient at the center of everything we do.</p><p>At Bionic, you''ll have the opportunity to build your career, make a meaningful impact, and be part of a company that helps change lives every day.</p>'
   layout: heading-side
   quote: Great care starts with great people.
-  image: /images/blog/aopa-2024-team-bionic-beats.webp
-  image_alt: Bionic team members together at a conference booth
+  image: /images/grow-why-bionic-team.webp
+  image_alt: Bionic team members in matching blue polos posing together
 - type: apply-info
   id: apply
   title: Come Work With Us

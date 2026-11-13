@@ -52,13 +52,13 @@
     </div>
     <div class="hm-cards">
       {{- $svc := slice
-        (dict "img" "images/home-service-prosthetic-care" "alt" "A man seated in a clinic wearing a black prosthetic arm" "tag" "Prosthetic Care" "title" "Prosthetic legs and arms" "text" "For amputation caused by diabetes, vascular disease, trauma, or cancer, and for limb difference from birth." "url" "/prosthetics/")
-        (dict "img" "images/home-service-orthotic-care" "alt" "A hand wearing a black custom wrist and forearm brace" "tag" "Orthotic Care" "title" "Leg, foot, arm, and hand braces" "text" "Custom or prefabricated braces that steady a weak ankle, lift a dropped foot, protect a healing joint, or rest an overworked wrist." "url" "/orthotics/")
-        (dict "img" "images/cranial-spinal-scoliosis-orthoses" "alt" "A custom scoliosis back brace" "tag" "Spinal and Cranial Orthotics" "title" "Back braces, scoliosis braces, and cranial helmets" "text" "Custom TLSO and LSO back braces, scoliosis braces, and bracing after spine surgery, plus cranial molding helmets for babies 4 to 12 months old." "url" "/cranial-spinal/")
-        (dict "img" "images/home-service-pediatric" "alt" "A smiling baby wearing a pink cranial helmet with an orange bow" "tag" "Pediatric Prosthetics & Orthotics" "title" "Prosthetics for children" "text" "Kids grow fast and play hard. We fit devices that keep up, then adjust and replace them as your child grows." "url" "/prosthetics/pediatric/") -}}
+        (dict "img" "images/home-service-prosthetic-care" "pos" "72% 50%" "alt" "A man seated in a clinic wearing a black prosthetic arm" "tag" "Prosthetic Care" "title" "Prosthetic legs and arms" "text" "For amputation caused by diabetes, vascular disease, trauma, or cancer, and for limb difference from birth." "url" "/prosthetics/")
+        (dict "img" "images/home-card-orthotic-boy-brace" "pos" "50% 40%" "alt" "A smiling boy in a spinal brace lying on a bed" "tag" "Orthotic Care" "title" "Leg, foot, arm, and hand braces" "text" "Custom or prefabricated braces that steady a weak ankle, lift a dropped foot, protect a healing joint, or rest an overworked wrist." "url" "/orthotics/")
+        (dict "img" "images/home-card-cranial-baby" "pos" "50% 6%" "alt" "A smiling baby wearing a decorated cranial helmet on a blanket outdoors" "tag" "Spinal and Cranial Orthotics" "title" "Back braces, scoliosis braces, and cranial helmets" "text" "Custom TLSO and LSO back braces, scoliosis braces, and bracing after spine surgery, plus cranial molding helmets for babies 4 to 12 months old." "url" "/cranial-spinal/")
+        (dict "img" "images/home-card-pediatric-boy" "pos" "50% 14%" "alt" "A smiling boy wearing a spinal orthosis" "tag" "Pediatric Prosthetics & Orthotics" "title" "Prosthetics for children" "text" "Kids grow fast and play hard. We fit devices that keep up, then adjust and replace them as your child grows." "url" "/prosthetics/pediatric/") -}}
       {{- range $i, $s := $svc }}
       <article class="hm-card">
-        <a class="hm-card-img" href="{{ $s.url | relURL }}" tabindex="-1" aria-hidden="true">{{ partial "home/pic.html" (dict "src" $s.img "alt" "" "w" 700) }}</a>
+        <a class="hm-card-img" href="{{ $s.url | relURL }}" tabindex="-1" aria-hidden="true"{{ with $s.pos }} style="--pos: {{ . }}"{{ end }}>{{ partial "home/pic.html" (dict "src" $s.img "alt" "" "w" 700) }}</a>
         <div class="hm-card-body">
           <span class="hm-tag">{{ $s.tag }}</span>
           <h3><a href="{{ $s.url | relURL }}">{{ $s.title }}</a></h3>

@@ -1,5 +1,7 @@
 ---
 title: "Resources"
+hero_image: "/images/resources-hero-clinician-patient.webp"
+hero_image_alt: "A Bionic clinician standing with a patient who wears a prosthetic leg"
 
 hero:
   eyebrow: "RESOURCES"

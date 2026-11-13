@@ -27,8 +27,8 @@ sections:
   - type: "text-image"
     title: "Patient Online Registration"
     body: "Fill out the required forms in preparation for your upcoming appointment, and save time at the clinic."
-    image: "/images/about-empowering.png"
-    image_alt: "A Bionic clinician in a white coat talking with a seated patient who wears a prosthetic leg"
+    image: "/images/registration-front-desk.webp"
+    image_alt: "The Bionic waiting room with the front-desk window and logo on the wall"
     image_position: "right"
     cta_primary: true
     cta_text: "REGISTER"

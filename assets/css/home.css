@@ -63,8 +63,9 @@
 .hm-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
 .hm-card{position:relative;display:flex;flex-direction:column;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 6px 20px rgba(22,48,92,.06);transition:transform .3s,box-shadow .3s}
 .hm-card:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(22,48,92,.14)}
-.hm-card-img{position:relative;display:block;aspect-ratio:4/3;overflow:hidden;background:var(--hm-line)}
-.hm-card-img img{width:100%;height:100%;object-fit:contain;transition:transform .5s}
+/* photo fills the whole top of the card (4:3, no bars); --pos is the per-image focal point so faces and devices stay inside the frame */
+.hm-card-img{position:relative;display:block;aspect-ratio:4/3;overflow:hidden}
+.hm-card-img img{display:block;width:100%;height:100%;object-fit:cover;object-position:var(--pos,50% 50%);transition:transform .5s}
 .hm-card:hover .hm-card-img img{transform:scale(1.06)}
 .hm-card-body{display:flex;flex-direction:column;gap:10px;padding:22px;flex:1}
 .hm-card h3{margin:0;font-family:var(--font-serif);font-size:21px;font-weight:600;line-height:1.25}

@@ -28,16 +28,16 @@ sections:
     tone: prosthetic
     link: /lower-limb/
     link_text: Explore Lower Limb Solutions
-    image: /images/lower-limb-prosthetics.webp
-    image_alt: A man seated on a park bench wearing a prosthetic leg
+    image: /images/prosthetics-card-decorated-leg.webp
+    image_alt: A man seated with a decorated prosthetic leg
   - title: Upper Limb Prosthetics
     description: Upper limb prostheses can help improve function after an upper limb amputation, from a partial hand to a full arm.
     icon: hand
     tone: prosthetic
     link: /upper-limb/
     link_text: Explore Upper Limb Solutions
-    image: /images/prosthetics-upper-limb.webp
-    image_alt: A smiling man lifting a dumbbell with a prosthetic arm in a gym
+    image: /images/prosthetics-card-arm-prosthesis.webp
+    image_alt: A patient wearing a carbon-fibre shoulder and arm prosthesis
 - type: richtext
   body: <h3>Prosthetic Sockets</h3><p>Prosthetic sockets are the critical interface between the residual limb and the prosthesis. Custom-fitted for stability, a well-made socket supports a secure, comfortable fit. At Bionic P&amp;O, we use advanced materials and 3D scanning to shape each one.</p><h3>Prosthetic Liners</h3><p>Prosthetic liners provide a soft, cushioning layer between the residual limb and the prosthetic socket. They help reduce friction and absorb shock, and we offer customizable options.</p><h3>Prosthetic Accessories</h3><p>Accessories support the fit, comfort, and durability of your prosthesis, from socks and suspension sleeves to cosmetic covers and maintenance tools.</p>
   layout: rows

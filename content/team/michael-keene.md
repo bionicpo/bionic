@@ -5,7 +5,7 @@ name: Michael K Keene
 credentials: BOCO
 role: Certified/Licensed Orthotist
 location: Pennsylvania / New Jersey
-photo: /images/uploads/brad-watson.png
+photo: /images/uploads/michael-keene.png
 bio: <p>Michael is a certified orthotist with over 25 years of clinical
   experience and has served in the U.S. Navy Reserve for more than 15 years. He
   specializes in scoliosis bracing, complex wound care, and cranial remolding.

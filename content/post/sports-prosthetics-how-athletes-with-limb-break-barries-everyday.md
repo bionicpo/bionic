@@ -1,12 +1,15 @@
 ---
-title: "SPORTS & PROSTHETICS - HOW ATHLETES WITH LIMB BREAK BARRIES EVERYDAY."
-seo_title: "SPORTS & PROSTHETICS - HOW ATHLETES WITH LIMB BREAK BARRIES EVERYDAY."
+title: SPORTS & PROSTHETICS - HOW ATHLETES WITH LIMB LOSS BREAK BARRIERS EVERY DAY.
 date: 2025-11-29
-categories: ["Health and Wellness"]
-image: "/images/blog/what-to-know-about-your-first-prosthetic-leg-a-beginner-s-guide.jpg"
-image_alt: "A golfer with two prosthetic legs mid-swing on a golf course tee"
+categories:
+  - Health and Wellness
+image: /images/blog/what-to-know-about-your-first-prosthetic-leg-a-beginner-s-guide.jpg
+image_alt: A golfer with two prosthetic legs mid-swing on a golf course tee
+seo_title: SPORTS & PROSTHETICS - HOW ATHLETES WITH LIMB BREAK BARRIES EVERYDAY.
 entry_type: blog_post
-recent_posts: ["what-is-a-prosthetic-arm-a-complete-introduction-for-new-amputees", "understanding-prosthetics-what-to-expect-after-limb-loss"]
+recent_posts:
+  - what-is-a-prosthetic-arm-a-complete-introduction-for-new-amputees
+  - understanding-prosthetics-what-to-expect-after-limb-loss
 ---
 
 Sports are more than movement - they’re expression, identity, confidence, and freedom.For individuals with limb loss, adaptive sports offer a powerful path to reclaiming movement and rediscovering what the body can do. With today’s advancements in bionic prosthetics and orthotics, athletes around the world are running, cycling, swimming, climbing, and competing at elite levels. At Bionic Po, we support athletes of all ages and abilities in stepping back into the sports they love or discovering new ones.

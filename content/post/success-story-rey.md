@@ -1,16 +1,19 @@
 ---
-title: "The Bionic Difference: Reynaldo Morales"
-seo_title: "The Bionic Difference: Reynaldo Morales"
-seo_description: "Reynaldo Morales loves basketball. Now that he has a Bionic prosthetic, he's back to shooting hoops."
-date: 2022-04-07
 date_label: "Updated: Apr 7, 2022"
-author: "Jason Warne"
-categories: ["Success Stories"]
-image: "/images/blog/success-story-rey.png"
+title: "The Bionic Difference: Reynaldo Morales"
+date: 2022-04-07
+categories:
+  - Success Stories
+image: /images/blog/success-story-rey.png
+author: Jason Warne
 entry_type: blog_post
-recent_posts: ["the-bionic-difference-alexander-lecher", "success-story-peter"]
+recent_posts:
+  - the-bionic-difference-alexander-lecher
+  - success-story-peter
+seo_title: "The Bionic Difference: Reynaldo Morales"
+seo_description: Reynaldo Morales loves basketball. Now that he has a Bionic
+  prosthetic, he's back to shooting hoops.
 ---
-
 Updated: Apr 7, 2022
 
 By Jason Warne
@@ -21,7 +24,7 @@ Reynaldo Morales loves basketball. Growing up in Gary, Indiana, taught him a lov
 
 Even after Rey got his GED and joined the Laborer’s Union Local 41, his love for the game continued. Rey was making a good living and shooting hoops at the YMCA whenever he could, while attending Apprentice School in Logansport, IN. That’s when everything changed.
 
-“I flipped my pickup truck on a sudden curve in the road,” Rey says. “I thank God that I’m alive, because the vehicle flipped multiple times, and I fell out the passenger door. My leg felt like I had a cramp and the doctor said blood was flowing down to my feet, but not back up.”
+“I flipped my pickup truck on a sudden curve in the road,” Rey says. “I thank God that I’m alive, because the vehicle flipped multiple times, and I fell out the passenger door. My leg felt like I had a cramp and the doctor said blood was flowing down to my feet but not back up.”
 
 The result was a transfemoral amputation. “It’s wild. I was playing basketball at the local Y in Logansport that week. Then, boom.”
 
@@ -49,8 +52,8 @@ Are you curious about the difference that Bionic could make for you? Take a look
 
 Tags:
 
-- 3D printing
-- Clickmedical Revo Socket
-- BioDesigns High Fidelity socket
-- 3D scanning
-- transfemoral amputation
+* 3D printing
+* Clickmedical Revo Socket
+* BioDesigns High Fidelity socket
+* 3D scanning
+* transfemoral amputation

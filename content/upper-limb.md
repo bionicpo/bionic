@@ -33,7 +33,7 @@ sections:
     description: Prosthetic solutions for patients with amputation through or above the shoulder joint. Continuing advances in technology provide these patients with a highly functional prosthesis.
     image: /images/upper-limb-shoulder.webp
     image_alt: Shoulder prosthesis fitted to a mannequin
-    tone: dark
+    tone: light
   - title: Above the Elbow
     subtitle: Transhumeral / Elbow Disarticulation
     description: Individualized care for patients with amputation through the elbow joint or bone of the upper arm. Bionic offers everything from passive, cosmetic options to computerized, integrated systems.

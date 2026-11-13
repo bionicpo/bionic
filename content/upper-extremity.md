@@ -32,12 +32,12 @@ sections:
     description: Orthoses which provide support and immobilization to the joints of the upper extremity. These devices are often utilized in upper extremity fractures to facilitate bone healing and stabilize the joint throughout the healing process.
     image: /images/upper-extremity-fracture-bracing.webp
     image_alt: Shoulder and arm fracture brace
-    tone: photo
+    tone: light
   - title: Post-Op Bracing
     description: Orthotic solutions to treat conditions such as osteoarthritis, muscular weakness, ligament injury or joint instabilities in the upper extremity; often utilized in post-operative and rehabilitation settings.
     image: /images/upper-extremity-post-op-bracing.webp
     image_alt: Hinged elbow brace with a sling for post-op recovery
-    tone: photo
+    tone: light
 - type: points
   eyebrow: WHAT TO EXPECT
   title: What Can Happen in an Evaluation

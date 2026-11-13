@@ -27,7 +27,7 @@ sections:
     description: The cranial molding helmet is used to treat deformational plagiocephaly, brachycephaly, or scaphocephaly in children ages 4 to 12 months. Our cranial molding helmets are custom-fabricated.
     image: /images/cranial-spinal-cranial-remolding-helmet.webp
     image_alt: Baby wearing a cranial remolding helmet
-    tone: photo
+    tone: light
   - title: Protective Helmet
     description: Protective helmets are utilized to protect the cranium in conditions such as post-surgical states, self-harming conditions, and frequent fall risk (ie. seizures).
     image: /images/cranial-spinal-protective-helmet.webp
@@ -37,7 +37,7 @@ sections:
     description: Protects the patient's facial structure following an injury, fracture or surgery. These devices are custom fit and often used in athletics.
     image: /images/cranial-spinal-face-shield-orthoses.webp
     image_alt: Woman wearing a clear face shield orthosis
-    tone: photo
+    tone: light
 - type: product-cards
   eyebrow: SPINAL SOLUTIONS
   title: Spinal Orthoses
@@ -47,7 +47,7 @@ sections:
     description: Custom fabricated back brace designed to help manage curve progression in scoliosis. The devices are highly custom and require frequent adjustments and follow-up care.
     image: /images/cranial-spinal-scoliosis-orthoses.webp
     image_alt: Scoliosis back brace
-    tone: dark
+    tone: light
   - title: Cervical Orthoses
     description: Orthotic devices which stabilize the cervical and sometimes thoracic portions of the spine. The devices can be custom fabricated or off-the-shelf depending on the severity.
     image: /images/cranial-spinal-cervical-orthoses.webp
@@ -57,12 +57,12 @@ sections:
     description: This type of back brace supports the lumbar and sacral portions of the spine. Often utilized in post-operative, trauma and spinal patholgies such as stenosis, spondylolythesis and radiculopathy.
     image: /images/cranial-spinal-lso.webp
     image_alt: Lumbar sacral orthosis back brace
-    tone: photo
+    tone: light
   - title: Thoracic Lumbar Sacral Orthoses (TLSO)
     description: This type of back brace supports the thoracic, lumbar and sacral sections of the spine. Utilized in post-operative support, motion restriction, pain management and spinal off-loading while healing.
     image: /images/cranial-spinal-tlso.webp
     image_alt: Thoracic lumbar sacral orthosis back brace
-    tone: dark
+    tone: light
 - type: cta-band
   title: Call Today to Schedule Your Free Consultation
   body: Our certified orthotists design cranial and spinal solutions tailored to your condition and your recovery goals.

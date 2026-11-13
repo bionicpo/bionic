@@ -49,12 +49,12 @@ sections:
     description: Partial foot prostheses help restore the functional lever arm of the foot and can improve appearance.
     image: /images/lower-limb-foot-and-partial-foot.webp
     image_alt: Partial foot prosthesis
-    tone: flat
+    tone: light
   - title: Silicone Restoration
     description: Silicone restoration replicates the patient’s intact limb in fine detail such as wrinkles, hair, freckles, skin tone and shape.
     image: /images/lower-limb-silicone-restoration.webp
     image_alt: Silicone restoration prosthesis
-    tone: blur
+    tone: light
 - type: points
   eyebrow: KNOW YOUR MOBILITY LEVEL
   title: What Is a K-Level?

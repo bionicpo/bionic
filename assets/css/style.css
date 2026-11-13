@@ -1081,17 +1081,14 @@ figure.cs-quote { display: block; }
 .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; align-items: stretch; }
 .product-card { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-card); transition: box-shadow .2s ease, transform .2s ease; }
 .product-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-4px); }
+/* Every product card shows a clean cut-out on pure white: same box, same 24px padding, product centred and
+   contained (a tall product fills ~83% of the box). The tone-* classes set in the CMS no longer change the look. */
 .product-media { position: relative; height: 280px; background: #fff; overflow: hidden; }
-/* images with a grey backdrop baked in, and full-bleed photos, keep the matching grey so no frame shows */
-.product-media.tone-flat, .product-media.tone-dark, .product-media.tone-photo { background: var(--bg-product); }
-.product-media img { position: absolute; inset: 16px; width: calc(100% - 32px); height: calc(100% - 32px); object-fit: contain; display: block; }
-.product-media.tone-light img { mix-blend-mode: multiply; }
-.product-media.tone-flat img, .product-media.tone-dark img { mix-blend-mode: normal; } /* backdrop already baked to #f0f0f0 in the image */
-.product-media.tone-photo img { inset: 0; width: 100%; height: 100%; }
-/* tone: blur - photos that are not on a plain backdrop: whole photo (contain) over a blurred copy of itself, no grey box, no crop */
-.product-media.tone-blur { isolation: isolate; background: #2b3550; }
-.product-media.tone-blur::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--ph) center / cover no-repeat; filter: blur(20px) brightness(.85); transform: scale(1.1); }
-.product-media.tone-blur img { mix-blend-mode: normal; }
+.product-media img { position: absolute; inset: 24px; width: calc(100% - 48px); height: calc(100% - 48px); object-fit: contain; object-position: center; display: block; mix-blend-mode: multiply; }
+/* tone: photo - a real photo (not a cut-out): shown whole at the top of the card, full card width, never cropped,
+   never scaled past its own size (the box shrinks to the photo instead of upscaling it) */
+.product-media.tone-photo { height: auto; }
+.product-media.tone-photo img { position: static; inset: auto; display: block; width: 100%; max-width: 800px; height: auto; margin-inline: auto; mix-blend-mode: normal; }
 .product-body { padding: 24px 26px 28px; display: flex; flex-direction: column; flex: 1; }
 .product-body h3 { font-size: 22px; margin-bottom: 4px; color: var(--ink-strong); }
 .product-sub { font-size: 12.5px; font-weight: 700; letter-spacing: .3px; color: var(--brand); text-transform: none; margin: 0 0 12px; line-height: 1.45; }
@@ -1099,6 +1096,14 @@ figure.cs-quote { display: block; }
 .cs-quote-wrap { max-width: 980px; }
 .product-body h3 + .product-desc { margin-top: 8px; }
 .product-grid.is-quad { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* laptop+: cards sit on a 6-track grid (3 per row); a short last row (1 or 2 cards) is centred, not left-aligned */
+@media (min-width: 1025px) {
+  .product-grid:not(.is-quad) { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .product-grid:not(.is-quad) > * { grid-column: span 2; }
+  .product-grid:not(.is-quad) > :last-child:nth-child(3n+1) { grid-column: 3 / span 2; }
+  .product-grid:not(.is-quad) > :nth-last-child(2):nth-child(3n+1) { grid-column: 2 / span 2; }
+  .product-grid:not(.is-quad) > :last-child:nth-child(3n+2) { grid-column: 4 / span 2; }
+}
 
 .cs-overlay { min-height: 440px; }
 .cs-overlay .image-banner-overlay { background: rgba(8, 16, 48, 0.66); }

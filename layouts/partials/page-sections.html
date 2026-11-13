@@ -12,7 +12,9 @@
 
 {{ if eq $s.type "text-image" }}
 {{ $img := $s.image | default $.Params.image | default site.Params.defaultImage }}
-<section class="section about-section text-image-section">
+{{- /* A text-only intro directly above a product grid acts as that grid's heading: tighter gap, shared width. */ -}}
+{{ $lead := and (not $img) (lt (add $i 1) (len $.Params.sections)) (eq (index $.Params.sections (add $i 1)).type "product-cards") }}
+<section class="section about-section text-image-section{{ if $lead }} is-lead{{ end }}">
   <div class="container about-inner {{ if eq $s.image_position "left" }}reverse{{ end }}{{ if not $img }} no-media{{ end }}">
     {{ with $img }}
     <div class="about-media reveal" data-reveal="up">
@@ -31,13 +33,14 @@
 </section>
 
 {{ else if eq $s.type "product-cards" }}
-<section class="section product-section"{{ with $s.id }} id="{{ . }}"{{ end }}>
+{{ $afterLead := false }}{{ if gt $i 0 }}{{ with index $.Params.sections (sub $i 1) }}{{ $afterLead = and (eq .type "text-image") (not .image) (not $.Params.image) (not site.Params.defaultImage) }}{{ end }}{{ end }}
+<section class="section product-section{{ if $afterLead }} after-lead{{ end }}"{{ with $s.id }} id="{{ . }}"{{ end }}>
   <div class="container">
-    <div class="section-heading reveal" data-reveal="fade">
+    {{ if or $s.eyebrow $s.title $s.body }}<div class="section-heading reveal" data-reveal="fade">
       {{ with $s.eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
       <h2>{{ $s.title }}</h2>
       {{ with $s.body }}<p class="lead">{{ partial "rt.html" . }}</p>{{ end }}
-    </div>
+    </div>{{ end }}
     <div class="product-grid{{ if eq (len $s.items) 4 }} is-quad{{ end }}">
       {{ range $j, $item := $s.items }}
       <article class="product-card reveal" data-reveal="up" style="--delay: {{ mul (mod $j 3) 0.08 }}s">
@@ -108,7 +111,7 @@
     <div class="card-grid services-grid">
       {{ range $j, $item := $s.items }}
       <a href="{{ .link }}" class="service-card reveal" data-reveal="up" style="--delay: {{ mul $j 0.1 }}s">
-        {{ with .image }}<div class="service-card-media">{{ partial "img.html" (dict "src" . "alt" $item.image_alt "sizes" "(max-width: 768px) 100vw, 480px") }}</div>{{ end }}
+        {{ with .image }}<div class="service-card-media" style="--ph:url('{{ . }}')">{{ partial "img.html" (dict "src" . "alt" $item.image_alt "sizes" "(max-width: 768px) 100vw, 480px") }}</div>{{ end }}
         <div class="service-icon service-icon-{{ .tone | default .icon }}">{{ partial "icon.html" .icon }}</div>
         <h3>{{ .title }}</h3>
         <p>{{ partial "rt.html" .description }}</p>

@@ -17,8 +17,6 @@ sections:
   title: Devices Designed Around Your Life
   body: Prosthetics are artificial devices that replace a missing limb or part of one. They can help people keep up with daily activities and live more independently.
   image_position: right
-- type: richtext
-  body: <p>Not sure if a prosthetic is right for you? A conversation can help clarify your options.</p>
 - type: cards
   eyebrow: PROSTHETIC SOLUTIONS WE OFFER
   title: Explore Our Prosthetic Care
@@ -63,8 +61,8 @@ sections:
   title: Prosthetic Care Near You
   body: <p>At Bionic P&amp;O, we understand the importance of receiving local, accessible care that is both professional and compassionate. Whether you need an initial consultation, a fitting, or ongoing support, our team is here to help.</p><p>With locations across the country, we bring expert care close to home. Our clinics are equipped with current technology, and our Board-Certified Prosthetists (CPOs) tailor care to your needs.</p>
   layout: split
-  image: /images/clinical-team.png
-  image_alt: A Bionic clinical team member with a patient
+  image: /images/clinics/charlotte.webp
+  image_alt: Bionic P&O clinic in Charlotte, NC
   buttons:
   - text: Find A Prosthetist Near You
     link: /locations/
@@ -80,7 +78,7 @@ sections:
     link: tel:2197919200
 - type: richtext
   title: Why Choose Bionic P&O Prosthetics?
-  body: '<h3>Proven Excellence in Prosthetics &amp; Patient Care</h3><p>As a leader in prosthetic care, Bionic P&amp;O combines technology, craftsmanship, and personal attention. Here''s why we''re trusted by individuals and healthcare professionals alike:</p><ul><li>Cutting-Edge Technology: We use advanced microprocessor-controlled limbs (MPKs) that adapt to your walking pattern for smoother, more natural movement.</li><li>Experienced Prosthetists: Our team consists of Board-Certified Prosthetists (CPOs) with decades of experience working with diverse patient needs and mobility levels.</li><li>Patient-Centered Care: Your goals and well-being drive every decision, ensuring a prosthetic solution that aligns with your unique needs and lifestyle.</li><li>Clinical Outcomes: Trusted by clinics, hospitals, and rehabilitation centers nationwide for our consistent, positive patient outcomes.</li></ul>'
+  body: '<p>As a leader in prosthetic care, Bionic P&amp;O combines technology, craftsmanship, and personal attention. Here''s why we''re trusted by individuals and healthcare professionals alike:</p><ul><li><strong>Cutting-Edge Technology</strong> We use advanced microprocessor-controlled limbs (MPKs) that adapt to your walking pattern for smoother, more natural movement.</li><li><strong>Experienced Prosthetists</strong> Our team consists of Board-Certified Prosthetists (CPOs) with decades of experience working with diverse patient needs and mobility levels.</li><li><strong>Patient-Centered Care</strong> Your goals and well-being drive every decision, ensuring a prosthetic solution that aligns with your unique needs and lifestyle.</li><li><strong>Clinical Outcomes</strong> Trusted by clinics, hospitals, and rehabilitation centers nationwide for our consistent, positive patient outcomes.</li></ul>'
   layout: feature-list
   icons:
   - technology

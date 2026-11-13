@@ -19,9 +19,11 @@ sections:
   image_position: right
   note_html: A conversation can help clarify your options.
 - type: richtext
-  body: <h3>Custom or Prefabricated</h3><p>Custom orthoses are fabricated from a cast or 3D scan of your body and suit complex conditions, unusual anatomy, or long-term use. Prefabricated orthoses come in standard sizes and are adjusted to fit you in the clinic. They are often a good choice for short-term needs, early recovery, and many common conditions, and they are usually available sooner. Your orthotist recommends the option that suits your diagnosis, activity level, and how long you need the device.</p><h3>Clinician-Directed Care</h3><p>Our board-certified orthotists conduct thorough evaluations, collaborate with your physicians, and continuously adjust your device as your needs evolve.</p><h3>Evidence-Based Technology</h3><p>We combine clinical expertise with the latest materials, carbon fiber, dynamic thermoplastics, and microprocessor-assisted joints for optimal outcomes.</p><h3>Ongoing Support</h3><p>Our team remains available for follow-up care, adjustments, and guidance to help ensure your orthosis continues to support your comfort, mobility, and everyday goals.</p>
+  eyebrow: OUR APPROACH
+  title: How We Approach Your Orthotic Care
+  body: <h3>Custom or Prefabricated</h3><p>Custom orthoses are made from a cast or 3D scan for complex or long-term needs. Prefabricated ones are adjusted in clinic and available sooner. Your orthotist recommends the right fit.</p><h3>Clinician-Directed Care</h3><p>Our board-certified orthotists conduct thorough evaluations, collaborate with your physicians, and continuously adjust your device as your needs evolve.</p><h3>Evidence-Based Technology</h3><p>We combine clinical expertise with the latest materials, carbon fiber, dynamic thermoplastics, and microprocessor-assisted joints for optimal outcomes.</p><h3>Ongoing Support</h3><p>Our team remains available for follow-up care, adjustments, and guidance to help ensure your orthosis continues to support your comfort, mobility, and everyday goals.</p>
   layout: cards
-  cols: '2'
+  cols: '4'
   icons:
   - ruler
   - stethoscope
@@ -85,15 +87,15 @@ sections:
 - type: richtext
   title: Orthotic Care Near You
   body: <p>At Bionic P&amp;O, we ensure that expert orthotic care is accessible. Whether you're seeking an initial consultation, orthotic fitting, or follow-up care, our clinics are located across the country to serve you. Our Board-Certified Orthotists (CPOs) are ready to provide personalized care that meets your unique needs.</p>
-  layout: overlay
-  image: /images/orthotics-orthotic-care.webp
-  image_alt: A therapist helping a patient with a prosthetic leg stretch on a mat in a bright studio
+  layout: split
+  image: /images/clinics/hickory.webp
+  image_alt: Bionic P&O clinic in Hickory, NC
   buttons:
   - text: Find an Orthotist Near Me
     link: /locations/
 - type: richtext
   title: Why Choose Bionic P&O Orthotics?
-  body: '<h3>Proven Excellence in Orthotic Care</h3><ul><li>Cutting-Edge Technology: We use 3D scanning and custom fabrication when a custom device is the right choice.</li><li>Experienced Orthotists: Our team of Board-Certified Orthotists (CPOs) has years of experience providing personalized care for various conditions.</li><li>Patient-Centered Care: We focus on your comfort, needs, and goals, creating a solution that aligns with your lifestyle.</li><li>Clinical Outcomes: Trusted by clinics, hospitals, and rehabilitation centers nationwide for positive patient outcomes.</li></ul>'
+  body: '<ul><li><strong>Cutting-Edge Technology</strong> We use 3D scanning and custom fabrication when a custom device is the right choice.</li><li><strong>Experienced Orthotists</strong> Our team of Board-Certified Orthotists (CPOs) has years of experience providing personalized care for various conditions.</li><li><strong>Patient-Centered Care</strong> We focus on your comfort, needs, and goals, creating a solution that aligns with your lifestyle.</li><li><strong>Clinical Outcomes</strong> Trusted by clinics, hospitals, and rehabilitation centers nationwide for positive patient outcomes.</li></ul>'
   layout: feature-list
   icons:
   - technology

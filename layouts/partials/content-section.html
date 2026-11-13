@@ -85,12 +85,13 @@
         {{- $ul := index (findRE `<ul>.*?</ul>` $rest 1) 0 | default "" -}}
         {{- $pre := replace $rest $ul "" -}}
         {{- $icons := $s.icons | default (slice "technology" "certified" "personalized" "star") -}}
-        {{- if and $s.image (not $pre) }}
+        {{- if $s.image }}
         <div class="cs-feature-split">
           <div class="cs-feature-media reveal" data-reveal="up">{{ partial "img.html" (dict "src" $s.image "alt" ($s.image_alt | default $s.title)) }}</div>
           <div>
             {{- with $h3 }}<h3 class="cs-subhead cs-subhead-top">{{ . | replaceRE `</?h3>` "" | safeHTML }}</h3>{{ end }}
-            <div class="cs-grid cols-1 cs-features cs-features-stack">
+            {{- with $pre }}<div class="cs-prose cs-feature-intro">{{ partial "cs-rich.html" . }}</div>{{ end }}
+            <div class="cs-grid cols-2 cs-features cs-features-stack">
               {{- range $i, $li := findRE `<li>.*?</li>` $ul }}
               <article class="cs-card">
                 <span class="cs-icon">{{ partial "icon.html" (index $icons (mod $i (len $icons))) }}</span>
@@ -100,19 +101,11 @@
             </div>
           </div>
         </div>
-        {{- else if $s.image }}
-        <div class="cs-feature-lead">
-          <div class="cs-feature-media reveal" data-reveal="up">{{ partial "img.html" (dict "src" $s.image "alt" ($s.image_alt | default $s.title)) }}</div>
-          <div>
-            {{- with $h3 }}<h3 class="cs-subhead cs-subhead-top">{{ . | replaceRE `</?h3>` "" | safeHTML }}</h3>{{ end }}
-            {{- with $pre }}<div class="cs-prose">{{ partial "cs-rich.html" . }}</div>{{ end }}
-          </div>
-        </div>
         {{- else }}
         {{- with $h3 }}<h3 class="cs-subhead cs-subhead-top">{{ . | replaceRE `</?h3>` "" | safeHTML }}</h3>{{ end }}
         {{- with $pre }}<div class="cs-prose cs-center">{{ partial "cs-rich.html" . }}</div>{{ end }}
         {{- end }}
-        {{- if not (and $s.image (not $pre)) }}
+        {{- if not $s.image }}
         <div class="cs-grid cols-2 cs-features">
           {{- range $i, $li := findRE `<li>.*?</li>` $ul }}
           <article class="cs-card">

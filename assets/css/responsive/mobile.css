@@ -133,7 +133,6 @@ body { padding-bottom: 72px; }
 .product-grid { grid-template-columns: 1fr; gap: 22px; }
 .product-media { height: 240px; }
 .product-body { padding: 20px 20px 24px; }
-.product-grid.is-quad { grid-template-columns: 1fr; }
 
 .cs-overlay-inner { padding-block: 56px; }
 .cs-overlay-inner .cs-prose { font-size: 16px; }
@@ -148,11 +147,11 @@ body { padding-bottom: 72px; }
 
 /* Long card lists become a swipe carousel: scroll-snap, the next card peeks in from the right */
 @media (max-width: 640px) {
-  .services-grid:has(.service-card-media), .product-grid, .cs-grid.cols-3, .cs-grid.cols-4 {
-    display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(82%, 340px); gap: 14px;
+  .services-grid:has(.service-card-media), .product-grid, .product-grid.is-quad, .cs-grid.cols-3, .cs-grid.cols-4 {
+    display: grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: min(82%, 340px); gap: 14px; align-items: start;
     overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: 16px;
     margin-inline: -16px; padding: 4px 16px 14px; scrollbar-width: none;
   }
-  .services-grid:has(.service-card-media)::-webkit-scrollbar, .product-grid::-webkit-scrollbar, .cs-grid.cols-3::-webkit-scrollbar, .cs-grid.cols-4::-webkit-scrollbar { display: none; }
+  .services-grid:has(.service-card-media)::-webkit-scrollbar, .product-grid::-webkit-scrollbar, .product-grid.is-quad::-webkit-scrollbar, .cs-grid.cols-3::-webkit-scrollbar, .cs-grid.cols-4::-webkit-scrollbar { display: none; }
   .services-grid:has(.service-card-media) > *, .product-grid > *, .cs-grid.cols-3 > *, .cs-grid.cols-4 > * { scroll-snap-align: start; min-width: 0; max-width: none; }
 }

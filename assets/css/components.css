@@ -40,16 +40,19 @@
 /* Bionic Beats edition cover grid */
 .edition-section { background: var(--cream, #f7f5f0); }
 .edition-intro { margin: 0; font-weight: 600; }
-.edition-grid { list-style: none; margin: 32px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+/* wraps in centred rows, so a short last row is centred instead of left-aligned */
+.edition-grid { --ed-cols: 4; --ed-gap: 24px; list-style: none; margin: 32px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--ed-gap); }
+.edition-grid > li { flex: 0 0 calc((100% - (var(--ed-cols) - 1) * var(--ed-gap)) / var(--ed-cols)); min-width: 0; }
 .edition-card { margin: 0; min-width: 0; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 14px rgba(20, 30, 60, .1); transition: transform .25s ease, box-shadow .25s ease; }
 .edition-card a { display: block; text-decoration: none; color: inherit; }
-.edition-cover { display: block; aspect-ratio: 16 / 9; overflow: hidden; }
-.edition-cover img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
+/* covers are ~5:4 pictures: show the whole cover, never a cropped strip of it */
+.edition-cover { display: block; aspect-ratio: 5 / 4; overflow: hidden; background: #fff; }
+.edition-cover img { display: block; width: 100%; height: 100%; object-fit: contain; transition: transform .35s ease; }
 .edition-label { display: block; padding: 14px 16px; text-align: center; font-weight: 600; }
 .edition-card:hover, .edition-card:focus-within { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(20, 30, 60, .18); }
 .edition-card:hover .edition-cover img, .edition-card:focus-within .edition-cover img { transform: scale(1.03); }
-@media (max-width: 1024px) { .edition-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (max-width: 640px) { .edition-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } .edition-label { padding: 12px 10px; } }
+@media (max-width: 1024px) { .edition-grid { --ed-cols: 3; } }
+@media (max-width: 640px) { .edition-grid { --ed-cols: 2; --ed-gap: 14px; } .edition-label { padding: 12px 10px; } }
 @media (prefers-reduced-motion: reduce) { .edition-card, .edition-cover img { transition: none; } }
 
 /* photo pair (2-up gallery) */
@@ -82,7 +85,7 @@
 
 /* Header nav stays on one line between 1025px and 1200px */
 .nav-link, .nav-link-toggle { white-space: nowrap; }
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   .header-inner { gap: 16px; }
   .main-nav > ul { gap: 18px; }
   .nav-link { font-size: 13.5px; }
@@ -148,6 +151,11 @@
 .res-count { color: var(--ink-soft); font-weight: 500; }
 .res-head p { margin: 0; color: var(--ink-muted); font-size: 16px; line-height: 1.55; }
 .res-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+@media (min-width: 1025px) {
+  /* no card left alone on the last row: four cards are 2 + 2, a lone last card is centred */
+  .res-grid:has(> :nth-child(4):last-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .res-grid > :last-child:nth-child(3n+1):not(:only-child):not(:nth-child(4)) { grid-column: 2; }
+}
 .res-card { display: flex; flex-direction: column; padding: 22px 24px; background: #fff; border: 1px solid var(--border-soft); border-radius: 16px; box-shadow: var(--shadow-card); color: inherit; text-decoration: none; transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease; }
 a.res-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-3px); border-color: var(--brand); }
 .res-card h3 { font-size: 17px; line-height: 1.35; margin: 0 0 8px; color: var(--ink-strong); }

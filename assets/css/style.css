@@ -484,7 +484,8 @@ button.current-location-link:disabled { opacity: 0.6; cursor: wait; }
 /* ==========================================================================
    Text/image block (reversible)
    ========================================================================== */
-.text-image-section .about-inner.reverse { flex-direction: row-reverse; }
+/* image-left variant: desktop only; tablet.css stacks it (text first) */
+@media (min-width: 1025px) { .text-image-section .about-inner.reverse { flex-direction: row-reverse; } }
 
 /* ==========================================================================
    Simple link chip list (reuses state-chip look for non-location lists)
@@ -1087,11 +1088,11 @@ figure.cs-quote { display: block; }
 .product-media.tone-light img { mix-blend-mode: multiply; }
 .product-media.tone-flat img, .product-media.tone-dark img { mix-blend-mode: normal; } /* backdrop already baked to #f0f0f0 in the image */
 .product-media.tone-photo img { inset: 0; width: 100%; height: 100%; }
-.product-body { padding: 24px 26px 28px; display: flex; flex-direction: column; flex: 1; }
 /* tone: blur - photos that are not on a plain backdrop: whole photo (contain) over a blurred copy of itself, no grey box, no crop */
 .product-media.tone-blur { isolation: isolate; background: #2b3550; }
 .product-media.tone-blur::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--ph) center / cover no-repeat; filter: blur(20px) brightness(.85); transform: scale(1.1); }
 .product-media.tone-blur img { mix-blend-mode: normal; }
+.product-body { padding: 24px 26px 28px; display: flex; flex-direction: column; flex: 1; }
 .product-body h3 { font-size: 22px; margin-bottom: 4px; color: var(--ink-strong); }
 .product-sub { font-size: 12.5px; font-weight: 700; letter-spacing: .3px; color: var(--brand); text-transform: none; margin: 0 0 12px; line-height: 1.45; }
 .product-desc { font-size: 15px; line-height: 1.7; color: var(--ink-muted); margin: 0; }
@@ -1155,7 +1156,6 @@ figure.cs-quote { display: block; }
   .cs-side.is-text-media { grid-template-columns: minmax(0, 1fr); row-gap: 28px; }
   .cs-side.is-text-media .cs-side-copy, .cs-side.is-text-media .cs-side-media, .cs-side.is-text-media .cs-side-main { grid-column: auto; grid-row: auto; margin: 0; }
   .cs-side-quote .cs-quote { margin-top: 0; }
-}
 }
 @media (max-width: 900px) {
   .cs-feature-split { grid-template-columns: minmax(0, 1fr); gap: 28px; }

@@ -211,3 +211,19 @@
 
 ul.hm-text{padding-left:20px;list-style:disc}
 ul.hm-text li{margin:8px 0}
+
+/* ---- phones and small tablets: long card lists are a swipe carousel (scroll-snap, next card peeks in);
+   section padding is tighter. Cards keep their own look. ---- */
+@media (max-width:768px){
+  .hm-quotes,.hm-cards,.hm-blog-grid,.hm-qa,.hm-kscale{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(82%,340px);gap:14px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:24px;margin-inline:-24px;padding:6px 24px 16px;scrollbar-width:none}
+  .hm-quotes::-webkit-scrollbar,.hm-cards::-webkit-scrollbar,.hm-blog-grid::-webkit-scrollbar,.hm-qa::-webkit-scrollbar,.hm-kscale::-webkit-scrollbar{display:none}
+  .hm-quotes>*,.hm-cards>*,.hm-blog-grid>*,.hm-qa>*,.hm-kscale>*{scroll-snap-align:start;min-width:0}
+  .hm-quotes figure{padding:24px}
+  .hm-quotes figure:hover,.hm-card:hover{transform:none}
+  .hm-head{margin-bottom:32px}
+  .hm-hero{padding:32px 0 48px}
+  .hm-cta{padding:36px 22px}
+}
+@media (max-width:640px){
+  .hm-quotes,.hm-cards,.hm-blog-grid,.hm-qa,.hm-kscale{scroll-padding-inline:16px;margin-inline:-16px;padding-inline:16px}
+}

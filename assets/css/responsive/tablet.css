@@ -17,36 +17,47 @@ h2 { font-size: 28px; }
 /* Utility bar */
 .utility-follow { display: none; }
 
-/* Header / nav collapses to hamburger */
-.main-nav {
-  display: none;
-  position: absolute;
-  top: 100%; left: 0; right: 0;
-  background: #fff;
-  border-bottom: 1px solid var(--border);
-  z-index: 40;
-}
-.main-nav.is-open { display: block; padding: 8px 24px 20px; }
-.main-nav ul { flex-direction: column; gap: 4px; }
-.nav-link,
-.nav-link-toggle { padding: 12px 0; justify-content: space-between; border-bottom: 1px solid var(--border-soft); width: 100%; text-align: left; }
-.site-header { position: relative; }
-.header-cta .btn-outline-dark { display: none; }
-.nav-toggle { display: flex; }
+/* Header / nav collapses to hamburger below 1024px (the full desktop nav fits from 1024px up) */
+@media (max-width: 1023px) {
+  .header-inner { gap: 12px; }
+  .header-cta { margin-left: auto; }
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    z-index: 40;
+  }
+  .main-nav.is-open { display: block; padding: 8px 24px 20px; }
+  .main-nav ul { flex-direction: column; gap: 4px; }
+  .nav-link,
+  .nav-link-toggle { padding: 12px 0; justify-content: space-between; border-bottom: 1px solid var(--border-soft); width: 100%; text-align: left; }
+  .site-header { position: relative; }
+  .header-cta .btn-outline-dark { display: none; }
+  .nav-toggle { display: flex; width: 44px; height: 44px; padding: 10px 6px; box-sizing: border-box; margin-right: -6px; }
 
-/* Dropdowns become inline/stacked inside the mobile menu */
-.has-dropdown { position: static; }
-.dropdown-panel {
-  position: static; opacity: 1; visibility: visible; transform: none;
-  width: auto;
-  display: none;
-  margin: 4px 0 8px; padding: 0 0 0 14px;
-  border: none; box-shadow: none; border-radius: 0;
+  /* Dropdowns become inline/stacked inside the mobile menu */
+  .has-dropdown { position: static; }
+  .dropdown-panel {
+    position: static; opacity: 1; visibility: visible; transform: none;
+    width: auto;
+    display: none;
+    margin: 4px 0 8px; padding: 0 0 0 14px;
+    border: none; box-shadow: none; border-radius: 0;
+  }
+  .has-dropdown.is-open .dropdown-panel { display: block; }
+  .dropdown-item { padding: 10px 0; border-bottom: 1px solid var(--border-soft); border-radius: 0; }
+  .dropdown-item-title { white-space: normal; }
+  .has-dropdown::after { content: none; }
+
+  /* Find a Clinic mega menu: desktop button hidden, accordion shown in the mobile menu */
+  .header-find { display: none; }
+  .nav-find-mobile { display: block; }
+  .mega-panel { width: auto; padding: 0 0 0 14px; }
+  .mega-head { flex-direction: column; align-items: flex-start; gap: 4px; padding: 6px 0 8px; }
+  .mega-link { padding: 11px 0; border-radius: 0; border-bottom: 1px solid var(--border-soft); }
 }
-.has-dropdown.is-open .dropdown-panel { display: block; }
-.dropdown-item { padding: 10px 0; border-bottom: 1px solid var(--border-soft); border-radius: 0; }
-.dropdown-item-title { white-space: normal; }
-.has-dropdown::after { content: none; }
 
 /* Hero */
 .hero-inner { flex-direction: column; align-items: stretch; gap: 40px; }
@@ -92,13 +103,6 @@ h2 { font-size: 28px; }
 /* CTA band */
 .final-cta-inner { padding-block: 56px; }
 
-/* Find a Clinic mega menu: desktop button hidden, accordion shown in the mobile menu */
-.header-find { display: none; }
-.nav-find-mobile { display: block; }
-.mega-panel { width: auto; padding: 0 0 0 14px; }
-.mega-head { flex-direction: column; align-items: flex-start; gap: 4px; padding: 6px 0 8px; }
-.mega-link { padding: 11px 0; border-radius: 0; border-bottom: 1px solid var(--border-soft); }
-
 /* Clinic detail page */
 .cl-main-grid { grid-template-columns: minmax(0, 1fr); }
 .cl-map-col { position: static; }
@@ -140,3 +144,63 @@ h2 { font-size: 28px; }
 
 .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
+
+/* ==========================================================================
+   Responsive fixes (tablet + phone)
+   ========================================================================== */
+
+/* Text/image block: the desktop "reverse" (image on the left) must stack like every other split.
+   Text first, then the image, both full width. */
+.about-inner.reverse { flex-direction: column-reverse; align-items: stretch; }
+.about-copy { min-width: 0; }
+
+/* Service cards with a photo (/prosthetics/, /orthotics/ ...): one column of horizontal cards
+   (photo left 40%, text right) between phone and laptop, so three cards never get squeezed side by side. */
+@media (min-width: 641px) {
+  .services-grid:has(.service-card-media) { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .services-grid:has(.service-card-media) > * { max-width: none; flex: none; }
+  .services-grid .service-card:has(> .service-card-media) { flex-direction: row; align-items: stretch; padding: 0; }
+  .service-card:has(> .service-card-media) > .service-card-media { flex: 0 0 40%; align-self: stretch; aspect-ratio: auto; min-height: 220px; margin: 0; }
+  .service-card:has(> .service-card-media) > .service-card-body { padding: 26px 28px; justify-content: center; }
+}
+
+/* A card grid that wraps to two columns never leaves its last card alone on the left:
+   it is centred under the pair instead (4 tracks, every card spans 2). */
+@media (min-width: 641px) {
+  .resources-grid, .res-grid, .product-grid, .product-grid.is-quad, .loc-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .resources-grid > *, .res-grid > *, .product-grid > *, .loc-grid > * { grid-column: span 2; }
+  .resources-grid > :last-child:nth-child(odd), .res-grid > :last-child:nth-child(odd),
+  .product-grid > :last-child:nth-child(odd), .loc-grid > :last-child:nth-child(odd) { grid-column: 2 / span 2; }
+  /* exactly three products: one row of three */
+  .product-grid:has(> :nth-child(3):last-child) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .product-grid:has(> :nth-child(3):last-child) > * { grid-column: auto; }
+}
+
+/* Touch targets: every button, button-like link and form control is at least 44px tall up to iPad portrait */
+@media (max-width: 820px) {
+  .btn, .filter-chip, .res-chip, .share-btn, .carousel-btn, .state-card, .state-card-link, .card-link, .current-location-link, .pr-next,
+  .pr-form input:not([type="checkbox"]):not([type="radio"]), .pr-form select, .pr-form textarea { min-height: 44px; }
+  .filter-chip, .res-chip, .state-card-link, .card-link { display: inline-flex; align-items: center; }
+  .card-link { display: flex; }
+  .share-btn { min-width: 44px; }
+  .cf-field label.cf-check { min-height: 44px; align-items: center; }
+  .carousel-btn { width: 44px; }
+  .current-location-link, button.current-location-link { display: inline-flex; align-items: center; padding-block: 10px; }
+  /* map popup close "x": big hit area, same look */
+  .leaflet-container a.leaflet-popup-close-button { width: 44px; height: 44px; font-size: 26px; line-height: 44px; }
+  /* testimonial slide dots: 44px-tall button, the dot itself is drawn in the content box */
+  .hx-dots { gap: 0; margin-top: 12px; }
+  .hx-dots button { width: 26px; height: 44px; padding: 17px 8px; box-sizing: border-box; background-clip: content-box; }
+  .hx-dots button.is-on { width: 42px; }
+}
+
+/* Section rhythm on phones and small tablets */
+@media (max-width: 768px) {
+  :root { --section-py: 48px; --section-pad: 48px; }
+  .hm-hero { padding-block: 32px 48px; }
+}
+
+/* Stacked text/photo blocks: photo capped and centred so it never dominates a tablet screen */
+@media (min-width: 641px) {
+  .about-inner > .about-media { max-width: 640px; margin-inline: auto; }
+}

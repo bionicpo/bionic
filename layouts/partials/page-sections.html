@@ -112,10 +112,12 @@
       {{ range $j, $item := $s.items }}
       <a href="{{ .link }}" class="service-card reveal" data-reveal="up" style="--delay: {{ mul $j 0.1 }}s">
         {{ with .image }}<div class="service-card-media" style="--ph:url('{{ . }}')">{{ partial "img.html" (dict "src" . "alt" $item.image_alt "sizes" "(max-width: 768px) 100vw, 480px") }}</div>{{ end }}
-        <div class="service-icon service-icon-{{ .tone | default .icon }}">{{ partial "icon.html" .icon }}</div>
-        <h3>{{ .title }}</h3>
-        <p>{{ partial "rt.html" .description }}</p>
-        <span class="card-link">{{ .link_text | default "Learn more" }} <span class="icon-sm">{{ partial "icon.html" "arrow-right" }}</span></span>
+        <div class="service-card-body">
+          <div class="service-icon service-icon-{{ .tone | default .icon }}">{{ partial "icon.html" .icon }}</div>
+          <h3>{{ .title }}</h3>
+          <p>{{ partial "rt.html" .description }}</p>
+          <span class="card-link">{{ .link_text | default "Learn more" }} <span class="icon-sm">{{ partial "icon.html" "arrow-right" }}</span></span>
+        </div>
       </a>
       {{ end }}
     </div>

@@ -12,3 +12,8 @@ bionicpo images/
 drive-download-*/
 drive-download-*.zip
 *.zip
+
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock

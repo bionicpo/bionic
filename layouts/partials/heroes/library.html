@@ -1,5 +1,5 @@
 {{- /*
-  Library — a shelf of tall colourful "book spine" tiles, one per resource area. (Resources hub)
+  Library — a grid of link cards, one per resource area (the first is the featured, full-width navy card). (Resources hub)
   Front matter: hero_shelf: [{ label, url, icon }]
 */ -}}
 {{- $shelf := .Params.hero_shelf | default (slice
@@ -13,9 +13,9 @@
     <div class="hx-copy">
       {{ partial "heroes/parts/head.html" . }}
     </div>
-    <ul class="hx-shelf">
+    <ul class="hx-links">
       {{- range $i, $b := $shelf }}
-      <li class="hx-spine s{{ $i }}"><a href="{{ $b.url | relURL }}">{{ partial "heroes/parts/icon.html" ($b.icon | default "book") }}<span>{{ $b.label }}</span></a></li>
+      <li class="hx-link{{ if eq $i 0 }} is-primary{{ end }}"><a href="{{ $b.url | relURL }}">{{ partial "heroes/parts/icon.html" ($b.icon | default "book") }}<span class="hx-link-label">{{ $b.label }}</span></a></li>
       {{- end }}
     </ul>
   </div>

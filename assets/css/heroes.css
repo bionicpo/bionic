@@ -236,22 +236,24 @@
 .hx-topics .hx-ico{width:38px;height:38px;padding:8px;border-radius:12px;background:var(--brand-light);color:var(--hx-navy)}
 
 /* ---------- 11 · library (Resources hub) ---------- */
-.hx-library{background:#fff;padding:32px 0 0}
-.hx-library .hx-grid{align-items:end}
-.hx-library .hx-copy{padding-bottom:56px}
+.hx-library{background:#fff;padding:32px 0 64px}
+.hx-library .hx-grid{align-items:center}
 .hx-library .hx-title{font-size:clamp(36px,4.6vw,62px)}
-.hx-shelf{list-style:none;margin:0;padding:0 0 0;display:flex;align-items:flex-end;gap:10px;height:340px;border-bottom:10px solid #c9b48f}
-.hx-spine{flex:1}
-.hx-spine a{display:flex;flex-direction:column;justify-content:space-between;align-items:center;height:100%;padding:16px 8px;border-radius:10px 10px 2px 2px;color:#fff;text-decoration:none;transition:transform .3s}
-.hx-spine a:hover{transform:translateY(-14px)}
-.hx-spine span{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--font-serif);font-size:20px;font-weight:600;letter-spacing:.02em}
-.hx-spine .hx-ico{width:26px;height:26px}
-.hx-spine.s0{height:92%}.hx-spine.s0 a{background:var(--hx-navy)}
-.hx-spine.s1{height:78%}.hx-spine.s1 a{background:#6f9a37}
-.hx-spine.s2{height:100%}.hx-spine.s2 a{background:#1b2470}
-.hx-spine.s3{height:84%}.hx-spine.s3 a{background:#93C251}
-.hx-spine.s4{height:70%}.hx-spine.s4 a{background:#4a56b8}
-.hx-spine.s5{height:88%}.hx-spine.s5 a{background:#2f3a99}
+/* link cards: the first one (Patient Resources) is the full-width navy card, the rest are white cards in two columns */
+.hx-links{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.hx-link{min-width:0}
+.hx-link.is-primary{grid-column:1/-1}
+.hx-link a{display:flex;align-items:center;gap:14px;height:100%;min-height:84px;padding:16px 20px;border:1px solid #e3e6f3;border-radius:18px;background:#fff;color:var(--ink-strong,#111);text-decoration:none;box-shadow:0 1px 2px rgba(22,48,92,.04);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.hx-link a:hover,.hx-link a:focus-visible{transform:translateY(-3px);border-color:var(--hx-green);box-shadow:0 16px 32px rgba(22,48,92,.16)}
+.hx-link .hx-ico{flex:none;width:44px;height:44px;padding:11px;border-radius:14px;background:var(--brand-light,rgba(37,49,141,.1));color:var(--hx-navy)}
+.hx-link:nth-child(3) .hx-ico,.hx-link:nth-child(5) .hx-ico{background:rgba(147,194,81,.2);color:#4f7a1f}
+.hx-link-label{flex:1;min-width:0;font-size:17px;font-weight:700;line-height:1.3}
+.hx-link a::after{content:"\2192" / "";flex:none;font-size:20px;line-height:1;color:var(--hx-navy);transition:transform .25s ease}
+.hx-link a:hover::after{transform:translateX(3px)}
+.hx-link.is-primary a{min-height:110px;background:var(--hx-navy);border-color:var(--hx-navy);color:#fff}
+.hx-link.is-primary .hx-ico{background:rgba(255,255,255,.16);color:#fff}
+.hx-link.is-primary a::after{color:#fff}
+.hx-link.is-primary a:hover,.hx-link.is-primary a:focus-visible{border-color:var(--hx-green)}
 
 /* ---------- 12 · faq ---------- */
 .hx-faq{background:var(--hx-cream);padding:56px 0 80px;text-align:center}
@@ -495,11 +497,11 @@
   .hx-profile .hx-copy{text-align:center}
   .hx-profile .hx-meta,.hx-profile .hx-actions{justify-content:center}
   .hx-doors{grid-template-columns:1fr}
-  .hx-shelf{height:240px}
-  .hx-spine span{font-size:15px}
   .hx-mapdots::after{background:rgba(20,27,85,.82)}
 }
 @media (max-width:600px){
+  .hx-links{grid-template-columns:minmax(0,1fr)}
+  .hx-link.is-primary a{min-height:96px}
   .hx-portraits{grid-template-columns:1fr}
   .hx-observe .hx-lens,.hx-seal .hx-badgewrap{max-width:280px}
   .hx .hx-sub{font-size:16px}

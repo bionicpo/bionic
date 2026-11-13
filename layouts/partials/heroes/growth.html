@@ -1,22 +1,15 @@
 {{- /*
-  Growth — a rising career ladder (bars climb as the page loads) beside the copy. (Grow With Us)
-  Front matter: hero_ladder: ["Fitter", "Resident", "Clinician", "Clinical Lead", "Director"]
+  Growth — heading, intro line and buttons on the left, one full team photo (uncropped, nothing on top) on the right. (Grow)
 */ -}}
-{{- $ladder := .Params.hero_ladder | default (slice "Student" "Resident" "Clinician" "Senior Clinician" "Clinical Leader") -}}
-{{- $img := partial "heroes/parts/img.html" (dict "p" .) -}}
+{{- $src := .Params.hero_image -}}
 <section class="hx hx-growth">
   <div class="container hx-grid">
     <div class="hx-copy">
       {{ partial "heroes/parts/head.html" . }}
-      {{ partial "heroes/parts/actions.html" (dict "p" . "default" (slice (dict "label" "Contact HR" "url" "/contact/") (dict "label" "Explore the Residency" "url" "/residency-program/"))) }}
+      {{ partial "heroes/parts/actions.html" (dict "p" . "default" (slice (dict "label" "Request a Consultation" "url" "/contact/"))) }}
     </div>
-    <div class="hx-ladder">
-      <ol>
-        {{- range $i, $s := $ladder }}
-        <li style="--h:{{ add 28 (mul $i 16) }}%;--i:{{ $i }}"><span>{{ $s }}</span></li>
-        {{- end }}
-      </ol>
-      <span class="hx-arrow">{{ partial "heroes/parts/icon.html" "arrow" }}</span>
-    </div>
+    {{- with $src }}
+    <figure class="hx-growth-photo">{{ partial "img.html" (dict "src" . "alt" ($.Params.hero_image_alt | default "") "loading" "eager" "sizes" "(max-width: 1000px) 100vw, 600px") }}</figure>
+    {{- end }}
   </div>
 </section>

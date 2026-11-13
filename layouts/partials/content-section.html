@@ -40,6 +40,20 @@
       {{- range $s.buttons }}<p class="cs-cta"><a href="{{ .link | safeURL }}" class="btn btn-primary"{{ if .new_tab }} target="_blank" rel="noopener"{{ end }}>{{ .text }}</a></p>{{ end }}
     </div>
   </section>
+{{- else if eq $layout "heading-side" }}
+  <section class="section cs-section cs-{{ $bg }}"{{ with $s.id }} id="{{ . }}"{{ end }}>
+    <div class="container cs-container">
+      <div class="cs-hs">
+        <div class="cs-hs-head">
+          {{ with $s.eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
+          {{ with $s.title }}<h2>{{ partial "rt.html" . }}</h2>{{ end }}
+          {{ with $s.quote }}<p class="cs-hs-quote">{{ . }}</p>{{ end }}
+          {{ with $s.image }}<div class="cs-hs-media">{{ partial "img.html" (dict "src" . "alt" ($s.image_alt | default "") "sizes" "(max-width: 1000px) 100vw, 480px") }}</div>{{ end }}
+        </div>
+        <div class="cs-hs-body cs-prose">{{ partial "cs-rich.html" $body }}</div>
+      </div>
+    </div>
+  </section>
 {{- else if eq $layout "programs" }}
   {{- $chunks := split $body "<h2>" -}}
   <section class="section cs-section cs-{{ $bg }}">

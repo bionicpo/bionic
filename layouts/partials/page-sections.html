@@ -230,44 +230,48 @@
   </div>
 </section>
 
-{{ else if eq $s.type "job-form" }}
-<section class="section apply-section"{{ with $s.id }} id="{{ . }}"{{ end }}>
-  <div class="container apply-inner{{ if $s.side_points }} apply-wide{{ end }}">
-    <div class="section-heading reveal" data-reveal="fade">
-      {{ with $s.eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
-      <h2>{{ $s.title | default "Apply" }}</h2>
-      {{ with $s.body }}<p class="lead">{{ partial "rt.html" . }}</p>{{ end }}
+{{ else if eq $s.type "locations-grid" }}
+{{- /* Points are authored as "City, ST - Role text *optional note". */ -}}
+<section class="section loc-section">
+  <div class="container loc-container">
+    <div class="loc-grid">
+      {{ range $s.points }}
+      {{- $m := findRESubmatch `^(.+?) - (.+?)(?: (\*.+))?$` . 1 -}}
+      {{ with $m }}{{ $g := index . 0 }}
+      <article class="loc-card reveal" data-reveal="up">
+        <h3>{{ index $g 1 }}</h3>
+        <p>{{ index $g 2 }}</p>
+        {{ with index $g 3 }}<p class="loc-note">{{ . }}</p>{{ end }}
+      </article>
+      {{ end }}
+      {{ end }}
     </div>
-    <div class="apply-layout{{ if $s.side_points }} has-side{{ end }}">
-    {{ with $s.side_points }}
-    <aside class="apply-side">
-      {{ with $s.side_eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
-      <h3>{{ $s.side_title }}</h3>
-      {{ with $s.side_body }}<p>{{ partial "rt.html" . }}</p>{{ end }}
-      <ul class="check-list">{{ range . }}<li>{{ partial "rt.html" . }}</li>{{ end }}</ul>
-    </aside>
-    {{ end }}
-    <form class="apply-form reveal" data-reveal="up" id="growForm" data-endpoint="{{ site.Params.grow_form_endpoint }}" novalidate>
-      <p class="visually-hidden" aria-hidden="true"><label>Do not fill this out if you are human: <input name="hp_g7x" tabindex="-1" autocomplete="off"></label></p>
-      <div class="apply-grid">
-        <div class="form-field"><label for="apply-first">First name</label><input id="apply-first" type="text" name="first-name" autocomplete="given-name" required></div>
-        <div class="form-field"><label for="apply-last">Last name</label><input id="apply-last" type="text" name="last-name" autocomplete="family-name" required></div>
-        <div class="form-field"><label for="apply-email">Email</label><input id="apply-email" type="email" name="email" autocomplete="email" required></div>
-        <div class="form-field"><label for="apply-phone">Phone</label><input id="apply-phone" type="tel" name="phone" autocomplete="tel"></div>
-        <div class="form-field"><label for="apply-position">Position</label>
-          <select id="apply-position" name="position" required>
-            <option value="" selected disabled>Select a position</option>
-            {{ range $s.positions }}<option value="{{ . }}">{{ . }}</option>{{ end }}
-          </select></div>
-        <div class="form-field"><label for="apply-location">Location</label>
-          <select id="apply-location" name="location" required>
-            <option value="" selected disabled>Select a location</option>
-            {{ range $s.locations }}<option value="{{ . }}">{{ . }}</option>{{ end }}
-          </select></div>
-        <div class="form-field form-field-wide"><label for="apply-resume">Upload Resume</label><input id="apply-resume" type="file" name="resume" accept=".pdf,.doc,.docx,.rtf,.txt"><small class="form-hint">PDF, DOC, DOCX, RTF or TXT, max 5 MB</small></div>
-      </div>
-      <button type="submit" class="btn btn-primary btn-lg">{{ $s.submit | default "Apply" }}</button>
-    </form>
+  </div>
+</section>
+
+{{ else if eq $s.type "apply-info" }}
+<section class="section apply-section"{{ with $s.id }} id="{{ . }}"{{ end }}>
+  <div class="container apply-inner">
+    {{ with $s.title }}<div class="section-heading reveal" data-reveal="fade"><h2>{{ . }}</h2></div>{{ end }}
+    <div class="apply-cards">
+      {{ with $s.opportunities }}
+      <article class="apply-card">
+        <h3>{{ .title }}</h3>
+        {{ with .heading }}<p class="apply-card-lead">{{ . }}</p>{{ end }}
+        {{ with .text }}<p>{{ . }}</p>{{ end }}
+        {{ with .button_text }}<a class="btn btn-primary" href="{{ $s.opportunities.button_link | safeURL }}" target="_blank" rel="noopener noreferrer">{{ . }}</a>{{ end }}
+      </article>
+      {{ end }}
+      {{ with $s.contact }}
+      <article class="apply-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+        <ul class="apply-contact">
+          {{ with .email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+          {{ with .phone }}<li><a href="{{ $s.contact.phone_link | safeURL }}">{{ . }}</a></li>{{ end }}
+        </ul>
+      </article>
+      {{ end }}
     </div>
   </div>
 </section>

@@ -10,6 +10,7 @@
       (dict "label" "Find a Clinic" "url" "/locations/")) -}}
 <div class="hx-actions">
   {{- range $i, $b := $btns }}
-  <a class="btn btn-lg {{ if eq $i 0 }}btn-primary{{ else }}btn-outline hx-btn-ghost{{ end }}" href="{{ $b.url | relURL | safeURL }}">{{ $b.label }}</a>
+  {{- $ext := hasPrefix $b.url "http" }}
+  <a class="btn btn-lg {{ if eq $i 0 }}btn-primary{{ else }}btn-outline hx-btn-ghost{{ end }}" href="{{ if or $ext (hasPrefix $b.url "#") }}{{ $b.url | safeURL }}{{ else }}{{ $b.url | relURL | safeURL }}{{ end }}"{{ if $ext }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ $b.label }}</a>
   {{- end }}
 </div>

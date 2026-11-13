@@ -327,13 +327,8 @@
 .hx-growth{background:#fff;padding:32px 0 60px}
 .hx-growth .hx-title{font-size:clamp(36px,4.6vw,62px)}
 .hx-growth .hx-eyebrow{color:var(--accent-hover)}
-.hx-ladder{position:relative;height:420px;border-radius:28px;overflow:hidden;background:linear-gradient(180deg,#3442a8,var(--hx-navy))}
-.hx-ladder ol{list-style:none;margin:0;padding:0 26px;position:absolute;inset:auto 0 0 0;height:100%;display:flex;align-items:flex-end;gap:10px}
-.hx-ladder li{flex:1;height:var(--h);background:rgba(255,255,255,.14);border-top:3px solid var(--hx-green);border-radius:12px 12px 0 0;display:flex;align-items:flex-start;justify-content:center;padding-top:12px;transform-origin:bottom;animation:hx-rise .9s cubic-bezier(.22,1,.36,1) both;animation-delay:calc(var(--i)*.12s)}
-.hx-ladder li:last-child{background:var(--hx-green)}
-.hx-ladder li span{color:#fff;font-weight:700;font-size:13px;text-align:center;line-height:1.2}
-@keyframes hx-rise{from{transform:scaleY(0)}}
-.hx-arrow{position:absolute;left:22px;top:22px;width:48px;height:48px;border-radius:50%;background:#fff;color:var(--hx-navy);display:grid;place-items:center;transform:rotate(-45deg)}
+.hx-growth-photo{margin:0}
+.hx-growth-photo img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:var(--shadow-card-hover)}
 
 /* ---------- 17 · academy (Residency) ---------- */
 .hx-academy{background:radial-gradient(70% 90% at 90% 20%,rgba(147,194,81,.18),transparent 60%),var(--hx-cream);padding:32px 0 64px}
@@ -502,8 +497,6 @@
   .hx-doors{grid-template-columns:1fr}
   .hx-shelf{height:240px}
   .hx-spine span{font-size:15px}
-  .hx-ladder{height:320px}
-  .hx-ladder li span{font-size:11px}
   .hx-mapdots::after{background:rgba(20,27,85,.82)}
 }
 @media (max-width:600px){

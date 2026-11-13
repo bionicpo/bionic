@@ -1,25 +1,28 @@
 ---
 title: "Spring Cleaning Your Prosthesis: Maintenance Tips"
-seo_title: "Spring Cleaning Your Prosthesis: Maintenance Tips"
-seo_description: "Discover essential Prosthesis Maintenance tips for spring! Keep your prosthesis clean and your residual limb healthy with our expert advice."
 date: 2025-05-20
-categories: ["Prosthetics and Orthotics", "Health and Wellness"]
-image: "/images/blog/spring-cleaning-prosthesis-maintenance.png"
+categories:
+  - Prosthetics and Orthotics
+  - Health and Wellness
+image: /images/blog/spring-cleaning-prosthesis-maintenance.png
+seo_title: "Spring Cleaning Your Prosthesis: Maintenance Tips"
 entry_type: blog_post
-recent_posts: ["prosthetic-vs-prosthesis-what-s-the-difference-and-why-it-matters"]
+recent_posts:
+  - prosthetic-vs-prosthesis-what-s-the-difference-and-why-it-matters
+seo_description: Discover essential Prosthesis Maintenance tips for spring! Keep
+  your prosthesis clean and your residual limb healthy with our expert advice.
 ---
-
-As we venture through spring, the change in weather gives us the motivation to clean up the parts of the house that were seemingly neglected all winter long. You may be tending to the garden, mowing the lawn, power washing the patio, or cleaning the gutters. But, spring cleaning for an amputee is more than just cleaning out the garage.
+As we venture through spring, the change in weather gives us the motivation to clean up the parts of the house that were seemingly neglected all winter long. You may be tending to the garden, mowing the lawn, power washing the patio, or cleaning the gutters. But spring cleaning for an amputee is more than just cleaning out the garage.
 
 A consistent and thorough prosthesis cleansing routine can help avoid major setbacks warmer weather may bring like inflammation, irritation, and infection. We have compiled some ways to keep your residual limb healthy and clean as the weather gets warmer.
 
 ## Clean Your Liner Every Night
 
-Your liner ensures a secure, comfortable fit but also traps moisture from sweat. It\'s important to clean it daily, preferably at night to allow ample drying time.
+Your liner ensures a secure, comfortable fit but also traps moisture from sweat. It's important to clean it daily, preferably at night to allow ample drying time.
 
-- Dampen a soft cloth with warm (not hot) water – ring it out to avoid excess moisture.
-- Use mild, fragrance-free soap or rubbing alcohol to gently clean the liner. Some prosthetists recommend prosthesis-specific soaps, mild dish soap, or gentle body wash. Always check with your prosthetist and do a skin spot test before using a new product.
-- Allow the liner to dry fully in a cool, dry space before wearing it again.
+* Dampen a soft cloth with warm (not hot) water – wring it out to avoid excess moisture.
+* Use mild, fragrance-free soap or rubbing alcohol to gently clean the liner. Some prosthetists recommend prosthesis-specific soaps, mild dish soap, or gentle body wash. Always check with your prosthetist and do a skin spot test before using a new product.
+* Allow the liner to dry fully in a cool, dry space before wearing it again.
 
 ## Clean Your Device Regularly
 
@@ -39,14 +42,14 @@ While spring weather may not be detrimental to your device and its fit, it is im
 
 Never hesitate to reach out to your prosthetist to [schedule an appointment](/book-appointment-pay-bill/#_blank) if you have concerns. Early intervention is key. We have multiple [Bionic Clinic locations](/locations/#_blank) around the nation with a knowledgeable [clinical team ready to help with prosthesis maintenance](/team/#_blank) when you have questions.
 
-## Schedule Regular Check-ups For Prosthesis Maintenance
+## Schedule Regular Check-ups for Prosthesis Maintenance
 
 Adjusting to a new routine can be challenging. But your health is important and you are never alone in this journey. Whenever you feel discouraged, concerned or confused, reach out to your prosthetist. They are always available to schedule an appointment with you to go over proper prosthesis hygiene and use.
 
-Spring cleaning may seem like a chore, but remember to pause and enjoy the beauty of the season too. You\'ve got this!
+Spring cleaning may seem like a chore but remember to pause and enjoy the beauty of the season too. You've got this!
 
 Tags:
 
-- P&O Tips
-- Prosthesis Maintenance
-- Hygiene
+* P&O Tips
+* Prosthesis Maintenance
+* Hygiene

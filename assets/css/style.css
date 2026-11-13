@@ -310,8 +310,9 @@ button { font-family: inherit; cursor: pointer; }
    ========================================================================== */
 .about-section { background: #fff; }
 .about-inner { display: flex; align-items: center; gap: 70px; }
-.about-media { flex: 0 0 440px; height: 400px; border-radius: var(--radius-lg); background: var(--bg-tan); overflow: hidden; }
-.about-media img { width: 100%; height: 100%; object-fit: contain; }
+/* Photo box follows the photo: full image, no crop, no grey bars. */
+.about-media { flex: 0 0 440px; height: auto; align-self: center; border-radius: var(--radius-lg); background: transparent; overflow: hidden; }
+.about-media img { display: block; width: 100%; height: auto; object-fit: contain; border-radius: var(--radius-lg); }
 .about-copy { flex: 1; }
 .about-points { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 28px; margin: 26px 0 30px; }
 .about-point { display: flex; align-items: flex-start; gap: 10px; font-size: 14.5px; color: var(--ink); }
@@ -796,6 +797,11 @@ a.article-category-badge:hover { background: rgba(255, 255, 255, 0.28); }
 .text-image-section + .text-image-section,
 .services-section + .services-section { padding-top: 0; }
 .about-inner.no-media { max-width: 820px; }
+/* Text-only intro above a product grid: same container as the grid, text centred, ~40px to the cards */
+.text-image-section.is-lead { padding-bottom: 40px; }
+.is-lead .about-inner.no-media { max-width: var(--container-max); }
+.is-lead .about-copy { max-width: 720px; margin-inline: auto; text-align: center; }
+.product-section.after-lead { padding-top: 0; }
 
 /* Accessibility */
 :focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; border-radius: 4px; }
@@ -853,18 +859,7 @@ a.article-category-badge:hover { background: rgba(255, 255, 255, 0.28); }
 .cl-team-all { text-align: center; margin: 24px 0 0; font-weight: 600; }
 .section-actions { text-align: center; margin-top: 8px; }
 
-.apply-inner { max-width: 820px; }
-.apply-form { background: #fff; border: 1.5px solid var(--border); border-radius: 16px; padding: 28px; }
-.apply-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 20px; margin-bottom: 24px; }
-.form-field { display: flex; flex-direction: column; gap: 6px; }
-.form-field-wide { grid-column: 1 / -1; }
-.form-field label { font-size: 13.5px; font-weight: 600; color: var(--ink); }
-.form-field input, .form-field select {
-  border: 1.5px solid var(--border); border-radius: 9px; padding: 12px 14px;
-  font-size: 15px; font-family: var(--font-sans); background: #fff; color: var(--ink);
-}
-.form-field input[type="file"] { padding: 10px 12px; }
-.form-field input:focus, .form-field select:focus { outline: 2px solid var(--brand); outline-offset: 1px; border-color: var(--brand); }
+.apply-inner { max-width: 1180px; }
 
 /* ==========================================================================
    Content sections (partials/content-section.html) — designed richtext
@@ -922,7 +917,7 @@ a.article-category-badge:hover { background: rgba(255, 255, 255, 0.28); }
 }
 .cs-icon { width: 52px; height: 52px; border-radius: 14px; background: var(--brand-light); color: var(--brand); display: grid; place-items: center; margin-bottom: 18px; flex: none; }
 .cs-icon svg { width: 26px; height: 26px; }
-.cs-features .cs-card { border-top: 4px solid var(--accent); }
+.cs-features .cs-card, .cs-grid.cols-4 .cs-card { border-top: 4px solid var(--accent); }
 .cs-features .cs-h3 { font-size: 19px; }
 
 /* testimonial */
@@ -951,7 +946,7 @@ figure.cs-quote { display: block; }
 /* programs (careers) */
 .program-stack { display: grid; gap: 26px; }
 .program-card {
-  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 44px; align-items: start;
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 44px; align-items: stretch;
   background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); padding: 40px 44px; box-shadow: var(--shadow-card);
   transition: box-shadow .2s ease, transform .2s ease;
 }
@@ -959,7 +954,8 @@ figure.cs-quote { display: block; }
 .program-num { display: inline-block; font-weight: 800; font-size: 13px; letter-spacing: 1.4px; color: var(--accent-hover); margin-bottom: 10px; }
 .program-copy h2 { font-size: 30px; margin-bottom: 14px; }
 .program-copy .cs-prose { margin: 0; font-size: 15.5px; }
-.program-copy .cs-cta { text-align: left; margin-top: 22px; }
+.program-copy { display: flex; flex-direction: column; align-items: flex-start; }
+.program-copy .cs-cta { text-align: left; margin: auto 0 0; padding-top: 22px; }
 .program-list .check-list { margin: 4px 0 0; }
 .program-list .check-list.cols-2 { grid-template-columns: 1fr; }
 
@@ -980,15 +976,7 @@ figure.cs-quote { display: block; }
 .cs-center { text-align: center; }
 .cs-features .cs-card p strong { display: block; font-family: var(--font-serif); font-size: 18px; color: var(--ink-strong); margin-bottom: 6px; }
 .cs-features .cs-card p { color: var(--ink-muted); }
-.cs-split .about-media { height: 420px; }
 
-.apply-inner.apply-wide { max-width: 1180px; }
-.apply-layout.has-side { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 32px; align-items: start; }
-.apply-side { background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); padding: 30px 28px; box-shadow: var(--shadow-card); }
-.apply-side h3 { font-size: 22px; margin-bottom: 10px; }
-.apply-side > p { font-size: 15px; line-height: 1.65; color: var(--ink-muted); }
-.apply-side .check-list { gap: 12px; margin-bottom: 0; }
-.apply-side .check-list li { font-size: 14.5px; }
 .apply-section .section-heading { max-width: 700px; }
 
 .cs-card:has(.cs-quote) { grid-column: 1 / -1; }
@@ -1057,8 +1045,14 @@ figure.cs-quote { display: block; }
 .wide-image img { width: 100%; height: auto; object-fit: contain; object-position: center 35%; display: block; }
 
 /* card with picture on top */
-.service-card-media { margin: -4px -4px 18px; border-radius: 12px; overflow: hidden; background: var(--bg-tan); }
-.service-card-media img { width: 100%; height: auto; object-fit: contain; display: block; }
+/* Service cards (/orthotics/, /prosthetics/ ...): equal height, link pinned to the bottom, 4:3 photo at the top.
+   Whole photo visible (contain) over a blurred copy of itself - no grey bars, nothing cropped or overlaid. */
+.services-grid .service-card { display: flex; flex-direction: column; padding: 24px; overflow: hidden; }
+.services-grid .service-card .card-link { margin-top: auto; }
+.service-card-media { position: relative; isolation: isolate; overflow: hidden; aspect-ratio: 4 / 3; margin: -24px -24px 20px; border-radius: 0; background: #2b3550; }
+.service-card-media::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--ph) center / cover no-repeat; filter: blur(20px) brightness(.85); transform: scale(1.1); }
+.service-card-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block; }
+.services-grid .service-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-4px); }
 
 /* image + text rows inside richtext (layout: rows) */
 .cs-rows { display: grid; gap: 56px; }
@@ -1070,11 +1064,8 @@ figure.cs-quote { display: block; }
 .cs-row-body p { font-size: 16.5px; line-height: 1.75; color: var(--ink-muted); margin: 0 0 1em; }
 
 /* feature-list with a lead image */
-.cs-feature-lead { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: center; margin-bottom: 40px; }
 .cs-feature-media { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-card); }
 .cs-feature-media img { width: 100%; height: auto; object-fit: contain; display: block; }
-.cs-feature-lead .cs-subhead-top { text-align: left; grid-column: auto; margin-top: 0; }
-.cs-feature-lead .cs-prose { margin: 0; }
 
 /* testimonials grid */
 .cs-testimonials { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 44px 28px; padding-top: 22px; }
@@ -1089,8 +1080,10 @@ figure.cs-quote { display: block; }
 .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; align-items: stretch; }
 .product-card { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-card); transition: box-shadow .2s ease, transform .2s ease; }
 .product-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-4px); }
-.product-media { position: relative; height: 280px; background: var(--bg-product); overflow: hidden; }
-.product-media img { position: absolute; inset: 18px; width: calc(100% - 36px); height: calc(100% - 36px); object-fit: contain; display: block; }
+.product-media { position: relative; height: 280px; background: #fff; overflow: hidden; }
+/* images with a grey backdrop baked in, and full-bleed photos, keep the matching grey so no frame shows */
+.product-media.tone-flat, .product-media.tone-dark, .product-media.tone-photo { background: var(--bg-product); }
+.product-media img { position: absolute; inset: 16px; width: calc(100% - 32px); height: calc(100% - 32px); object-fit: contain; display: block; }
 .product-media.tone-light img { mix-blend-mode: multiply; }
 .product-media.tone-flat img, .product-media.tone-dark img { mix-blend-mode: normal; } /* backdrop already baked to #f0f0f0 in the image */
 .product-media.tone-photo img { inset: 0; width: 100%; height: 100%; }
@@ -1112,14 +1105,58 @@ figure.cs-quote { display: block; }
 .final-cta-alt { margin: 16px 0 0; font-size: 15px; }
 .final-cta-alt a { color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; opacity: .92; }
 .final-cta-alt a:hover { opacity: 1; }
-/* feature split: photo left, heading + stacked cards right */
-.cs-feature-split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 44px; align-items: start; }
-.cs-feature-split .cs-feature-media { aspect-ratio: auto; height: 100%; min-height: 360px; position: sticky; top: 100px; }
+/* feature split ("Why Choose Bionic"): photo left (~40%), 2x2 cards right (~60%), vertically centred */
+.cs-feature-split { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 40px; align-items: center; }
+.cs-feature-split .cs-feature-media { height: auto; background: transparent; border-radius: 20px; box-shadow: none; }
+.cs-feature-split .cs-feature-media img { border-radius: 20px; }
 .cs-feature-split .cs-subhead-top { text-align: left; margin: 0 0 18px; }
+.cs-feature-intro { margin: 0 0 20px; }
 .cs-features-stack { gap: 16px; }
-.cs-features-stack .cs-card { flex-direction: row; align-items: flex-start; gap: 18px; padding: 22px 24px; }
-.cs-features-stack .cs-card .cs-icon { margin: 0; }
-.cs-features-stack .cs-card p { margin: 0; }
+.cs-features-stack .cs-card { min-width: 0; padding: 22px; border-radius: 16px; border-top: 1px solid var(--border-soft); border-left: 4px solid var(--accent); }
+.cs-features-stack .cs-card .cs-icon { margin: 0 0 14px; }
+.cs-features-stack .cs-card p { margin: 0; overflow-wrap: anywhere; }
+/* centred intro paragraph under a section heading (cards sections) */
+.cs-prose.cs-intro { max-width: 720px; margin-inline: auto; text-align: center; }
+
+/* two-column sections (feature-side, text-media): both columns top-aligned, left-aligned heading */
+.cs-side { display: grid; column-gap: 40px; align-items: start; }
+/* feature-side (Careers "A Family Built on Purpose"): row 1 = copy | photo, row 2 = four cards across the full width */
+.cs-side.is-feature-side { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: "copy media" "main main"; column-gap: 56px; row-gap: 48px; align-items: center; }
+.cs-side.is-feature-side .cs-side-copy { grid-area: copy; margin: 0; }
+.cs-side.is-feature-side .cs-side-media { grid-area: media; box-shadow: var(--shadow-card); }
+.cs-side.is-feature-side .cs-side-main { grid-area: main; align-self: stretch; }
+.cs-side.is-feature-side .cs-features-stack { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.cs-side.is-feature-side .cs-features-stack .cs-card { border-left: 1px solid var(--border-soft); border-top: 4px solid var(--accent); }
+.cs-side.is-text-media { grid-template-columns: minmax(0, 11fr) minmax(0, 9fr); }
+.cs-side.is-text-media .cs-side-copy { grid-column: 1; grid-row: 1 / span 2; }
+.cs-side.is-text-media .cs-side-media { grid-column: 2; grid-row: 1; }
+.cs-side.is-text-media .cs-side-main { grid-column: 2; grid-row: 2; }
+.cs-side-copy { text-align: left; }
+.cs-side-copy h2 { text-align: left; margin-bottom: 14px; }
+.cs-side-copy .cs-prose { max-width: none; margin: 0; }
+.cs-side-list { margin-top: 20px; }
+.cs-side-list .check-list.cols-2 { grid-template-columns: minmax(0, 1fr); }
+.cs-side-copy .cs-cta { text-align: left; margin-top: 28px; }
+.cs-side-media { border-radius: 20px; overflow: hidden; }
+.cs-side-media img { display: block; width: 100%; height: auto; border-radius: 20px; }
+.cs-side-quote .cs-quote { margin: 28px 0 0; }
+@media (max-width: 1000px) {
+  .cs-side.is-feature-side { grid-template-columns: minmax(0, 1fr); grid-template-areas: "copy" "media" "main"; row-gap: 28px; }
+  .cs-side.is-feature-side .cs-features-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .cs-side.is-feature-side .cs-features-stack { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 900px) {
+  .cs-side.is-text-media { grid-template-columns: minmax(0, 1fr); row-gap: 28px; }
+  .cs-side.is-text-media .cs-side-copy, .cs-side.is-text-media .cs-side-media, .cs-side.is-text-media .cs-side-main { grid-column: auto; grid-row: auto; margin: 0; }
+  .cs-side-quote .cs-quote { margin-top: 0; }
+}
+}
+@media (max-width: 900px) {
+  .cs-feature-split { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .cs-features-stack { grid-template-columns: minmax(0, 1fr); }
+}
 /* orthotics near-you banner: always readable */
 .cs-overlay { min-height: 500px; }
 .cs-overlay .image-banner-overlay { background: rgba(8, 16, 48, 0.72); }

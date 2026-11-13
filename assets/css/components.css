@@ -7,7 +7,7 @@
 .product-media img {
   position: absolute; inset: 0; margin: auto;
   width: auto; height: auto;
-  max-width: calc(100% - 36px); max-height: calc(100% - 36px);
+  max-width: calc(100% - 32px); max-height: calc(100% - 32px);
   object-fit: contain;
 }
 .product-media.tone-photo img, .product-media.tone-dark img { max-width: 100%; max-height: 100%; }
@@ -37,14 +37,6 @@
 .state-chip-grid { width: 100%; }
 @media (max-width: 1024px) { .find-clinic-panel { width: 100%; } }
 
-/* orthotics "Why Choose": stack photo above cards on phones, one column, no sideways scroll */
-@media (max-width: 767px) {
-  .cs-feature-split { grid-template-columns: minmax(0, 1fr); gap: 24px; }
-  .cs-feature-split .cs-feature-media { position: static; min-height: 0; height: auto; aspect-ratio: 3 / 2; }
-  .cs-features-stack, .cs-features-stack .cs-card { min-width: 0; }
-  .cs-features-stack .cs-card p { overflow-wrap: anywhere; }
-}
-
 /* Bionic Beats edition cover grid */
 .edition-section { background: var(--cream, #f7f5f0); }
 .edition-intro { margin: 0; font-weight: 600; }
@@ -70,10 +62,6 @@
 .cs-avatar { display: block; width: 120px; height: 120px; margin: 0 auto 16px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 14px rgba(20, 30, 60, .18); }
 .cs-avatar img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 
-/* job application: no sideways overflow on phones */
-.apply-side, .apply-form { min-width: 0; width: 100%; box-sizing: border-box; }
-.apply-form input, .apply-form select, .apply-form textarea { width: 100%; max-width: 100%; box-sizing: border-box; }
-@media (max-width: 767px) { .apply-grid, .apply-layout.has-side { grid-template-columns: minmax(0, 1fr); } .apply-side, .apply-form { padding-left: 18px; padding-right: 18px; } }
 
 /* inquiry CTA: second button outlined like the hero */
 .final-cta-actions .btn-cta-outline { background: transparent; color: #fff; border: 1.5px solid rgba(255, 255, 255, .7); }
@@ -115,8 +103,6 @@
 .point-desc { display: block; margin-top: 3px; font-size: 13px; font-weight: 400; line-height: 1.45; color: var(--ink-soft); }
 
 /* ---- hiring pages (careers, grow, residency, shadowing): show photos uncropped, faces stay in frame ---- */
-.page-hiring .about-media { height: auto; background: transparent; }
-.page-hiring .about-media img { height: auto; max-height: 560px; object-fit: cover; object-position: center 20%; display: block; }
 .page-hiring .cs-row-media { aspect-ratio: auto; }
 .page-hiring .cs-row-media img { height: auto; max-height: 520px; object-position: center 20%; }
 /* photo pair: each photo keeps its own aspect ratio; widths are proportional so both end up the same height */
@@ -126,10 +112,89 @@
 @media (max-width: 767px) { .photo-pair { flex-direction: column; gap: 16px; } .photo-pair-item { flex: none; width: 100%; } }
 
 /* stat band with an odd item count: last item centered on the full row in the 2-column layouts */
-@media (max-width: 1024px) { .stat-grid > .stat-item:last-child:nth-child(odd) { grid-column: 1 / -1; } }
+/* odd stat left alone on a row spans the full width; a band of exactly 3 stays in 3 columns on tablet */
+@media (max-width: 1024px) { .stat-grid:not(:has(> :nth-child(3):last-child)) > .stat-item:last-child:nth-child(odd) { grid-column: 1 / -1; } }
+@media (max-width: 640px) { .stat-grid > .stat-item:last-child:nth-child(odd) { grid-column: 1 / -1; } }
 
-/* hint under a form field (Grow application: resume types and size) */
-.form-hint { display: block; margin-top: 6px; font-size: 13px; color: var(--ink-soft, rgba(0,0,0,.6)); }
 
 /* blog post: category chips now sit after the share row at the end of the article */
 .post-main .filter-chips { justify-content: flex-start; margin: 28px 0 0; }
+
+/* ---- patient resources: "Before your visit" action cards + filterable resource directory ---- */
+.res-container { max-width: 1180px; }
+.res-container [hidden] { display: none; }
+.res-before { background: var(--bg-cream); padding-block: 56px; }
+.res-before .section-heading { margin-bottom: 28px; }
+.res-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.res-action { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); padding: 32px; box-shadow: var(--shadow-card); scroll-margin-top: 24px; }
+.res-icon { width: 48px; height: 48px; border-radius: 14px; background: var(--brand-light); color: var(--brand); display: grid; place-items: center; flex: none; }
+.res-icon svg { width: 24px; height: 24px; }
+.res-action .res-icon { margin-bottom: 16px; }
+.res-action h3 { font-size: 22px; margin: 0 0 8px; color: var(--ink-strong); }
+.res-action > p { margin: 0; color: var(--ink-muted); font-size: 16px; line-height: 1.6; }
+.res-btns { list-style: none; margin: auto 0 0; padding: 24px 0 0; display: flex; flex-wrap: wrap; gap: 20px; }
+.res-btns li { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; flex: 1 1 220px; }
+.res-hint { font-size: 13px; line-height: 1.5; color: var(--ink-soft); }
+
+.res-section { background: #fff; padding-top: 40px; }
+.res-chips { position: sticky; top: 0; z-index: 20; display: flex; gap: 10px; padding: 14px 0; margin-bottom: 8px; background: #fff; border-bottom: 1px solid var(--border-soft); overflow-x: auto; scrollbar-width: none; }
+.res-chips::-webkit-scrollbar { display: none; }
+.res-chip { flex: none; font: inherit; font-size: 14.5px; font-weight: 600; padding: 9px 18px; border-radius: 999px; border: 1.5px solid var(--border); background: #fff; color: var(--ink); cursor: pointer; transition: background .15s ease, border-color .15s ease, color .15s ease; }
+.res-chip:hover { border-color: var(--brand); color: var(--brand); }
+.res-chip.is-active { background: var(--brand); border-color: var(--brand); color: #fff; }
+.res-group { margin-top: 44px; }
+.res-head { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 22px; }
+.res-head h2 { font-size: 28px; margin: 0 0 4px; }
+.res-count { color: var(--ink-soft); font-weight: 500; }
+.res-head p { margin: 0; color: var(--ink-muted); font-size: 16px; line-height: 1.55; }
+.res-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.res-card { display: flex; flex-direction: column; padding: 22px 24px; background: #fff; border: 1px solid var(--border-soft); border-radius: 16px; box-shadow: var(--shadow-card); color: inherit; text-decoration: none; transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease; }
+a.res-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-3px); border-color: var(--brand); }
+.res-card h3 { font-size: 17px; line-height: 1.35; margin: 0 0 8px; color: var(--ink-strong); }
+.res-card p { margin: 0 0 16px; font-size: 14.5px; line-height: 1.6; color: var(--ink-muted); }
+.res-link { margin-top: auto; font-size: 14px; font-weight: 700; color: var(--brand); }
+.res-empty { margin: 48px 0 0; text-align: center; font-size: 17px; color: var(--ink-muted); }
+.res-empty a { color: var(--brand); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.res-note { margin: 48px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink-soft); text-align: center; }
+@media (max-width: 1024px) { .res-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 800px) { .res-actions { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 640px) {
+  .res-grid { grid-template-columns: minmax(0, 1fr); }
+  .res-action { padding: 24px 20px; }
+  .res-head h2 { font-size: 24px; }
+}
+
+/* ---- /grow/: locations grid, "Why Bionic?" (heading left, text right), apply split ---- */
+.loc-section { background: #fff; padding-top: 24px; padding-bottom: 56px; }
+.loc-container { max-width: 1180px; }
+.loc-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.loc-card { display: flex; flex-direction: column; padding: 22px 24px; background: #fff; border: 1px solid var(--border-soft); border-top: 4px solid var(--accent); border-radius: 16px; box-shadow: var(--shadow-card); }
+.loc-card h3 { font-size: 18px; margin: 0 0 8px; color: var(--ink-strong); }
+.loc-card p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-muted); }
+.loc-card .loc-note { margin-top: 12px; padding: 8px 12px; border-radius: 10px; background: var(--accent-light); color: var(--ink); font-size: 13.5px; font-weight: 600; }
+.cs-hs { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 6fr); gap: 56px; align-items: start; }
+.cs-hs-head { position: sticky; top: 120px; }
+.cs-hs-head h2 { margin: 0 0 24px; text-align: left; }
+.cs-hs-quote { margin: 0 0 28px; padding: 4px 0 4px 20px; border-left: 4px solid var(--accent); font-family: var(--font-serif); font-size: 26px; line-height: 1.35; font-weight: 600; font-style: normal; color: var(--ink-strong); }
+.cs-hs-media { border-radius: 20px; overflow: hidden; }
+.cs-hs-media img { display: block; width: 100%; height: auto; border-radius: 20px; }
+.cs-hs-body.cs-prose { max-width: 680px; margin: 0; }
+.cs-hs-body.cs-prose > p:first-child { font-size: 20px; line-height: 1.7; color: var(--ink); }
+.apply-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 900px; margin-inline: auto; }
+.apply-card { background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); padding: 28px; box-shadow: var(--shadow-card); }
+.apply-card h3 { font-size: 22px; margin: 0 0 12px; }
+.apply-card p { margin: 0 0 10px; font-size: 15.5px; line-height: 1.6; color: var(--ink-muted); }
+.apply-card .apply-card-lead { font-weight: 700; color: var(--ink-strong); }
+.apply-card .btn { margin-top: 10px; }
+.apply-contact { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.apply-contact a { color: var(--brand); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 1000px) {
+  .loc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cs-hs { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .cs-hs-head { position: static; }
+  .apply-cards { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .loc-grid { grid-template-columns: minmax(0, 1fr); }
+  .apply-card { padding: 22px 20px; }
+}

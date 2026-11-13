@@ -56,12 +56,13 @@ h2 { font-size: 28px; }
 
 /* Stat band */
 .stat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 24px; }
+.stat-grid:has(> :nth-child(3):last-child) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .stat-item { border-right: 1px solid rgba(255, 255, 255, 0.14); }
 .stat-item:nth-child(2n) { border-right: none; }
 
 /* About */
 .about-inner { flex-direction: column; gap: 36px; }
-.about-media { flex: none; width: 100%; height: 300px; }
+.about-media { flex: none; width: 100%; height: auto; }
 .about-points { grid-template-columns: 1fr; }
 
 /* Credentials */
@@ -107,7 +108,7 @@ h2 { font-size: 28px; }
 @media (max-width: 820px) { .team-grid { --tg-cols: 2; } }
 .clinic-list-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .about-inner { flex-direction: column; gap: 32px; align-items: stretch; }
-.about-media { flex: none; width: 100%; height: 280px; }
+.about-media { flex: none; width: 100%; height: auto; }
 .st-layout { grid-template-columns: minmax(0, 1fr); }
 .st-map-col { position: static; order: -1; }
 .st-map-col .cl-map { height: 380px; }
@@ -121,20 +122,21 @@ h2 { font-size: 28px; }
 .clinic-qs { margin: 6px 0 12px -14px; }
 .clinic-qs-input { font-size: 16px; }
 
-.cs-grid.cols-3, .cs-grid.cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.cs-grid.cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* 3-card grids stay in 3 columns on tablet (no card left alone on a row), 1 column below 760px */
+@media (max-width: 760px) { .cs-grid.cols-3 { grid-template-columns: minmax(0, 1fr); } }
+/* service cards: same for a set of exactly 3 */
+.services-grid:has(> :nth-child(3):last-child) > * { flex-basis: 220px; }
 .program-card { grid-template-columns: 1fr; gap: 24px; padding: 32px 30px; }
 .services-grid.is-detailed { grid-template-columns: 1fr; }
 
-.apply-layout.has-side { grid-template-columns: 1fr; }
 
 .cl-glance { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-.service-row, .cs-row, .cs-feature-lead { grid-template-columns: 1fr; gap: 28px; }
+.service-row, .cs-row { grid-template-columns: 1fr; gap: 28px; }
 .service-row.is-reversed .service-row-media, .cs-row.is-reversed .cs-row-media { order: 0; }
 .service-rows { gap: 56px; }
 .image-banner { min-height: 340px; }
 
 .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-.cs-feature-split { grid-template-columns: 1fr; gap: 28px; }
-.cs-feature-split .cs-feature-media { position: static; min-height: 0; aspect-ratio: 3 / 2; height: auto; }

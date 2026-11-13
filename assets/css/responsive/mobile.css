@@ -4,7 +4,7 @@
    ========================================================================== */
 
 :root {
-  --section-py: 52px;
+  --section-py: 56px;
 }
 
 .container { padding: 0 16px; }
@@ -32,12 +32,11 @@ h2 { font-size: 24px; }
 .hero-badge { position: static; margin-top: 16px; box-shadow: none; border: 1px solid var(--border); }
 
 /* Stat band */
-.stat-grid { grid-template-columns: 1fr 1fr; gap: 20px 12px; }
+.stat-grid, .stat-grid:has(> :nth-child(3):last-child) { grid-template-columns: 1fr 1fr; gap: 20px 12px; }
 .stat-item { border-right: none !important; }
 .stat-item .stat-number { font-size: 22px; }
 
 /* About */
-.about-media { height: 220px; }
 .about-inner { gap: 28px; }
 
 /* Credentials */
@@ -104,8 +103,6 @@ body { padding-bottom: 72px; }
 
 .section-note { font-size: 15px; }
 
-.apply-form { padding: 20px 16px; }
-.apply-grid { grid-template-columns: 1fr; }
 
 .cs-heading { margin-bottom: 30px; }
 .cs-grid.cols-2, .cs-grid.cols-3, .cs-grid.cols-4 { grid-template-columns: 1fr; }
@@ -141,4 +138,3 @@ body { padding-bottom: 72px; }
 .cs-overlay-inner .cs-prose { font-size: 16px; }
 
 .cs-overlay-inner { padding-block: 70px; }
-.cs-features-stack .cs-card { padding: 18px; }

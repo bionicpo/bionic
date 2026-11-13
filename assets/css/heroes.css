@@ -239,21 +239,9 @@
 .hx-library{background:#fff;padding:32px 0 64px}
 .hx-library .hx-grid{align-items:center}
 .hx-library .hx-title{font-size:clamp(36px,4.6vw,62px)}
-/* link cards: the first one (Patient Resources) is the full-width navy card, the rest are white cards in two columns */
-.hx-links{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.hx-link{min-width:0}
-.hx-link.is-primary{grid-column:1/-1}
-.hx-link a{display:flex;align-items:center;gap:14px;height:100%;min-height:84px;padding:16px 20px;border:1px solid #e3e6f3;border-radius:18px;background:#fff;color:var(--ink-strong,#111);text-decoration:none;box-shadow:0 1px 2px rgba(22,48,92,.04);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
-.hx-link a:hover,.hx-link a:focus-visible{transform:translateY(-3px);border-color:var(--hx-green);box-shadow:0 16px 32px rgba(22,48,92,.16)}
-.hx-link .hx-ico{flex:none;width:44px;height:44px;padding:11px;border-radius:14px;background:var(--brand-light,rgba(37,49,141,.1));color:var(--hx-navy)}
-.hx-link:nth-child(3) .hx-ico,.hx-link:nth-child(5) .hx-ico{background:rgba(147,194,81,.2);color:#4f7a1f}
-.hx-link-label{flex:1;min-width:0;font-size:17px;font-weight:700;line-height:1.3}
-.hx-link a::after{content:"\2192" / "";flex:none;font-size:20px;line-height:1;color:var(--hx-navy);transition:transform .25s ease}
-.hx-link a:hover::after{transform:translateX(3px)}
-.hx-link.is-primary a{min-height:110px;background:var(--hx-navy);border-color:var(--hx-navy);color:#fff}
-.hx-link.is-primary .hx-ico{background:rgba(255,255,255,.16);color:#fff}
-.hx-link.is-primary a::after{color:#fff}
-.hx-link.is-primary a:hover,.hx-link.is-primary a:focus-visible{border-color:var(--hx-green)}
+/* one photo on the right: shown whole (never cropped), rounded, soft shadow, nothing on top of it */
+.hx-library .hx-photo{margin:0;min-width:0}
+.hx-library .hx-photo img{display:block;width:100%;height:auto;border-radius:24px;box-shadow:0 24px 50px rgba(22,48,92,.18)}
 
 /* ---------- 12 · faq ---------- */
 .hx-faq{background:var(--hx-cream);padding:56px 0 80px;text-align:center}
@@ -500,8 +488,6 @@
   .hx-mapdots::after{background:rgba(20,27,85,.82)}
 }
 @media (max-width:600px){
-  .hx-links{grid-template-columns:minmax(0,1fr)}
-  .hx-link.is-primary a{min-height:96px}
   .hx-portraits{grid-template-columns:1fr}
   .hx-observe .hx-lens,.hx-seal .hx-badgewrap{max-width:280px}
   .hx .hx-sub{font-size:16px}

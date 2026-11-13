@@ -4,9 +4,17 @@
 */ -}}
 {{- $p := . -}}
 {{- $lines := .Params.hero_lines | default (slice .Title) -}}
-{{- $imgs := slice -}}
-{{- range (.Params.hero_images | default (slice)) -}}{{- $imgs = $imgs | append (partial "heroes/parts/img.html" (dict "p" $p "src" .)) -}}{{- end -}}
-{{- if not $imgs -}}{{- with partial "heroes/parts/img.html" (dict "p" $p) -}}{{- $imgs = slice . . . -}}{{- end -}}{{- end -}}
+{{- /* Strip tiles: every photo at one equal height, width from its own aspect ratio, never cropped. */ -}}
+{{- $srcs := .Params.hero_images | default slice -}}
+{{- if not $srcs }}{{ with partial "heroes/parts/img.html" (dict "p" $p) }}{{ $srcs = slice . }}{{ end }}{{ end -}}
+{{- $tiles := slice -}}
+{{- range $srcs -}}
+  {{- with resources.Get (strings.TrimPrefix "/" .) -}}
+    {{- $h := cond (lt .Height 520) .Height 520 -}}
+    {{- $r := .Resize (printf "x%d webp q80" $h) -}}
+    {{- $tiles = $tiles | append (dict "url" $r.RelPermalink "w" $r.Width "h" $r.Height) -}}
+  {{- end -}}
+{{- end -}}
 <section class="hx hx-poster">
   <div class="container">
     {{ partial "heroes/parts/crumbs.html" . }}
@@ -21,9 +29,9 @@
       </div>
     </div>
   </div>
-  {{- with $imgs }}
+  {{- with $tiles }}
   <div class="hx-strip" aria-hidden="true"><div class="hx-track">
-    {{- range seq 2 }}{{ range $imgs }}<span style="background-image:url('{{ . }}')"></span>{{ end }}{{ end }}
+    {{- range seq 2 }}{{ $dup := gt . 1 }}{{ range $tiles }}<img{{ if $dup }} class="is-dup"{{ end }} src="{{ .url }}" width="{{ .w }}" height="{{ .h }}" alt="" decoding="async">{{ end }}{{ end }}
   </div></div>
   {{- end }}
 </section>

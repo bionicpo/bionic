@@ -84,6 +84,17 @@ sections:
     label: Residents Trained Annually
   - number: ABC / NCOPE
     label: Accredited Program
+- type: richtext
+  eyebrow: PROGRAM BENEFITS
+  title: What You'll Gain
+  body: '<h3>Clinical Experience</h3><p>Exposure to a variety of clinical settings and diverse patient populations across our national network.</p><p>Training in advanced imaging, 3D scanning, and 3D printing technologies at our fabrication center.</p><h3>Continuing Education</h3><p>Internal and external CEU opportunities through manufacturers, in services, and training events.</p><h3>Clinical Training</h3><p>Guidance on documentation, coding, and outcome based care for real world practice readiness.</p><h3>Fabrication Lab</h3><p>Direct, hands on involvement in in house fabrication processes from day one.</p>'
+  layout: cards
+  cols: '4'
+  icons:
+  - stethoscope
+  - graduation-cap
+  - clipboard-check
+  - wrench
 - type: faq
   eyebrow: PROGRAM DETAILS
   title: What to Expect
@@ -96,7 +107,7 @@ sections:
     answer: Residency applications are accepted through the OPRESCAS portal. You can also reach our residency team directly at residency@bionicpo.com.
 - type: richtext
   title: '[[Jeff Wojtanowicz|/team/jeffrey-wojtanowicz,-cpo/]]'
-  body: <h3>Director Of Residency Program</h3><p>Jeffery Wojtanowicz joined Bionic in 2011 and has grown within the organization. He is a certified prosthetist and orthotist with over a decade of experience in patient care. While he is trained in many facets of the field, his special interests include upper and lower limb prosthetics as well as complex custom orthotic devices.</p><p>He is the regional manager for our clinics in the state of Illinois. He is also the residency director for all Bionic clinics and takes pride in helping new graduates learn and grow in the field.</p><p>He holds a BS in Marketing and Finance from the University of Illinois Chicago. He is a graduate of the Feinberg School of Medicine at Northwestern University. He completed his residency at the Rehabilitation Institute of Chicago which is now known as the Shirley Ryan Ability Lab.</p><p>Jeff lives in Tinley Park, IL with his wife, son, and daughter. In his free time, he enjoys golfing in the summer and going on snowboarding trips in the winter.</p><p><a href="mailto:residency@bionicpo.com">residency@bionicpo.com</a></p>
+  body: <h3>Director Of Residency Program</h3><p>Jeffery Wojtanowicz joined Bionic in 2011 and has grown within the organization. He is a certified prosthetist and orthotist with over a decade of experience in patient care. While he is trained in many facets of the field, his special interests include upper and lower limb prosthetics as well as complex custom orthotic devices.</p><p>He is the regional manager for our clinics in the state of Illinois. He is also the residency director for all Bionic clinics and takes pride in helping new graduates learn and grow in the field.</p><p>He served as Bionic's very first resident, which laid the foundation for the company's formal program. After completing his residency, Jeff took the lead in developing and launching the program as its Director. He now works closely with Bionic's 10+ annual residents, ensuring each is matched with the mentors and clinical teams best suited to their individual growth and long-term goals.</p><p>He holds a BS in Marketing and Finance from the University of Illinois Chicago. He is a graduate of the Feinberg School of Medicine at Northwestern University. He completed his residency at the Rehabilitation Institute of Chicago which is now known as the Shirley Ryan Ability Lab.</p><p>Jeff lives in Tinley Park, IL with his wife, son, and daughter. In his free time, he enjoys golfing in the summer and going on snowboarding trips in the winter.</p><p><a href="mailto:residency@bionicpo.com">residency@bionicpo.com</a></p>
   layout: cards
   cols: '1'
   avatar: /images/careers/residency-jeff.jpg

@@ -2,7 +2,7 @@
        Text before the first <h3> is rendered as prose above the grid. An <h3> with no content after it becomes a full-width sub-heading. */ -}}
 {{- $parts := split .html "<h3>" -}}
 {{- $icons := .icons | default slice -}}
-{{- with index $parts 0 }}{{ if . }}<div class="cs-prose">{{ partial "cs-rich.html" . }}</div>{{ end }}{{ end }}
+{{- with index $parts 0 }}{{ if . }}<div class="cs-prose cs-intro">{{ partial "cs-rich.html" . }}</div>{{ end }}{{ end }}
 {{- if gt (len $parts) 1 }}
 <div class="cs-grid cols-{{ .cols | default "3" }} {{ .variant }}">
   {{- range $i, $c := after 1 $parts }}

@@ -305,18 +305,23 @@
 
 /* ---------- 15 · poster (Careers) ---------- */
 .hx-poster{background:var(--hx-cream);padding:32px 0 0}
-.hx-poster .hx-grid{grid-template-columns:1.4fr 1fr;align-items:end}
-.hx-poster .hx-title{font-size:clamp(48px,8vw,124px);line-height:.92;margin:0}
+.hx-poster .hx-grid{grid-template-columns:1.4fr 1fr;align-items:center}
+.hx-poster .hx-title{font-size:clamp(48px,5.4vw,72px);line-height:.98;margin:0}
 .hx-line{display:block}
 .hx-line.is-outline{color:transparent;-webkit-text-stroke:2px var(--hx-navy);font-style:italic}
-.hx-poster .hx-side{padding-bottom:10px}
+.hx-poster .hx-side{padding-bottom:0}
 .hx-poster .hx-eyebrow{color:var(--accent-hover)}
-.hx-strip{margin-top:44px;overflow:hidden;padding-bottom:0}
-.hx-track{display:flex;gap:14px;width:max-content;animation:hx-scroll 40s linear infinite}
-.hx-track span{width:300px;height:200px;border-radius:20px 20px 0 0;background:center/cover}
-.hx-track span:nth-child(odd){height:240px}
+/* photo strip: equal-height tiles, width follows each photo, nothing cropped; slow scroll, pauses on hover */
+.hx-strip{margin-top:44px;overflow:hidden;padding-bottom:40px}
+.hx-track{display:flex;width:max-content;animation:hx-scroll 60s linear infinite}
+.hx-track img{display:block;flex:none;height:260px;width:auto;border-radius:16px;margin-right:16px;object-fit:contain}
 .hx-strip:hover .hx-track{animation-play-state:paused}
 @keyframes hx-scroll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){
+  .hx-strip{overflow-x:auto}
+  .hx-track{animation:none}
+  .hx-track img.is-dup{display:none}
+}
 
 /* ---------- 16 · growth (Grow With Us) ---------- */
 .hx-growth{background:#fff;padding:32px 0 60px}
@@ -515,7 +520,7 @@
     .hx-mtiles{grid-template-rows:150px 150px 100px}
   .hx-door{padding:28px;min-height:0}
   .hx-feature-body,.hx-quote{padding:26px}
-  .hx-track span{width:200px;height:140px}.hx-track span:nth-child(odd){height:170px}
+  .hx-track img{height:180px}
 }
 @media (prefers-reduced-motion:reduce){
   .hx *,.hx *::before,.hx *::after{animation:none!important;transition:none!important}

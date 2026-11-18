@@ -27,11 +27,5 @@ clinic_details:
       - Palatine, IL 60067
     phone: (224) 801-8092
     email: palatine@bionicpo.com
-  - name: Glenview
-    address:
-      - "2401 Ravine Way #301, Glenview, IL, USA"
-      - Glenview, IL 60025
-    phone: (847) 410-2751
-    email: glenview@bionicpo.com
 email: cmorton@bionicpo.com
 ---

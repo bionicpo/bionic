@@ -71,7 +71,7 @@
       </div>
       <span class="eyebrow">REQUEST RECEIVED</span>
       <h1>Thank you<span id="tyName"></span>!</h1>
-      <p>Your consultation request is on its way to our patient care team. We'll call you <span id="tyWhen">within one business day</span> to help you take the next step.</p>
+      <p>Your consultation request is on its way to our patient care team. We'll be in touch <span id="tyWhen">soon</span> to help you take the next step.</p>
       <div class="ty-ref">Reference&nbsp;No. <b id="tyRef">—</b></div>
     </div>
   </section>
@@ -94,7 +94,7 @@
             <p class="sub">A simple, guided path to your care plan.</p>
             <ol class="ty-steps">
               <li class="done"><span class="ty-num">✓</span><div><strong>Request received</strong><span>Your details are now with our patient care team.</span></div></li>
-              <li><span class="ty-num">2</span><div><strong>We contact you</strong><span id="tyStep2">A care coordinator will call you within one business day to find a time that works.</span></div></li>
+              <li><span class="ty-num">2</span><div><strong>We contact you</strong><span id="tyStep2">A care coordinator will call you soon to find a time that works.</span></div></li>
               <li><span class="ty-num">3</span><div><strong>Insurance &amp; prescription check</strong><span>We help verify coverage and gather any paperwork from your physician.</span></div></li>
               <li><span class="ty-num">4</span><div><strong>Complimentary consultation</strong><span>Meet a board-certified clinician at the clinic closest to you.</span></div></li>
             </ol>
@@ -144,9 +144,8 @@
   var slot = d.best_time ? d.best_time.split(' (')[0].toLowerCase() : '';
   var when = slot ? (slot === 'midday' ? ' around midday' : ' in the ' + slot) : '';
   if (how) {
-    document.getElementById('tyWhen').textContent = 'within one business day';
     document.getElementById('tyStep2').textContent =
-      'A care coordinator will reach out ' + how + when + ' within one business day.';
+      'A care coordinator will reach out ' + how + when + ' to find a time that works.';
   }
 
   var rows = [

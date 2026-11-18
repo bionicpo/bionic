@@ -45,12 +45,6 @@ clinic_details:
       - Chicago, IL 60657
     phone: (773) 698-6269
     email: chicago@bionicpo.com
-  - name: Joliet
-    address:
-      - 3230 Executive Dr, Ste. 2
-      - Joliet, IL 60431
-    phone: (815) 207-4200
-    email: joliet@bionicpo.com
   - name: Tinley Park
     address:
       - 8505 183rd St Suite B, Tinley Park, IL 60487, USA

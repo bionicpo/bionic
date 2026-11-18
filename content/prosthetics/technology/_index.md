@@ -1,4 +1,5 @@
 ---
+seo_title: "Prosthetic & Orthotic Technology | Bionic P&O"
 title: "Prosthetic & Orthotic Technology"
 description: "Microprocessor-controlled joints, myoelectric devices and 3D printing at Bionic."
 

@@ -1,7 +1,7 @@
 ---
 title: Orthotics
 seo_title: Orthotics | Bionic Prosthetics and Orthotics
-seo_description: Discover custom orthotics and support solutions at Bionic Prosthetics. Custom and prefabricated braces and inserts designed to support comfort, alignment, and improved mobility.
+seo_description: "Discover custom orthotics and support solutions at Bionic P&O. Custom and prefabricated braces and inserts designed for comfort, alignment, and mobility."
 hero_images: ["/images/orthotics-overview.webp", "/images/orthotics-mosaic-baby-helmet.webp", "/images/orthotics-mosaic-spinal-brace.webp"]
 hero:
   eyebrow: YOUR PATH TO BETTER MOVEMENT

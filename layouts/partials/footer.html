@@ -4,7 +4,7 @@
   <div class="container footer-grid">
     <div class="footer-col footer-brand">
       <a href="/" class="footer-brand-mark">
-        <img src="{{ $s.logo_footer }}" alt="{{ site.Title }}" class="footer-logo">
+        <img title="{{ partial "img-title.html" (dict "alt" (site.Title) "src" ($s.logo_footer)) }}" src="{{ $s.logo_footer }}" alt="{{ site.Title }}" class="footer-logo">
       </a>
       <p>{{ $s.footer.blurb }}</p>
       <div class="footer-contact">
@@ -20,7 +20,7 @@
     </div>
 
     <div class="footer-col">
-      <h4>{{ $s.footer.links_heading }}</h4>
+      <p class="footer-heading">{{ $s.footer.links_heading }}</p>
       <ul>
         {{ range $nav.footer_links }}
         <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="footer-col">
-      <h4>{{ $s.footer.services_heading }}</h4>
+      <p class="footer-heading">{{ $s.footer.services_heading }}</p>
       <ul>
         {{ range $nav.footer_services }}
         <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
@@ -38,7 +38,7 @@
     </div>
 
     <div class="footer-col">
-      <h4>{{ $s.footer.locations_heading | default "Locations" }}</h4>
+      <p class="footer-heading">{{ $s.footer.locations_heading | default "Locations" }}</p>
       <ul>
         {{ range $nav.footer_locations }}
         <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="footer-col">
-      <h4>{{ $s.footer.career_heading | default "Career" }}</h4>
+      <p class="footer-heading">{{ $s.footer.career_heading | default "Career" }}</p>
       <ul>
         {{ range $nav.footer_career }}
         <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>

@@ -15,8 +15,8 @@
   {{- else if in (slice "image/jpeg" "image/png") $img.MediaType.Type -}}
     {{- $r = $img.Process "webp q80" -}}
   {{- end -}}
-  <img src="{{ $r.RelPermalink }}" width="{{ $r.Width }}" height="{{ $r.Height }}" alt="{{ $alt }}"{{ if .eager }} fetchpriority="high"{{ else }} loading="lazy" decoding="async"{{ end }}>
+  <img title="{{ partial "img-title.html" (dict "alt" ($alt) "src" ($r.RelPermalink)) }}" src="{{ $r.RelPermalink }}" width="{{ $r.Width }}" height="{{ $r.Height }}" alt="{{ $alt }}"{{ if .eager }} fetchpriority="high"{{ else }} loading="lazy" decoding="async"{{ end }}>
 {{- else -}}
   {{- warnf "home/pic.html: image %q not found in assets/" .src -}}
-  <img src="{{ printf "/%s.webp" .src | relURL }}" alt="{{ $alt }}" loading="lazy">
+  <img title="{{ partial "img-title.html" (dict "alt" ($alt) "src" (printf "/%s.webp" .src | relURL)) }}" src="{{ printf "/%s.webp" .src | relURL }}" alt="{{ $alt }}" loading="lazy">
 {{- end -}}

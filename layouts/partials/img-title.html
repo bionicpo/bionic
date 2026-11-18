@@ -1,0 +1,7 @@
+{{- /* title attribute value for an <img>. Context: dict "alt" "src". Uses the alt text; when alt is empty, a readable name from the file name. */ -}}
+{{- $alt := trim (.alt | default "" | string) " " -}}
+{{- if $alt }}{{ return $alt }}{{ end -}}
+{{- $f := path.Base (index (split ((.src | default "") | string) "?") 0) -}}
+{{- $f = replaceRE `\.[A-Za-z0-9]+$` "" $f -}}
+{{- $f = replaceRE `[-_]+` " " $f -}}
+{{- return (trim $f " ") -}}

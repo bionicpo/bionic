@@ -1,6 +1,6 @@
 ---
 title: "Prosthetic vs Prosthesis: What’s the Difference and Why It Matters"
-seo_title: "Prosthetic vs Prosthesis: What’s the Difference and Why It Matters"
+seo_title: "Prosthetic vs Prosthesis: What’s the Difference?"
 seo_description: "Confused by prosthetic vs prosthesis? Learn the real difference, why it matters in care decisions, and how clear language supports better prosthetic outcomes."
 date: 2026-01-30
 categories: ["Prosthetics and Orthotics"]

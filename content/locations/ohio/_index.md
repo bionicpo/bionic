@@ -1,7 +1,7 @@
 ---
 title: "Ohio"
 seo_title: "Bionic Prosthetics & Orthotics in Ohio"
-seo_description: "Looking for prosthetics in Ohio? Bionic provides personalized prosthetic and orthotic solutions, advanced technology, and ongoing patient care. Schedule a free consultation."
+seo_description: "Looking for prosthetics in Ohio? Bionic provides personalized prosthetic and orthotic solutions, advanced technology, and ongoing care. Book a consultation."
 type: "state"
 cascade:
   type: "clinic"

@@ -16,7 +16,7 @@
     <div class="hx-grid">
       <div class="hx-portrait">
         <span class="hx-ring"></span>
-        {{- if $u }}<img src="{{ $u }}" alt="{{ .Title }}">{{ else }}<span class="hx-initials">{{ substr $first 0 1 }}</span>{{ end }}
+        {{- if $u }}<img title="{{ partial "img-title.html" (dict "alt" (.Title) "src" ($u)) }}" src="{{ $u }}" alt="{{ .Title }}">{{ else }}<span class="hx-initials">{{ substr $first 0 1 }}</span>{{ end }}
       </div>
       <div class="hx-copy">
         <span class="eyebrow hx-eyebrow">{{ if $isExec }}Leadership{{ else }}Clinical Team{{ end }}</span>

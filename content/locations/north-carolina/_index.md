@@ -1,7 +1,7 @@
 ---
 title: "North Carolina"
-seo_title: "Bionic Prosthetics & Orthotics in North Carolina | Custom Care"
-seo_description: "Get expert prosthetic and orthotic care across North Carolina. Bionic offers custom prosthetics, bracing, and rehabilitation support. Schedule a free consultation today."
+seo_title: "Prosthetics & Orthotics in North Carolina | Bionic P&O"
+seo_description: "Get expert prosthetic and orthotic care across North Carolina. Bionic offers custom prosthetics, bracing, and rehab support. Schedule a free consultation today."
 type: "state"
 cascade:
   type: "clinic"

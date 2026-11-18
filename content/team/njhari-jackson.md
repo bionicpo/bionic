@@ -1,4 +1,7 @@
 ---
+slug: "njhari-jackson"
+aliases:
+  - "/team/n'jhari-jackson/"
 title: N'Jhari Jackson
 seo_title: N'Jhari Jackson | Bionic P&O
 name: N'Jhari Jackson
@@ -29,6 +32,5 @@ clinic_details:
       - Titusville, FL 32780
     phone: (321) 225-8001
     email: titusville@bionicpo.com
-url: /team/n'jhari-jackson/
 email: njackson@bionicpo.com
 ---

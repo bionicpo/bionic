@@ -11,7 +11,7 @@
       </ul>
     </div>
     {{- with $img }}
-    <figure class="hx-kid"><img src="{{ . }}" alt="" fetchpriority="high" decoding="async"></figure>
+    <figure class="hx-kid"><img title="{{ partial "img-title.html" (dict "alt" "" "src" (.)) }}" src="{{ . }}" alt="" fetchpriority="high" decoding="async"></figure>
     {{- end }}
   </div>
 </section>

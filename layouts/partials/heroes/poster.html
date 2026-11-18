@@ -31,7 +31,7 @@
   </div>
   {{- with $tiles }}
   <div class="hx-strip" aria-hidden="true"><div class="hx-track">
-    {{- range seq 2 }}{{ $dup := gt . 1 }}{{ range $tiles }}<img{{ if $dup }} class="is-dup"{{ end }} src="{{ .url }}" width="{{ .w }}" height="{{ .h }}" alt="" decoding="async">{{ end }}{{ end }}
+    {{- range seq 2 }}{{ $dup := gt . 1 }}{{ range $tiles }}<img title="{{ partial "img-title.html" (dict "alt" "" "src" (.url)) }}"{{ if $dup }} class="is-dup"{{ end }} src="{{ .url }}" width="{{ .w }}" height="{{ .h }}" alt="" decoding="async">{{ end }}{{ end }}
   </div></div>
   {{- end }}
 </section>

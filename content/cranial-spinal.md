@@ -87,11 +87,9 @@ breadcrumbs:
   - /orthotics
 hero_image: /images/orthotics-cranial-spinal.webp
 title: Cranial & Spinal Orthotics
-seo_title: Cranial & Spinal Orthotics | Custom Bracing & Helmets | BionicPO
+seo_title: "Cranial & Spinal Orthotics | Bracing & Helmets | Bionic P&O"
+seo_description: "Bionic P&O offers expert cranial remolding helmets and custom spinal orthoses. Our ABC-certified clinicians provide personalized care for scoliosis and more."
 hero_region: headspine
-seo_description: Bionic P&O offers expert cranial remolding helmets and custom
-  spinal orthoses. Our ABC-certified clinicians provide personalized care for
-  scoliosis and plagiocephaly.
 hero:
   eyebrow: ORTHOTICS
   title: Cranial and Spinal Orthotics

@@ -1,4 +1,7 @@
 ---
+slug: "eric-christensen-cpo-lpo"
+aliases:
+  - "/team/eric-christensen,-cpo/lpo/"
 name: Eric Christensen
 bio: <p>Eric Christensen is a Certified/Licensed Prosthetist &amp; Orthotist
   working out of our Daytona Beach clinic. After 10 years working at the space
@@ -17,7 +20,6 @@ clinic_details:
       - Ormond Beach, FL 32117
     phone: (386) 258-0401
     email: daytona@bionicpo.com
-url: /team/eric-christensen,-cpo/lpo/
 noindex: true
 title: Eric Christensen
 seo_title: Eric Christensen, CPO/LPO | Bionic P&O

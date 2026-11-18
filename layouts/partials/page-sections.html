@@ -241,7 +241,7 @@
       {{- $m := findRESubmatch `^(.+?) - (.+?)(?: (\*.+))?$` . 1 -}}
       {{ with $m }}{{ $g := index . 0 }}
       <article class="loc-card reveal" data-reveal="up">
-        <h3>{{ index $g 1 }}</h3>
+        <h2>{{ index $g 1 }}</h2>
         <p>{{ index $g 2 }}</p>
         {{ with index $g 3 }}<p class="loc-note">{{ . }}</p>{{ end }}
       </article>

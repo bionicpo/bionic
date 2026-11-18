@@ -35,6 +35,7 @@ title = "Bionic Prosthetics & Orthotics"
 [params]
   gtmID = "GTM-5WTFB2L2"
   googleAdsIDs = ["AW-677614629", "AW-849212221"]
+  ogImage = "/images/hero-care.png"
   brandColor = "#1D3F96"
   accentColor = "#F2994A"
   # Google Apps Script Web App URL (ends with /exec) for the /contact/ form. Empty = demo mode.

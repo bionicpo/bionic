@@ -3,7 +3,7 @@ breadcrumbs:
 - /careers
 title: Grow
 seo_title: Careers & Job Openings at Bionic Prosthetics and Orthotics
-seo_description: Explore career opportunities with Bionic Prosthetics & Orthotics, including prosthetist, orthotic, admin, and trainee roles. Grow with a leading P&O team nationwide.
+seo_description: "Explore career opportunities with Bionic Prosthetics & Orthotics, including prosthetist, orthotist, admin, and trainee roles. Grow with a leading P&O team."
 body_class: page-hiring
 hero_image: "/images/careers/grow-team-3.jpg"
 hero:

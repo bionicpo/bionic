@@ -2,8 +2,8 @@
 breadcrumbs:
 - /resources
 title: Bionic Beats
-seo_title: Monthly Newsletters | Bionic Prosthetics and Orthotics Updates
-seo_description: Get the latest prosthetics and orthotics insights, product updates, and expert tips in our monthly Bionic Beats newsletter. Stay informed with trusted industry news.
+seo_title: "Monthly Newsletters & Updates | Bionic P&O"
+seo_description: "Get prosthetics and orthotics insights, product updates, and expert tips in our monthly Bionic Beats newsletter. Stay informed with trusted industry news."
 hero_image: "/images/bionic-beats-podium.webp"
 hero_image_alt: "A Bionic speaker at the AOPA podium"
 hero:

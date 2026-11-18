@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ partial "hero.html" . }}
 <section class="section"><div class="container">
+  <div class="section-heading"><h2>Browse Articles by Category</h2></div>
   <div class="filter-chips">{{ range .Data.Terms.Alphabetical }}<a href="{{ .Page.RelPermalink }}" class="filter-chip">{{ .Page.Title }} <span>({{ .Count }})</span></a>{{ end }}</div>
 </div></section>
 {{ end }}

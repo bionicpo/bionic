@@ -1,7 +1,7 @@
 ---
 title: "Wisconsin"
 seo_title: "Prosthetics & Orthotics in Wisconsin | Bionic P&O"
-seo_description: "Get expert prosthetic and orthotic care across Wisconsin. Bionic offers custom prosthetics, bracing, and rehabilitation support. Schedule a free consultation today."
+seo_description: "Get expert prosthetic and orthotic care across Wisconsin. Bionic offers custom prosthetics, bracing, and rehab support. Schedule a free consultation today."
 type: "state"
 cascade:
   type: "clinic"

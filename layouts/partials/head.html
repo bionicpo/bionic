@@ -1,19 +1,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{{- $seoDesc := .Params.seo_description -}}
-{{- $desc := $seoDesc | default .Description -}}
+{{- $desc := .Params.seo_description | default .Params.seoDescription | default .Description -}}
 {{- if not $desc }}{{ with .Params.hero }}{{ $desc = .subhead }}{{ end }}{{ end -}}
-{{- if not $desc }}{{ if and (not .IsHome) (eq .Kind "page") }}{{ $desc = .Summary | plainify | truncate 160 }}{{ end }}{{ end -}}
+{{- if not $desc }}{{ if and (not .IsHome) (eq .Kind "page") }}{{ $desc = .Summary | plainify }}{{ end }}{{ end -}}
 {{- if not $desc }}{{ $desc = "Board-certified prosthetic and orthotic care for children and adults, with clinics across the country." }}{{ end -}}
-{{- if not $seoDesc }}{{ $desc = $desc | plainify | truncate 160 }}{{ end -}}
-{{- $title := .Params.seo_title | default (cond .IsHome .Title (printf "%s | %s" .Title site.Title)) -}}
+{{- /* meta/og/twitter description: max 160 chars, cut on a word boundary */ -}}
+{{- if eq .Kind "404" }}{{ $desc = "Sorry, we couldn't find that page. Explore Bionic Prosthetics & Orthotics clinics, prosthetics, orthotics and contact options." }}{{ end -}}
+{{- $desc = $desc | plainify | truncate 157 -}}
+{{- /* <title>/og:title/twitter:title: front matter seoTitle (legacy: seo_title) wins; otherwise "Title | Site".
+       Titles under 30 chars get a descriptive suffix ("Name – Role | Bionic P&O" / "Title | Bionic Prosthetics & Orthotics"). */ -}}
+{{- $title := .Params.seoTitle | default .Params.seo_title | default (cond .IsHome .Title (printf "%s | %s" .Title site.Title)) -}}
+{{- if and (lt (strings.RuneCount $title) 30) (not .IsHome) -}}
+  {{- $base := replaceRE `\s*\|\s*Bionic P&O$` "" $title -}}
+  {{- $role := .Params.role | default "" -}}
+  {{- $t := "" -}}
+  {{- if $role }}{{ $t = printf "%s – %s | Bionic P&O" $base $role }}{{ end -}}
+  {{- if or (not $t) (gt (strings.RuneCount $t) 60) }}{{ $t = printf "%s | %s" $base site.Title }}{{ end -}}
+  {{- if gt (strings.RuneCount $t) 60 }}{{ $t = printf "%s | Bionic P&O" $base }}{{ end -}}
+  {{- if lt (strings.RuneCount $t) 30 }}{{ $t = printf "%s | %s" $base site.Title }}{{ end -}}
+  {{- $title = $t -}}
+{{- end -}}
+{{- if eq .Kind "404" }}{{ $title = "Page Not Found | Bionic Prosthetics & Orthotics" }}{{ end -}}
 {{- $img := .Params.image -}}
 {{- if not $img }}{{ with .Params.hero }}{{ $img = .image }}{{ end }}{{ end -}}
+{{- if not $img }}{{ $img = .Params.hero_image | default .Params.photo | default .Params.featured_image }}{{ end -}}
 {{- if not $img }}{{ $img = site.Params.ogImage }}{{ end -}}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
-{{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">
+{{ if eq .Kind "404" }}<meta name="robots" content="noindex">
+{{ else if .Params.noindex }}<meta name="robots" content="noindex, nofollow">
 {{ end }}<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -23,17 +39,28 @@
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
-{{ with $img }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
-<meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}">
+<meta property="og:image" content="{{ $img | absURL }}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $desc }}">
-{{ with $img }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+<meta name="twitter:image" content="{{ $img | absURL }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+{{- $fontsURL := "https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Poppins:wght@500;600;700&display=swap" }}
+<link rel="preload" as="style" href="{{ $fontsURL }}" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $fontsURL }}"></noscript>
 {{- /* raw copy at /css/style.css for the CMS editor preview (static/admin) */ -}}{{ with resources.Get "css/style.css" }}{{ .Publish }}{{ end }}
-{{ $css := slice (resources.Get "css/style.css") (resources.Get "css/components.css") | resources.Concat "css/site.css" | resources.Minify | resources.Fingerprint }}<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-{{ $hx := partial "asset.html" "css/heroes.css" }}<link rel="stylesheet" href="{{ $hx.RelPermalink }}" integrity="{{ $hx.Data.Integrity }}">
-{{ if eq .Type "blog-post" }}{{ $pc := partial "asset.html" "css/post.css" }}<link rel="stylesheet" href="{{ $pc.RelPermalink }}" integrity="{{ $pc.Data.Integrity }}">{{ end }}
-{{ $tab := partial "asset.html" "css/responsive/tablet.css" }}<link rel="stylesheet" href="{{ $tab.RelPermalink }}" integrity="{{ $tab.Data.Integrity }}" media="(max-width: 1024px)">
-{{ $mob := partial "asset.html" "css/responsive/mobile.css" }}<link rel="stylesheet" href="{{ $mob.RelPermalink }}" integrity="{{ $mob.Data.Integrity }}" media="(max-width: 640px)">
+{{- /* CSS delivery: (1) critical CSS (tokens, base, buttons, header, hero = top of style.css up to the @critical-end marker, plus typography) is inlined;
+       (2) everything else is ONE bundled + minified + fingerprinted file, loaded non-blocking (preload + onload swap, <noscript> fallback).
+       Bundle order matches the old cascade: style, components, heroes, [post], tablet, mobile, [home], typography. */ -}}
+{{ $style := (resources.Get "css/style.css").Content }}
+{{ $critical := printf "%s\n%s" (index (split $style "/* @critical-end */") 0) (resources.Get "css/typography.css").Content | resources.FromString "css/critical.css" | resources.Minify }}
+<style>{{ $critical.Content | safeCSS }}</style>
+{{ $parts := slice $style (resources.Get "css/components.css").Content (resources.Get "css/heroes.css").Content }}
+{{ if eq .Type "blog-post" }}{{ $parts = $parts | append (resources.Get "css/post.css").Content }}{{ end }}
+{{ $parts = $parts | append (printf "@media (max-width: 1024px){%s}" (resources.Get "css/responsive/tablet.css").Content) (printf "@media (max-width: 640px){%s}" (resources.Get "css/responsive/mobile.css").Content) }}
+{{ if .IsHome }}{{ $parts = $parts | append (resources.Get "css/home.css").Content }}{{ end }}
+{{ $parts = $parts | append (resources.Get "css/typography.css").Content }}
+{{ $bundle := delimit $parts "\n" | resources.FromString (printf "css/bundle-%s.css" (cond .IsHome "home" (cond (eq .Type "blog-post") "post" "site"))) | resources.Minify | resources.Fingerprint }}
+<link rel="preload" as="style" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}"></noscript>

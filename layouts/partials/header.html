@@ -21,7 +21,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="/" class="brand">
-      <img src="{{ $s.logo }}" alt="{{ site.Title }}" class="brand-logo">
+      <img title="{{ partial "img-title.html" (dict "alt" (site.Title) "src" ($s.logo)) }}" src="{{ $s.logo }}" alt="{{ site.Title }}" class="brand-logo">
     </a>
 
     <nav class="main-nav" aria-label="Main navigation">

@@ -1,7 +1,7 @@
 ---
 title: "What Is a Prosthetic Arm? A Complete Introduction for New Amputees"
-seo_title: "What Is a Prosthetic Arm? A Complete Introduction for New Amputees"
-seo_description: "Learn what a prosthetic arm is, its key components, control methods, and what to expect from modern technology. Expert guide from Bionic Prosthetics & Orthotics."
+seo_title: "What Is a Prosthetic Arm? A Guide for New Amputees"
+seo_description: "Learn what a prosthetic arm is, its key components, control methods, and what to expect from modern technology. A guide for new amputees from Bionic P&O."
 date: 2026-03-06
 date_label: "Updated: Mar 6"
 categories: ["Prosthetics and Orthotics"]

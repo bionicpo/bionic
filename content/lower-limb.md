@@ -3,7 +3,7 @@ breadcrumbs:
 - /prosthetics
 title: Lower Limb Prosthetics
 seo_title: Lower Limb | Bionic Prosthetics and Orthotics
-seo_description: Advanced lower limb prosthetics to help improve mobility. Bionic P&O provides custom above-knee, below-knee, and hip solutions across the states. Visit us today.
+seo_description: "Advanced lower limb prosthetics to help improve mobility. Bionic P&O provides custom above-knee, below-knee, and hip solutions nationwide. Visit us today."
 hero_region: leg
 hero_chips: ["Hip", "Above the knee", "Below the knee", "Foot & partial foot", "Silicone restoration"]
 hero_image: "/images/lower-limb-prosthetics.webp"

@@ -1,6 +1,6 @@
 ---
 title: "From First Steps to the School Dance: Jada’s Pediatric AFO Success Story"
-seo_title: "From First Steps to the School Dance: Jada’s Pediatric AFO Success Story"
+seo_title: "Jada’s Pediatric AFO Success Story: First Steps to Dance"
 seo_description: "See how early AFO support helped a child improve balance, confidence, and movement. A real pediatric orthotics story from Bionic Prosthetics & Orthotics."
 date: 2026-01-28
 categories: ["Success Stories", "Prosthetics and Orthotics"]

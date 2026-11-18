@@ -1,7 +1,7 @@
 ---
 title: "How Weather Affects Prosthetics: Tips for Managing Seasonal Changes"
-seo_title: "How Weather Affects Prosthetics: Tips for Managing Seasonal Changes"
-seo_description: "Learn how weather impacts your prosthetic fit and performance. Discover tips for managing moisture, temperature, and seasonal changes to stay comfortable year-round."
+seo_title: "How Weather Affects Prosthetics: Seasonal Care Tips"
+seo_description: "Learn how weather affects your prosthetic fit and performance. Get tips for managing moisture, temperature, and seasonal changes to stay comfortable all year."
 date: 2026-02-06
 categories: ["Health and Wellness", "Prosthetics and Orthotics"]
 image: "/images/blog/how-weather-affects-prosthetics-tips-for-managing-seasonal-changes.jpg"

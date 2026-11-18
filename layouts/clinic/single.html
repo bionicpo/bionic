@@ -163,7 +163,7 @@
   {{- end }}
   {{ if $gallery }}
   <div class="container cl-gallery">
-    {{ range $gallery }}<img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">{{ end }}
+    {{ range $gallery }}<img title="{{ partial "img-title.html" (dict "alt" (.alt) "src" (.src)) }}" src="{{ .src }}" alt="{{ .alt }}" loading="lazy">{{ end }}
   </div>
   {{ end }}
 </section>
@@ -179,7 +179,7 @@
     <div class="card-grid team-grid">
       {{ range $members }}
       {{ if .link }}<a href="{{ .link }}" class="team-card reveal" data-reveal="up">{{ else }}<div class="team-card reveal" data-reveal="up">{{ end }}
-        <div class="team-avatar">{{ if .photo }}<img src="{{ .photo }}" alt="{{ .name }}" loading="lazy"{{ with .pos }} style="object-position:{{ . }}"{{ end }}>{{ else }}{{ substr .name 0 1 }}{{ end }}</div>
+        <div class="team-avatar">{{ if .photo }}<img title="{{ partial "img-title.html" (dict "alt" (.name) "src" (.photo)) }}" src="{{ .photo }}" alt="{{ .name }}" loading="lazy"{{ with .pos }} style="object-position:{{ . }}"{{ end }}>{{ else }}{{ substr .name 0 1 }}{{ end }}</div>
         <h3>{{ .name }}</h3>
         {{ with .creds }}<div class="team-credentials">{{ . }}</div>{{ end }}
         {{ with .title }}<div class="team-role">{{ . }}</div>{{ end }}

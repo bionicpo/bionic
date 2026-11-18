@@ -3,7 +3,7 @@ breadcrumbs:
 - /orthotics
 title: Upper Extremity Orthotics
 seo_title: Upper Extremity | Bionic Prosthetics and Orthotics | USA
-seo_description: Discover innovative upper extremity prosthetics and orthotics solutions at Bionic. Explore advanced technology and personalized care to help improve function and quality of life.
+seo_description: "Discover innovative upper extremity prosthetics and orthotics solutions at Bionic. Explore advanced technology and personalized care to improve daily function."
 hero_region: upper
 hero_chips: ["Contracture management", "Fracture bracing", "Post-op bracing"]
 hero_image: "/images/upper-extremity-orthotics.webp"

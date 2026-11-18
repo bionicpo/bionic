@@ -17,7 +17,7 @@
       </ul>
     </div>
     {{- with $img }}
-    <div class="hx-hud"><img src="{{ . }}" alt=""><i class="c1"></i><i class="c2"></i><i class="c3"></i><i class="c4"></i><span class="hx-scan"></span></div>
+    <div class="hx-hud"><img title="{{ partial "img-title.html" (dict "alt" "" "src" (.)) }}" src="{{ . }}" alt=""><i class="c1"></i><i class="c2"></i><i class="c3"></i><i class="c4"></i><span class="hx-scan"></span></div>
     {{- end }}
   </div>
 </section>

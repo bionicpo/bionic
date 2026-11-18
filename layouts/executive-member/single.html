@@ -21,7 +21,7 @@
     <div class="tm-grid">
       <aside class="tm-aside">
         <div class="team-profile-avatar tm-avatar">
-          {{ if $photo }}<img src="{{ $photo }}" alt="{{ .Params.image_alt | default .Title }}">{{ else }}{{ partial "initials.html" .Title }}{{ end }}
+          {{ if $photo }}<img title="{{ partial "img-title.html" (dict "alt" (.Params.image_alt | default .Title) "src" ($photo)) }}" src="{{ $photo }}" alt="{{ .Params.image_alt | default .Title }}">{{ else }}{{ partial "initials.html" .Title }}{{ end }}
         </div>
         <h2 class="tm-name">{{ .Title }}</h2>
         {{ with .Params.credentials }}<div class="team-credentials">{{ . }}</div>{{ end }}

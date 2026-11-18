@@ -1,4 +1,7 @@
 ---
+slug: "victoria-mendez-cpo-lpo"
+aliases:
+  - "/team/victoria-mendez,-cpo/lpo/"
 name: Victoria Mendez
 bio: <p>Victoria Mendez is a Certified Licensed Prosthetist with over 20 years
   of experience in upper and lower limb prosthetics, working with patients
@@ -32,7 +35,6 @@ clinic_details:
       - Titusville, FL 32780
     phone: (321) 225-8001
     email: titusville@bionicpo.com
-url: /team/victoria-mendez,-cpo/lpo/
 noindex: true
 title: Victoria Mendez
 seo_title: Victoria Mendez, CP | Bionic P&O

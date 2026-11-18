@@ -30,7 +30,7 @@
     </div>
     <div class="hx-av">
       {{- with $img }}
-      <img class="hx-av-img" src="{{ . }}" alt="" fetchpriority="high">
+      <img title="{{ partial "img-title.html" (dict "alt" "" "src" (.)) }}" class="hx-av-img" src="{{ . }}" alt="" fetchpriority="high">
       {{- else }}
       <div class="hx-av-img hx-av-blank" aria-hidden="true"></div>
       {{- end }}

@@ -1,7 +1,7 @@
 ---
 title: "Florida"
 seo_title: "Prosthetics & Orthotics in Florida | Bionic P&O"
-seo_description: "Get expert prosthetic and orthotic care across Florida. Bionic offers custom prosthetics, bracing, and rehabilitation support. Schedule a free consultation today."
+seo_description: "Get expert prosthetic and orthotic care across Florida. Bionic offers custom prosthetics, bracing, and rehab support. Schedule a free consultation today."
 type: "state"
 cascade:
   type: "clinic"

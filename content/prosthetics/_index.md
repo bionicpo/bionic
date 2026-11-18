@@ -1,7 +1,7 @@
 ---
 title: Prosthetics
 seo_title: Prosthetics | Bionic Prosthetics and Orthotics
-seo_description: Find personalized prosthetic limb solutions at Bionic Prosthetics & Orthotics. From upper to lower limb prostheses, get expert fitting, advanced technology, and restored function.
+seo_description: "Find personalized prosthetic limb solutions at Bionic Prosthetics & Orthotics. From upper to lower limb, get expert fitting, advanced technology, and function."
 hero_image: "/images/prosthetics-what-is.webp"
 hero:
   eyebrow: YOUR PROSTHETIC JOURNEY STARTS HERE

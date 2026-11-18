@@ -1,7 +1,7 @@
 ---
 title: "Pennsylvania"
-seo_title: "Bionic Prosthetics & Orthotics in Pennsylvania | Philadelphia Clinic"
-seo_description: "Looking for prosthetics in Pennsylvania? Visit Bionic’s Philadelphia clinic for personalized prosthetics, orthotics, and ongoing care. Schedule a free consultation."
+seo_title: "Prosthetics & Orthotics in Pennsylvania | Bionic P&O"
+seo_description: "Looking for prosthetics in Pennsylvania? Visit Bionic’s Philadelphia clinic for personalized prosthetics, orthotics, and ongoing care. Book a free consultation."
 type: "state"
 cascade:
   type: "clinic"

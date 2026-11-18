@@ -1,11 +1,11 @@
 ---
 title: SPORTS & PROSTHETICS - HOW ATHLETES WITH LIMB LOSS BREAK BARRIERS EVERY DAY.
+seo_title: "Sports Prosthetics: How Athletes Break Barriers Every Day"
 date: 2025-11-29
 categories:
   - Health and Wellness
 image: /images/blog/what-to-know-about-your-first-prosthetic-leg-a-beginner-s-guide.jpg
 image_alt: A golfer with two prosthetic legs mid-swing on a golf course tee
-seo_title: SPORTS & PROSTHETICS - HOW ATHLETES WITH LIMB BREAK BARRIES EVERYDAY.
 entry_type: blog_post
 recent_posts:
   - what-is-a-prosthetic-arm-a-complete-introduction-for-new-amputees

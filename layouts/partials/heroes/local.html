@@ -43,7 +43,7 @@
     </aside>
     {{- else }}
       {{- with $img }}
-    <figure class="hx-clinic-photo"><img src="{{ . }}"{{ if $imgW }} width="{{ $imgW }}" height="{{ $imgH }}"{{ end }} alt="{{ $.Params.image_alt | default (printf "%s clinic" $.Title) }}" fetchpriority="high" decoding="async"></figure>
+    <figure class="hx-clinic-photo"><img title="{{ partial "img-title.html" (dict "alt" ($.Params.image_alt | default (printf "%s clinic" $.Title)) "src" (.)) }}" src="{{ . }}"{{ if $imgW }} width="{{ $imgW }}" height="{{ $imgH }}"{{ end }} alt="{{ $.Params.image_alt | default (printf "%s clinic" $.Title) }}" fetchpriority="high" decoding="async"></figure>
       {{- end }}
     {{- end }}
   </div>

@@ -13,7 +13,7 @@
     </div>
     {{- with $img }}
     <figure class="hx-media">
-      <img src="{{ . }}" alt="" fetchpriority="high">
+      <img title="{{ partial "img-title.html" (dict "alt" "" "src" (.)) }}" src="{{ . }}" alt="" fetchpriority="high">
     </figure>
     {{- end }}
   </div>

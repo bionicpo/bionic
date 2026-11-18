@@ -1,8 +1,8 @@
 ---
 breadcrumbs: ["/resources"]
 title: "Book an Appointment & Pay Your Bill"
-seo_title: "Book Appointment & Pay Bill | Bionic Prosthetics and Orthotics"
-seo_description: "Schedule your prosthetic or orthotic appointment and securely pay your bill online. Quick, easy access to patient forms and support from Bionic Prosthetics professionals."
+seo_title: "Book Appointment & Pay Bill | Bionic P&O"
+seo_description: "Schedule your prosthetic or orthotic appointment and pay your bill securely online. Get easy access to patient forms and support from Bionic professionals."
 
 hero_book_url: "/locations/"
 hero_pay_url: "https://www.patientnotebook.com/BionicPO/payment"

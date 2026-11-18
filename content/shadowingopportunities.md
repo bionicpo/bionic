@@ -1,5 +1,7 @@
 ---
 hero_image_alt: Students working in the Bionic lab at the engineering camp
+seo_title: "Start Your Career with an Internship | Bionic P&O"
+seo_description: "Explore hands-on prosthetics and orthotics internships at Bionic. Gain real clinical experience, professional skills, and career growth opportunities."
 sections:
   - type: text-image
     eyebrow: JUMPSTART YOUR CAREER
@@ -58,10 +60,6 @@ breadcrumbs:
   - /careers
 hero_image: /images/shadowing-lab-students.webp
 title: Shadowing & Internship Opportunities
-seo_title: Start Your Career with an Internship | Bionic P&O
-seo_description: Explore hands-on prosthetics and orthotics internships at
-  Bionic Prosthetics. Gain real clinical experience, professional skills, and
-  career growth opportunities.
 hero:
   eyebrow: STUDENTS & EARLY EXPLORERS
   title: Your First Step Into the World of O&P

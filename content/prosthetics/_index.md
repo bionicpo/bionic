@@ -8,7 +8,7 @@ hero:
   title: Prosthetic Solutions
   subhead: The right device fits your body, your job, and your life. At Bionic P&O, we build it with you, not just for you.
   cta_primary: Book a Consultation
-  cta_primary_link: tel:2197919200
+  cta_primary_link: tel:18555246642
   cta_secondary: Find Nearest Clinic
   cta_secondary_link: /locations/
 sections:
@@ -75,7 +75,7 @@ sections:
   image_position: left
   buttons:
   - text: Contact Us for Your Consultation
-    link: tel:2197919200
+    link: tel:18555246642
 - type: richtext
   title: Why Choose Bionic P&O Prosthetics?
   body: '<p>As a leader in prosthetic care, Bionic P&amp;O combines technology, craftsmanship, and personal attention. Here''s why we''re trusted by individuals and healthcare professionals alike:</p><ul><li><strong>Cutting-Edge Technology</strong> We use advanced microprocessor-controlled limbs (MPKs) that adapt to your walking pattern for smoother, more natural movement.</li><li><strong>Experienced Prosthetists</strong> Our team consists of Board-Certified Prosthetists (CPOs) with decades of experience working with diverse patient needs and mobility levels.</li><li><strong>Patient-Centered Care</strong> Your goals and well-being drive every decision, ensuring a prosthetic solution that aligns with your unique needs and lifestyle.</li><li><strong>Clinical Outcomes</strong> Trusted by clinics, hospitals, and rehabilitation centers nationwide for our consistent, positive patient outcomes.</li></ul>'
@@ -89,9 +89,9 @@ sections:
   image_alt: Two women in a clinic examining a prosthetic knee joint together
   buttons:
   - text: Schedule Your Free Consultation
-    link: tel:2197919200
+    link: tel:18555246642
 - type: richtext
-  body: <p>“I have been a patient of Bionic Prosthetics &amp; Orthotics for 10 years and have always been treated with the utmost respect and care. The staff is knowledgeable, patient, and always willing to go the extra mile to ensure my comfort and satisfaction. I highly recommend them!”</p><p>-Emily Power</p>
+  body: <p>“I was especially pleased with the personal concern and professional manner in which my providers managed every detail of my prosthetic fitting, design, benefits to me and training.”</p><p>-Odis Richardson</p>
   layout: quote
 - type: faq
   eyebrow: FREQUENTLY ASKED QUESTIONS
@@ -116,5 +116,5 @@ sections:
   cta_secondary_link: /locations/
   extra_buttons:
   - text: CALL TODAY
-    link: tel:2197919200
+    link: tel:18555246642
 ---

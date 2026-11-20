@@ -82,6 +82,6 @@ sections:
   call:
     text: CALL TODAY
     link: tel:18555246642
-    alt_text: or call (219) 400-2201
+    alt_text: "Billing: (219) 400-2201"
     alt_link: tel:2194002201
 ---

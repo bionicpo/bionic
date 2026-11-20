@@ -5,7 +5,7 @@ name: Rebecca L. Nitsche
 credentials: CPO
 role: Clinical Manager - Certified Prosthetist & Orthotist
 location: Madison, WI
-photo: /images/uploads/rebecca-nitsche.png
+photo: /images/uploads/rebecca-l.-nitsche-cpo.webp
 bio: <p>Rebecca Lamson Nitsche’s first introduction to orthotics was in third
   grade when she befriended a classmate who had spina bifida. One could say
   Rebecca’s first patients were her childhood Cabbage Patch dolls, for whom she

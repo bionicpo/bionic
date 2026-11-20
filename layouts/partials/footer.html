@@ -8,7 +8,7 @@
       </a>
       <p>{{ $s.footer.blurb }}</p>
       <div class="footer-contact">
-        {{ $s.phone }}<br>
+        New patients: {{ $s.phone }}<br>
         {{ $s.email }}<br>
         {{ $s.address }}
       </div>
@@ -32,15 +32,6 @@
       <p class="footer-heading">{{ $s.footer.services_heading }}</p>
       <ul>
         {{ range $nav.footer_services }}
-        <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
-        {{ end }}
-      </ul>
-    </div>
-
-    <div class="footer-col">
-      <p class="footer-heading">{{ $s.footer.locations_heading | default "Locations" }}</p>
-      <ul>
-        {{ range $nav.footer_locations }}
         <li><a href="{{ .url }}" class="footer-link">{{ .name }}</a></li>
         {{ end }}
       </ul>

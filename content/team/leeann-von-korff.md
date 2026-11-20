@@ -5,7 +5,7 @@ name: Leeann von Korff
 credentials: CPO
 role: Clinical Manager - Certified Prosthetist & Orthotist
 location: Cincinnati, OH
-photo: /images/uploads/leeann-von-korff.png
+photo: /images/uploads/leeann-von-korff.webp
 bio: <p>Leeann joined the Bionic Team in Cincinnati, Ohio as a Prosthetic and
   Orthotic Resident after graduating from Eastern Michigan University with a
   Master’s Degree in Prosthetics and Orthotics. She entered O&amp;P school after

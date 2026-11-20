@@ -5,7 +5,7 @@ name: Brian Wiggen II
 credentials: CO, BOCO, BOCP
 role: Certified Prosthetist & Orthotist
 location: East Flat Rock, NC
-photo: /images/uploads/brian-wiggen.png
+photo: /images/uploads/brian-wiggen-ii.webp
 bio: <p>Brian Wiggen II is an ABC and BOC Certified Orthotist, as well as being
   a BOC certified prosthetist, working out of our East Flat Rock clinic. Brian
   has 32 years of experience in orthotics and prosthetics, including extensive

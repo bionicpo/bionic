@@ -18,7 +18,7 @@ hero:
 sections:
   - type: "text-image"
     title: "Book An Appointment"
-    body_html: "If you are new to Bionic and require assistance booking your complimentary consult, contact us at <a href=\"tel:8555246642\">(855) 524-6642</a>, and press option 1. You are also welcome to <a href=\"/locations/\">find a clinic near you</a> and call directly to inquire about an appointment."
+    body_html: "If you are new to Bionic and require assistance booking your complimentary consult, contact us at <a href=\"tel:8555246642\">(855) 524-6642</a> (new patients: press option 1). You are also welcome to <a href=\"/locations/\">find a clinic near you</a> and call directly to inquire about an appointment."
     cta_primary: true
     cta_text: "FIND A CLINIC"
     cta_link: "/locations/"
@@ -43,12 +43,12 @@ sections:
     cta_text: "PAY MY BILL"
     cta_link: "https://www.patientnotebook.com/BionicPO/payment"
     cta_new_tab: true
-    note_html: "If you would like to pay over the phone please call <a href=\"tel:2194002201\">(219) 400-2201</a>"
+    note_html: "If you would like to pay over the phone please call billing: <a href=\"tel:2194002201\">(219) 400-2201</a>"
 
   - type: "text-image"
     title: "Insurance"
     body: "Bionic accepts most major insurances. Please call to learn more about our in-network insurances. We are constantly working on expanding the list of insurances we have in-network benefits with."
-    note_html: "<a href=\"tel:2194002201\">Call to learn more about your insurance compatibility (219) 400-2201</a>"
+    note_html: "<a href=\"tel:2194002201\">Call billing to learn more about your insurance compatibility (219) 400-2201</a>"
 
   - type: "richtext"
     eyebrow: "COVERAGE AND COST"
@@ -57,7 +57,7 @@ sections:
 
   - type: "cta-band"
     title: "Questions About Your Appointment or Bill?"
-    body: "Our team is happy to help. Call us at 1-855-524-6642 or reach out anytime."
+    body: "Our team is happy to help. New patients: call 1-855-524-6642, or reach out anytime."
     cta_primary: "Contact Us"
     cta_primary_link: "/contact/"
     cta_secondary: "View Patient Resources"

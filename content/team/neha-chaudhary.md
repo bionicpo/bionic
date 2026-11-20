@@ -5,7 +5,7 @@ name: Neha Chaudhary
 credentials: CPO
 role: Certified Prosthetist & Orthotist
 location: Pennsylvania / New Jersey
-photo: /images/uploads/neha-chaudhary.png
+photo: /images/uploads/neha-chaudhary.webp
 bio: <p>Neha Chaudhary is passionate about Prosthetics and Orthotics, and over
   the past six years, she has had the privilege of working in this field,
   focusing on patient care and creating innovative solutions that truly make a

@@ -5,7 +5,7 @@ name: Sangeeta Bhambhani
 credentials: BOCO, BOCP
 role: Clinical Manager - Senior Prosthetist & Orthotist
 location: Elkhart, IN
-photo: /images/uploads/sangeeta-s-polished-clinical-team-portrait.png
+photo: /images/uploads/sangeeta-bhambhani.webp
 bio: <p>Sangeeta Bhambhani joined Bionic in 2016 and has 25 years of working
   experience. She has a special interest in upper extremity prosthetics, spinal
   and neuro orthotics. She brings with her a diverse and wholesome understanding

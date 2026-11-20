@@ -5,7 +5,7 @@ name: Jayanta Padhi
 credentials: MSPO
 role: Prosthetist & Orthotist
 location: Lafayette, IN
-photo: /images/uploads/professional-headshot-on-a-soft-gray-gradient.png
+photo: /images/uploads/jayanta-padhi.webp
 bio: <p>Jayanta Padhi earned his bachelor’s degree in Prosthetics and Orthotics
   from SVNIRTAR, a respected institute in India, in 2014. He went on to complete
   his master’s degree in Prosthetics and Orthotics from the University of

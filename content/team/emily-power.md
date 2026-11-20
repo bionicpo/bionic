@@ -5,7 +5,7 @@ name: Emily Power
 credentials: CPO
 role: Clinical Manager - Certified Prosthetist & Orthotist
 location: Chicago, IL
-photo: /images/uploads/professional-headshot-with-neutral-gray-gradient-1-.png
+photo: /images/uploads/emily-power.webp
 bio: <p>Emily Power received her undergraduate degree in Recreational Therapy at
   Illinois State University and her Master's Degree in Orthotics &amp;
   Prosthetics from Northwestern University. While attending Northwestern, she

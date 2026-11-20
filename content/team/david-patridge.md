@@ -5,7 +5,7 @@ name: David Patridge
 credentials: CP, BOCO, BOCP
 role: Certified Prosthetist and Orthotist
 location: Charlotte, NC
-photo: /images/uploads/david-s-natural-gray-background-headshot.png
+photo: /images/uploads/david-patridge.webp
 bio: <p>David Patridge joined Bionic in 2025 as a Certified Prosthetist and
   Orthotist in North Carolina. While serving in the US Navy, he lost his left
   leg and soon became passionate about the field of prosthetics. He graduated

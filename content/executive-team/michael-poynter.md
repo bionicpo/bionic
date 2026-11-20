@@ -4,7 +4,7 @@ seo_title: "Michael Poynter"
 role: "Director of Business Operations and Corporate Governance"
 credentials: ""
 weight: 5
-image: "/images/team/michael-poynter.jpg"
+image: "/images/team/michael-poynter.webp"
 image_alt: "Michael Poynter, Director of Business Operations and Corporate Governance"
 email: "mpoynter@bionicpo.com"
 clinical_profile: ""

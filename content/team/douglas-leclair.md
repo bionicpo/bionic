@@ -5,7 +5,7 @@ name: Douglas LeClair
 credentials: CO
 role: Certified Orthotist
 location: Winston-Salem, NC
-photo: /images/uploads/douglas-leclair.png
+photo: /images/uploads/douglas-leclair.webp
 bio: <p>Douglas LeClair is a Certified Orthotist working out of our
   Winston-Salem clinic. Doug went to college at Minnesota State University,
   Mankato where he graduated with a degree in physical education non-teaching.

@@ -4,7 +4,7 @@ seo_title: Vinay Verma | Bionic P&O
 name: Vinay Verma
 role: Resident Prosthetist & Orthotist
 location: Merrillville, IN
-photo: /images/uploads/clinical-headshot-with-striped-tie.png
+photo: /images/uploads/vinay-verma.webp
 bio: <p>Vinay Verma joined Bionic Prosthetics and Orthotics in March 2025 as a
   Resident Prosthetist and Orthotist. He brings with him a strong clinical
   foundation and an impressive academic background, holding both a Bachelor's

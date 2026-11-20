@@ -5,7 +5,7 @@ name: Meghan Baley
 credentials: CPO
 role: Clinical Manager - Certified Prosthetist & Orthotist
 location: Bolingbrook, IL
-photo: /images/uploads/meghan-baley.png
+photo: /images/uploads/meghan-baley.webp
 bio: <p>Meghan Baley joined the Bionic Team in January 2020 and leads Bionic's
   Bolingbrook Clinic in Illinois. She holds a Master of Science in
   Orthotics &amp; Prosthetics from Eastern Michigan University and is ABC

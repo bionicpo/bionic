@@ -5,7 +5,7 @@ name: Allen Johnson
 credentials: CPOA
 role: Resident Prosthetist and Orthotist
 location: Green Bay, WI
-photo: /images/uploads/allen-johnson.png
+photo: /images/uploads/allen-johnson.webp
 bio: <p>Allen Johnson joined the Bionic team as a Certified Prosthetic &amp;
   Orthotic Assistant working at the Green Bay and Appleton offices to complete
   his Residency in both Prosthetics and Orthotics. He has a Bachelor of Science

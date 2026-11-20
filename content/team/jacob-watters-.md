@@ -5,7 +5,7 @@ name: Jacob Watters
 credentials: CPO
 role: Certified Prosthetist and Orthotist
 location: Clarksville, TN
-photo: /images/uploads/jacob-watters.png
+photo: /images/uploads/jacob-watters-.webp
 bio: <p>Jacob Watters graduated from the University of Rochester in 2016 with a
   degree in Biomedical Engineering. He spent two years working as an Orthotic
   Technician before earning his Master’s in Prosthetics and Orthotics from the

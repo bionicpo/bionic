@@ -57,8 +57,8 @@ sections:
   cta_secondary: Find a Clinic Near You
   cta_secondary_link: /locations/
   call:
-    text: Call Today (219) 791-9200
-    link: tel:2197919200
-    alt_text: or call (219) 400-2201
+    text: "New patients: 1-855-524-6642 (press option 1)"
+    link: tel:18555246642
+    alt_text: "Billing: (219) 400-2201"
     alt_link: tel:2194002201
 ---

@@ -5,7 +5,7 @@ name: Christine Geeding
 credentials: CP
 role: Regional Manager - Certified Prosthetist
 location: Cincinnati, OH
-photo: /images/uploads/734a645b-c36c-49e0-a7d9-81dceb2b2899.png
+photo: /images/uploads/christine-geeding.webp
 bio: <p>Christine Geeding joined Bionic in 2020 and has 20 years of working
   experience. She has a special interest in pediatric and sports prosthetics as
   well as spinal and neuro orthotics. She is a certified and licensed

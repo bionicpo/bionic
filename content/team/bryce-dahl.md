@@ -5,7 +5,7 @@ name: Bryce Dahl
 credentials: CPO
 role: Certified Prosthetist & Orthotist
 location: Clarksville, TN
-photo: /images/uploads/bryce-portrait-with-neutral-gray-gradient.png
+photo: /images/uploads/bryce-dahl.webp
 bio: <p>Bryce Dahl is a Certified Prosthetist-Orthotist (CPO) with a strong
   educational background and a deep commitment to improving patient care. He
   earned his Bachelor’s degree in Biomedical/Medical Engineering from

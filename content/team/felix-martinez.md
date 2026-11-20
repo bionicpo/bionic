@@ -5,7 +5,7 @@ name: Felix Martinez
 credentials: CPOA, CFo
 role: Clinical Manager, Certified Prosthetic & Orthotic Assistant/Orthotic Fitter
 location: Munster, IN
-photo: /images/uploads/felix-s-professional-bionic-portrait.png
+photo: /images/uploads/felix-martinez.webp
 bio: <p>Felix Martinez joined Bionic in 2013, but his professional career began
   much sooner when he worked as a prosthetic lab assistant where he developed
   his interest in the field of prosthetics. With 28 years of experience as a

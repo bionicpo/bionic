@@ -5,7 +5,7 @@ name: Peter Marx
 credentials: CPO
 role: Certified Prosthetist & Orthotist
 location: Pennsylvania / New Jersey
-photo: /images/uploads/peter-marx.png
+photo: /images/uploads/peter-marx.webp
 bio: "<p>Peter Marx is an ABC certified Prosthetist Orthotist with a Master of
   Science in Prosthetics and Orthotics from the International Institute of
   Orthotics and Prosthetics, earned in April 2022. He also holds a Bachelor of

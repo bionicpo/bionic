@@ -5,7 +5,7 @@ name: Daniel Chan
 credentials: COA, CFo, CFts
 role: Clinical Manager - Certified Orthotic Assistant, Certified Orthotic Fitter
 location: Merrillville, IN
-photo: /images/uploads/daniel-chan.png
+photo: /images/uploads/daniel-chan.webp
 bio: <p>Daniel joined Bionic in 2018 as an Orthotic Fitter. Prior to his time at
   Bionic he worked at the IU Health Neuroscience Center in Indianapolis, where
   he was first introduced to the O&amp;P world. After leaving Indianapolis, he

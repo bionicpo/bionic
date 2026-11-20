@@ -4,7 +4,7 @@ seo_title: "Rani Saxena"
 role: "President"
 credentials: "DPT"
 weight: 1
-image: "/images/team/rani-saxena.jpg"
+image: "/images/team/rani-saxena.webp"
 image_alt: "Rani Saxena, President of Bionic Prosthetics & Orthotics"
 email: "rani@bionicpo.com"
 clinical_profile: ""

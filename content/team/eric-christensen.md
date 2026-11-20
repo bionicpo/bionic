@@ -26,7 +26,7 @@ seo_title: Eric Christensen, CPO/LPO | Bionic P&O
 credentials: CPO/LPO
 role: Certified/Licensed Prosthetist & Orthotist
 location: Ormond Beach, FL
-photo: /images/uploads/eric-s-bionic-headshot-on-a-gray-gradient.png
+photo: /images/uploads/eric-christensen.webp
 sitemap:
   disable: true
 email: echristensen@bionicpo.com

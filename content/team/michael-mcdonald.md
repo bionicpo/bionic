@@ -5,7 +5,7 @@ name: Michael McDonald
 credentials: CO
 role: Clinical Manager - Certified Orthotist
 location: Winston-Salem, NC
-photo: /images/uploads/michael-mcdonald.png
+photo: /images/uploads/michael-mcdonald.webp
 bio: <p>Michael McDonald is a Certified Orthotist working out of our
   Winston-Salem clinic. He graduated from Orthotic School in the Academy of
   Health Science at Fort Sam Houston, TX where he was military trained. Michael

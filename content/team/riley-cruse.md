@@ -5,7 +5,7 @@ name: Riley Cruse
 credentials: CPO
 role: Certified Prosthetist & Orthotist
 location: Merrillville, IN
-photo: /images/uploads/riley-s-polished-clinical-team-headshot.png
+photo: /images/uploads/riley-cruse.webp
 bio: <p>Riley Cruse's journey into the realm of Orthotics and Prosthetics is a
   testament to her passion for improving lives through innovation and
   compassionate care. Graduating from Purdue University Northwest with a

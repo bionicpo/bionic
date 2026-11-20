@@ -5,7 +5,7 @@ name: Jeffrey Wojtanowicz
 credentials: CPO
 role: Regional Manager - Certified Prosthetist & Orthotist
 location: Tinley Park, IL
-photo: /images/uploads/jeffrey-wojtanowicz.png
+photo: /images/uploads/jeffrey-wojtanowicz.webp
 bio: <p>Jeffery Wojtanowicz joined Bionic in 2011 and has grown within the
   organization. He is a certified prosthetist and orthotist with over a decade
   of experience in patient care. While he is trained in many facets of the

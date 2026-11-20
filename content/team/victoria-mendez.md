@@ -41,7 +41,7 @@ seo_title: Victoria Mendez, CP | Bionic P&O
 credentials: CP
 role: Certified Prosthetist
 location: Melbourne, FL
-photo: /images/uploads/gray-purple-hair-professional-headshot.png
+photo: /images/uploads/victoria-mendez.webp
 sitemap:
   disable: true
 email: vmendez@bionicpo.com

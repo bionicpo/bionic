@@ -5,7 +5,7 @@
 
 /* ---- locations: state cards that are clickable AND carry their own link ---- */
 .state-card-wrap {
-  display: flex; flex-direction: column; border: 1.5px solid var(--border); border-radius: 10px; background: #fff;
+  display: flex; flex-direction: column; border: 1.5px solid var(--border); border-radius: var(--radius-sm); background: #fff;
   overflow: hidden; transition: border-color .15s ease, background .15s ease, box-shadow .15s ease;
 }
 .state-card-wrap:hover { border-color: var(--brand); background: var(--brand-light); }
@@ -13,7 +13,7 @@
 .state-card-wrap .state-card { border: 0; background: transparent; box-shadow: none; border-radius: 0; flex: 1; padding: 14px 10px 8px; }
 .state-card-wrap .state-card:hover, .state-card-wrap .state-card.is-active { background: transparent; box-shadow: none; }
 .state-card-link {
-  display: block; padding: 8px 10px 12px; text-align: center; font-size: 12.5px; font-weight: 700; color: var(--brand);
+  display: block; padding: 8px 10px 12px; text-align: center; font-size: 13px; font-weight: 700; color: var(--brand);
 }
 .state-card-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
@@ -34,7 +34,7 @@
 /* wraps in centred rows, so a short last row is centred instead of left-aligned */
 .edition-grid { --ed-cols: 4; --ed-gap: 24px; list-style: none; margin: 32px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--ed-gap); }
 .edition-grid > li { flex: 0 0 calc((100% - (var(--ed-cols) - 1) * var(--ed-gap)) / var(--ed-cols)); min-width: 0; }
-.edition-card { margin: 0; min-width: 0; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 14px rgba(20, 30, 60, .1); transition: transform .25s ease, box-shadow .25s ease; }
+.edition-card { margin: 0; min-width: 0; background: #fff; border-radius: var(--radius-md); overflow: hidden; box-shadow: 0 4px 14px rgba(20, 30, 60, .1); transition: transform .25s ease, box-shadow .25s ease; }
 .edition-card a { display: block; text-decoration: none; color: inherit; }
 /* covers are ~5:4 pictures: show the whole cover, never a cropped strip of it */
 .edition-cover { display: block; aspect-ratio: 5 / 4; overflow: hidden; background: #fff; }
@@ -48,7 +48,7 @@
 
 /* photo pair (2-up gallery) */
 .photo-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
-.photo-pair-item { margin: 0; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 18px rgba(20, 30, 60, .12); aspect-ratio: 4 / 3; background: #eef0f4; }
+.photo-pair-item { margin: 0; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 6px 18px rgba(20, 30, 60, .12); aspect-ratio: 4 / 3; background: #eef0f4; }
 .photo-pair-item img { display: block; width: 100%; height: 100%; object-fit: cover; }
 @media (max-width: 767px) { .photo-pair { grid-template-columns: minmax(0, 1fr); gap: 16px; } }
 
@@ -121,7 +121,7 @@
 .res-before .section-heading { margin-bottom: 28px; }
 .res-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .res-action { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); padding: 32px; box-shadow: var(--shadow-card); scroll-margin-top: 24px; }
-.res-icon { width: 48px; height: 48px; border-radius: 14px; background: var(--brand-light); color: var(--brand); display: grid; place-items: center; flex: none; }
+.res-icon { width: 48px; height: 48px; border-radius: var(--radius-md); background: var(--brand-light); color: var(--brand); display: grid; place-items: center; flex: none; }
 .res-icon svg { width: 24px; height: 24px; }
 .res-action .res-icon { margin-bottom: 16px; }
 .res-action h3 { font-size: 22px; margin: 0 0 8px; color: var(--ink-strong); }
@@ -147,7 +147,7 @@
   .res-grid:has(> :nth-child(4):last-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .res-grid > :last-child:nth-child(3n+1):not(:only-child):not(:nth-child(4)) { grid-column: 2; }
 }
-.res-card { display: flex; flex-direction: column; padding: 22px 24px; background: #fff; border: 1px solid var(--border-soft); border-radius: 16px; box-shadow: var(--shadow-card); color: inherit; text-decoration: none; transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease; }
+.res-card { display: flex; flex-direction: column; padding: 22px 24px; background: #fff; border: 1px solid var(--border-soft); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); color: inherit; text-decoration: none; transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease; }
 a.res-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-3px); border-color: var(--brand); }
 .res-card h3 { font-size: 17px; line-height: 1.35; margin: 0 0 8px; color: var(--ink-strong); }
 .res-card p { margin: 0 0 16px; font-size: 14.5px; line-height: 1.6; color: var(--ink-muted); }
@@ -167,16 +167,16 @@ a.res-card:hover { box-shadow: var(--shadow-card-hover); transform: translateY(-
 .loc-section { background: #fff; padding-top: 24px; padding-bottom: 56px; }
 .loc-container { max-width: 1180px; }
 .loc-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
-.loc-card { display: flex; flex-direction: column; padding: 22px 24px; background: #fff; border: 1px solid var(--border-soft); border-top: 4px solid var(--accent); border-radius: 16px; box-shadow: var(--shadow-card); }
+.loc-card { display: flex; flex-direction: column; padding: 22px 24px; background: #fff; border: 1px solid var(--border-soft); border-top: 4px solid var(--accent); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); }
 .loc-card h2 { font-size: 18px; margin: 0 0 8px; color: var(--ink-strong); }
 .loc-card p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-muted); }
-.loc-card .loc-note { margin-top: 12px; padding: 8px 12px; border-radius: 10px; background: var(--accent-light); color: var(--ink); font-size: 13.5px; font-weight: 600; }
+.loc-card .loc-note { margin-top: 12px; padding: 8px 12px; border-radius: var(--radius-sm); background: var(--accent-light); color: var(--ink); font-size: 13.5px; font-weight: 600; }
 .cs-hs { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 6fr); gap: 56px; align-items: start; }
 .cs-hs-head { position: sticky; top: 120px; }
 .cs-hs-head h2 { margin: 0 0 24px; text-align: left; }
 .cs-hs-quote { margin: 0 0 28px; padding: 4px 0 4px 20px; border-left: 4px solid var(--accent); font-family: var(--font-serif); font-size: 26px; line-height: 1.35; font-weight: 600; font-style: normal; color: var(--ink-strong); }
-.cs-hs-media { border-radius: 20px; overflow: hidden; }
-.cs-hs-media img { display: block; width: 100%; height: auto; border-radius: 20px; }
+.cs-hs-media { border-radius: var(--radius-lg); overflow: hidden; }
+.cs-hs-media img { display: block; width: 100%; height: auto; border-radius: var(--radius-lg); }
 .cs-hs-body.cs-prose { max-width: 680px; margin: 0; }
 .cs-hs-body.cs-prose > p:first-child { font-size: 20px; line-height: 1.7; color: var(--ink); }
 .apply-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 900px; margin-inline: auto; }

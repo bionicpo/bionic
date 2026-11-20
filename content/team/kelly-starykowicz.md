@@ -5,7 +5,7 @@ name: Kelly Starykowicz
 credentials: CPO
 role: Certified Prosthetist & Orthotist
 location: Chicago, IL
-photo: /images/uploads/kelly-starykowicz.png
+photo: /images/uploads/kelly-starykowicz.webp
 bio: <p>Kelly Starykowicz received her undergraduate degree in biomedical
   engineering at the University of Wisconsin- Madison and her Master's Degree in
   Orthotics &amp; Prosthetics from Northwestern University. Kelly is excited to

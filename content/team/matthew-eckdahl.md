@@ -5,7 +5,7 @@ name: Matthew Eckdahl
 credentials: BEPO
 role: Board Eligible Prosthetist & Orthotist
 location: Green Bay, WI
-photo: /images/uploads/professional-clinical-portrait-gray-gradient.png
+photo: /images/uploads/matthew-eckdahl.webp
 bio: <p>Matthew Eckdahl joined Bionic in June 2024, bringing a diverse
   background in both mechanical design and orthotics and prosthetics. He earned
   his Master’s Degree in Orthotics and Prosthetics from Concordia University in

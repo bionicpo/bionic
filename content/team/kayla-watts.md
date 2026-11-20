@@ -5,7 +5,7 @@ name: Kayla Watts
 credentials: CPO
 role: Clinical Manager - Certified Prosthetist & Orthotist
 location: Concord, NC
-photo: /images/uploads/kayla-s-polished-clinical-headshot.png
+photo: /images/uploads/kayla-watts.webp
 bio: <p>Kayla Watts is a Certified Prosthetist &amp; Orthotist working out of
   our Concord, NC location. She obtained her Masters in Orthotics &amp;
   Prosthetics from the University of Pittsburgh and is certified through ABC.

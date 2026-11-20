@@ -5,7 +5,7 @@ name: Madhu Dash
 credentials: BPO, CFo, CFts
 role: Prosthetist & Orthotist
 location: Lafayette, IN
-photo: /images/uploads/madhu-s-professional-clinical-headshot.png
+photo: /images/uploads/madhu-dash.webp
 bio: <p>Madhu Dash joined our team in Northwest Indiana after being a part of
   Bionic India for two and a half years. With the goal of advancing her medical
   training and helping people around the world, Madhusmita is passionate about

@@ -47,6 +47,6 @@ sections:
     title: Contact
     text: If you have any questions about our hiring process, feel free to reach out!
     email: hr@bionicpo.com
-    phone: (219) 791-9200 ext. 5
+    phone: "HR: (219) 791-9200 ext. 5"
     phone_link: tel:+12197919200,5
 ---

@@ -5,7 +5,7 @@ name: Kasey Turner
 credentials: CFo
 role: Certified Orthotic Fitter
 location: Bowling Green, KY
-photo: /images/uploads/kasey-s-professional-clinical-portrait.png
+photo: /images/uploads/kasey-turner.webp
 bio: <p>Kasey Turner is a Licensed, Certified Orthotic Fitter. She attended
   Southcentral Kentucky Community &amp; Technical College, where she graduated
   with a Diploma in Surgical Technology. She worked several years alongside

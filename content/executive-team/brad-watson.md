@@ -4,7 +4,7 @@ seo_title: "Brad Watson"
 role: "Director of Practice Management"
 credentials: "BOCO, BOCP"
 weight: 2
-image: "/images/team/lynn-brad-watson.jpg"
+image: "/images/team/lynn-brad-watson.webp"
 image_alt: "Brad Watson, Director of Practice Management"
 email: "bwatson@bionicpo.com"
 clinical_profile: "/team/lynn-brad-watson"

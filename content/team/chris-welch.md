@@ -5,7 +5,7 @@ name: Chris Welch
 credentials: CPO
 role: Regional Manager - Certified Prosthetist & Orthotist
 location: Appleton, WI
-photo: /images/uploads/chris-welch.png
+photo: /images/uploads/chris-welch.webp
 bio: <p>Chris Welch is a Regional Manager at Bionic and is located at the
   Appleton and Green Bay, Wisconsin clinics. He graduated from the University of
   Hartford with his Master's in Prosthetics and Orthotics. His prosthetics and orthotics residencies were completed in Mankato, MN and Pittsburgh, PA,

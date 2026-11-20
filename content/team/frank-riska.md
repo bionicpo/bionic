@@ -5,7 +5,7 @@ name: Frank Riska
 credentials: BOCO
 role: Clinical Manager - Certified Orthotist
 location: Merrillville, IN
-photo: /images/uploads/frank-riska.png
+photo: /images/uploads/frank-riska.webp
 bio: <p>Frank Riska is a seasoned BOC Certified Orthotist with nearly 30 years
   of experience in the field of orthotics. He began his career as a technician
   in 1995 before transitioning to a practitioner role in 1999. Frank obtained

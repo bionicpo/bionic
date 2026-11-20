@@ -4,7 +4,7 @@
     <div class="utility-left">
       <a href="tel:{{ partial "tel.html" $s.phone }}" class="utility-phone">
         <span class="icon-sm">{{ partial "icon.html" "phone" }}</span>
-        {{ $s.phone }}
+        New patients: {{ $s.phone }}
       </a>
       {{ range $s.header.utility_links }}<a href="{{ .url }}" class="utility-link">{{ .label }}</a>
       {{ end }}

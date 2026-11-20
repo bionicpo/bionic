@@ -5,7 +5,7 @@ name: Jignesh Parmar
 credentials: CPO
 role: Clinical Manager - Certified Prosthetist & Orthotist
 location: Merrillville, IN
-photo: /images/uploads/jignesh-s-professional-portrait-in-blue-scrubs.png
+photo: /images/uploads/jignesh-parmar.webp
 bio: <p>Jignesh Parmar recently joined the Bionic team after being a part of
   Bionic India. He comes with 4 additional years of experience in Prosthetics
   and Orthotics with other international companies like Ottobock. Jignesh is

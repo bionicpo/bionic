@@ -4,7 +4,7 @@ seo_title: Liv Nuzzo | Bionic P&O
 name: Liv Nuzzo
 role: Resident Prosthetist and Orthotist
 location: Hazel Crest, IL
-photo: /images/uploads/liv-nuzzo.png
+photo: /images/uploads/liv-nuzzo.webp
 bio: <p>After graduating from the Orthotics &amp; Prosthetics Technician Program
   at Joliet Junior College in 2020, Liz began working as a prosthetic technician
   while earning a bachelor's degree in Kinesiology from the University of

@@ -123,10 +123,10 @@ sections:
   title: Take the Next Step Toward Better Mobility and Comfort
   body: At Bionic P&O, we’re committed to helping you stay active. Whether you need support for pain, mobility, or recovery after surgery, we offer orthotic care, custom or prefabricated, designed to support your comfort and independence. Contact us today to schedule your consultation and start your journey toward better mobility.
   cta_primary: Contact Us For Your Consultation
-  cta_primary_link: tel:2197919200
+  cta_primary_link: tel:18555246642
   cta_secondary: Find a Clinic Near You
   cta_secondary_link: /locations/
   extra_buttons:
   - text: Schedule Your Free Evaluation
-    link: tel:2197919200
+    link: tel:18555246642
 ---

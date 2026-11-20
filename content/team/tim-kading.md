@@ -5,7 +5,7 @@ name: Tim Kading
 credentials: CP
 role: Certified Prosthetist
 location: Appleton, WI
-photo: /images/uploads/professional-headshot-in-a-blue-shirt.png
+photo: /images/uploads/tim-kading.webp
 bio: <p>Tim Kading has a BS in Biology from the University of Wisconsin Green
   Bay and his Prosthetic Practitioner degree from Century College in White Bear
   Lake, MN. Tim is passionate about spending time with his patients and learning

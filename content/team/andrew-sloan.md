@@ -4,7 +4,7 @@ seo_title: Andrew Sloan | Bionic P&O
 name: Andrew Sloan
 role: Resident Prosthetist & Orthotist
 location: Clarksville, TN
-photo: /images/uploads/professional-headshot-with-neutral-gray-gradient.png
+photo: /images/uploads/andrew-sloan.webp
 bio: <p>Andrew Sloan earned his bachelor's degree in biomedical engineering from
   the University of Tennessee - Knoxville in 2023. It was during this time that
   Drew discovered the field and developed a passion for applying his engineering

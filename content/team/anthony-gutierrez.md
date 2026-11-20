@@ -5,7 +5,7 @@ name: Anthony Gutierrez
 credentials: CP
 role: Director of Clinical Advancement & Innovation - Certified Prosthetist
 location: National
-photo: /images/uploads/tony.png
+photo: /images/uploads/anthony-gutierrez.webp
 bio: <p>Anthony Gutierrez joined Bionic in 2015 and is committed to providing
   patients with prosthetic services that improve their mobility, limb health,
   and return to independence. He specializes in elevated vacuum prosthetic

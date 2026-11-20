@@ -5,7 +5,7 @@ name: Mohit Srivastava
 credentials: BEPO
 role: Board Eligible Prosthetist & Orthotist
 location: Laredo, TX
-photo: /images/uploads/mohit-srivastava.png
+photo: /images/uploads/mohit-srivastava.webp
 bio: <p>Mohit Srivastava is a dedicated professional in the field of prosthetics
   and orthotics with six years of experience. He earned his Bachelor's degree in
   Prosthetics and Orthotics from Mobility India Rehabilitation Research and

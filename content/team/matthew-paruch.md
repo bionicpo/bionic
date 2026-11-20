@@ -5,7 +5,7 @@ name: Matthew Paruch
 credentials: CPO
 role: Clinical Manager - Certified Prosthetist Orthotist
 location: Hickory, NC
-photo: /images/uploads/matthew-paruch.png
+photo: /images/uploads/matthew-paruch.webp
 bio: <p>Matthew Paruch, a Certified Prosthetist Orthotist, has dedicated nearly
   two decades to providing exceptional care to the greater North Carolina
   Western Piedmont region. With a Bachelor’s Degree in Prosthetics and Orthotics

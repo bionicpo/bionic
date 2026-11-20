@@ -4,7 +4,7 @@ seo_title: Grace Clark | Bionic P&O
 name: Grace Clark
 role: Resident Prosthetist and Orthotist
 location: Merrillville, IN
-photo: /images/uploads/grace-s-professional-gray-backdrop-portrait.png
+photo: /images/uploads/grace-clark.webp
 bio: <p>Grace graduated from Eastern Michigan University in May 2026 with a
   Bachelor of Science in Exercise Science and a Master of Science in Orthotics
   and Prosthetics. Her interest in the O&amp;P field began in high school, when

@@ -4,7 +4,7 @@ seo_title: "Dheeraj Bhambani"
 role: "Director of Strategic Initiatives and Progress Management"
 credentials: "BOCO, BOCP"
 weight: 3
-image: "/images/team/dheeraj-bhambhani.jpg"
+image: "/images/team/dheeraj-bhambhani.webp"
 image_alt: "Dheeraj Bhambhani, Director of Strategic Initiatives and Progress Management"
 email: "dheeraj@bionicpo.com"
 clinical_profile: "/team/dheeraj-bhambhani"

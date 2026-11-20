@@ -5,7 +5,7 @@ name: Lynn (Brad) Watson
 credentials: BOCO, BOCP
 role: Certified Prosthetist & Orthotist
 location: Tennessee / Kentucky
-photo: /images/uploads/brad-watson.png
+photo: /images/uploads/lynn-brad-watson.webp
 bio: <p>Brad is certified in Prosthetics and Orthotics from both BOC and ABC,
   and is licensed in Kentucky and Tennessee and has been serving in those
   communities for over 30 years. Brad is a second-generation practitioner, whose

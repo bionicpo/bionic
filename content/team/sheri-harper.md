@@ -5,7 +5,7 @@ name: Sheri Harper
 credentials: CPO
 role: Certified Prosthetist & Orthotist
 location: Cincinnati, OH
-photo: /images/uploads/professional-headshot-in-amber-glasses.png
+photo: /images/uploads/sheri-harper.webp
 bio: <p>Sheri Harper joined Bionic in 2020 as a Certified Orthotist Prosthetist
   with 23 years of experience. She is a pediatric specialist with a special
   interest in neuro orthotics and rolled silicone prosthetics. Having worked in

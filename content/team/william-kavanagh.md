@@ -5,7 +5,7 @@ name: William Kavanagh
 credentials: CPOA
 role: Certified Prosthetic & Orthotic Assistant
 location: Joliet, IL
-photo: /images/uploads/william-kavanagh.png
+photo: /images/uploads/william-kavanagh.webp
 bio: <p>William Kavanagh graduated from the University of Illinois at Chicago in
   2023 with a bachelor’s degree in Rehabilitation Science. Later that year, he
   began his journey at Bionic by shadowing Meghan, which led to a position as

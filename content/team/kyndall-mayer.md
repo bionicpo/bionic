@@ -4,7 +4,7 @@ seo_title: Kyndall Mayer | Bionic P&O
 name: Kyndall Mayer
 role: Resident Prosthetist and Orthotist
 location: Charlotte, NC
-photo: /images/uploads/kyndall-mayer.png
+photo: /images/uploads/kyndall-mayer.webp
 bio: "<p>Kyndall Mayer earned her Bachelor’s degree in Exercise Science with a
   minor in Biology from the University of North Carolina at Wilmington in 2022.
   She went on to receive her Master of Science in Prosthetics and Orthotics from

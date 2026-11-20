@@ -374,5 +374,5 @@
 {{ end }}
 {{ end }}
 {{ with .Params.cta_key }}{{ $c := index hugo.Data.cta . }}
-{{ partial "cta-band.html" (dict "title" $c.title "body" $c.body "primary" $c.primary "primary_link" $c.primary_link "extra_buttons" (slice (dict "text" (printf "Call %s" hugo.Data.site.phone) "link" (printf "tel:%s" (partial "tel.html" hugo.Data.site.phone)) "icon" "phone" "outline" true))) }}
+{{ partial "cta-band.html" (dict "title" $c.title "body" $c.body "primary" $c.primary "primary_link" $c.primary_link "extra_buttons" (slice (dict "text" (printf "New patients: %s" hugo.Data.site.phone) "link" (printf "tel:%s" (partial "tel.html" hugo.Data.site.phone)) "icon" "phone" "outline" true))) }}
 {{ end }}

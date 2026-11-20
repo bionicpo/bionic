@@ -30,7 +30,7 @@
         <h2 class="cl-card-title">Contact</h2>
         <ul class="cl-list">
           {{ with $addr }}<li><span class="icon-sm">{{ partial "icon.html" "pin" }}</span><span>{{ . }}{{ with $.Params.address2 }}<br>{{ . }}{{ end }}</span></li>{{ end }}
-          {{ with $phone }}<li><span class="icon-sm">{{ partial "icon.html" "phone" }}</span><span><strong>Phone</strong> <a href="tel:{{ partial "tel.html" . }}">{{ . }}</a></span></li>{{ end }}
+          {{ with $phone }}<li><span class="icon-sm">{{ partial "icon.html" "phone" }}</span><span><strong>Call this clinic</strong> <a href="tel:{{ partial "tel.html" . }}">{{ . }}</a></span></li>{{ end }}
           {{ with .Params.fax }}<li><span class="icon-sm">{{ partial "icon.html" "printer" }}</span><span><strong>Fax</strong> {{ . }}</span></li>{{ end }}
           {{ with .Params.email }}<li><span class="icon-sm">{{ partial "icon.html" "mail" }}</span><span><strong>Email</strong> <a href="mailto:{{ . }}">{{ . }}</a></span></li>{{ end }}
         </ul>

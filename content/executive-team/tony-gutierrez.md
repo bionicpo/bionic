@@ -4,7 +4,7 @@ seo_title: "Tony Gutierrez"
 role: "Director of Clinical Advancement and Innovation"
 credentials: "CP"
 weight: 4
-image: "/images/team/tony-gutierrez.jpg"
+image: "/images/team/tony-gutierrez.webp"
 image_alt: "Tony Gutierrez, Director of Clinical Advancement and Innovation"
 email: "tony@bionicpo.com"
 clinical_profile: "/team/anthony-gutierrez"

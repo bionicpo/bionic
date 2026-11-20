@@ -19,7 +19,7 @@ sections:
     title: "Answers to Common Prosthetic & Orthotic Questions"
     items:
       - question: "How do I schedule an appointment?"
-        answer: "Call us! We are always more than happy to help (219) 791-9200."
+        answer: "Call us! We are always more than happy to help. New patients: 1-855-524-6642 (press option 1)."
       - question: "Are consultations free?"
         answer: "Yes. All consultations at Bionic are free."
       - question: "Are prescriptions required?"
@@ -45,10 +45,10 @@ sections:
     cta_secondary_link: "/patient-resources/"
     extra_buttons:
       - text: "Call Us"
-        link: "tel:2197919200"
-      - text: "(219) 400-2201"
+        link: "tel:18555246642"
+      - text: "Billing: (219) 400-2201"
         link: "tel:2194002201"
         icon: "phone"
-        aria_label: "Call (219) 400-2201"
+        aria_label: "Call billing at (219) 400-2201"
 faq_schema: true
 ---

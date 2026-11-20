@@ -5,7 +5,7 @@ name: Cassie Morton
 credentials: CP, BEPO
 role: Certified Prosthetist and Board Eligible Orthotist
 location: Chicago, IL
-photo: /images/uploads/cassie-morton.png
+photo: /images/uploads/cassie-morton.webp
 bio: <p>Cassie Morton Graduated from California State University with her
   Masters in Orthotics and Prosthetics in 2024. Shortly after, she began her
   residency with Bionic in Chicago, IL, which she completed in 2025. She has a

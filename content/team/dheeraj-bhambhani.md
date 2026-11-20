@@ -5,7 +5,7 @@ name: Dheeraj Bhambhani
 credentials: BOCO, BOCP
 role: Regional Manager, Senior Prosthetist & Orthotist
 location: Elkhart, IN
-photo: /images/uploads/dheerah-bhambhani.png
+photo: /images/uploads/dheeraj-bhambhani.webp
 bio: <p>Dheeraj Bhambhani joined Bionic in 2016 and has 20 years of clinical
   experience and over 15 years of experience in practice management. He has
   worked for companies like Ottobock and Endolite. He is a senior clinician with

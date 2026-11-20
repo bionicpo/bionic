@@ -3,7 +3,7 @@ title: Madelyn Person
 seo_title: Madelyn Person | Bionic P&O
 name: Madelyn Person
 role: Resident Prosthetist and Orthotist
-photo: /images/uploads/madelyn-s-clinical-headshot-on-gray-gradient.png
+photo: /images/uploads/madelyn-person.webp
 bio: <p>Madelyn Person joined Bionic Prosthetics &amp; Orthotics as a resident
   in May 2026 after earning her Master of Science in Prosthetics and Orthotics
   from the University of Pittsburgh. She also holds dual bachelor's degrees in

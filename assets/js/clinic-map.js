@@ -110,7 +110,7 @@
           (c._dist != null ? '<span class="clinic-result-dist">' + c._dist.toFixed(1) + ' mi</span>' : '') + '</div>' +
           '<div class="clinic-result-addr">' + esc(c.address) + '</div>' +
           '<div class="clinic-result-actions">' +
-          (c.phone ? '<a href="tel:' + esc(c.phone.replace(/[^\d+]/g, "")) + '">' + esc(c.phone) + '</a>' : '') +
+          (c.phone ? 'Call this clinic: <a href="tel:' + esc(c.phone.replace(/[^\d+]/g, "")) + '">' + esc(c.phone) + '</a>' : '') +
           '<a href="' + dirUrl(c) + '" target="_blank" rel="noopener">Get Directions</a></div></div></li>';
       }).join("") + '</ul>';
     }

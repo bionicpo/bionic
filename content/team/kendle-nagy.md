@@ -5,7 +5,7 @@ name: Kendle Nagy
 credentials: LOFa
 role: Licensed Orthotic Fitter Assistant
 location: Rockledge, FL
-photo: /images/uploads/kendle-nagy.png
+photo: /images/uploads/kendle-nagy.webp
 bio: <p>Kendle Nagy is a Licensed Orthotic Fitter Assistant with a deep
   commitment to patient care. She earned her Orthotic Fitter Assistant License
   after previously working in the field for 5 years in the administration

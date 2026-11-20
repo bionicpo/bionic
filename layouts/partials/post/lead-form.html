@@ -49,5 +49,5 @@
     </div>
   </fieldset>
   <p class="pr-msg" role="status" aria-live="polite"></p>
-  <p class="pr-or">or call <a href="tel:{{ replaceRE "[^0-9+]" "" (site.Params.phone | default "1-855-524-6642") }}">{{ site.Params.phone | default "1-855-524-6642" }}</a></p>
+  <p class="pr-or">or call (new patients): <a href="tel:{{ replaceRE "[^0-9+]" "" (site.Params.phone | default "1-855-524-6642") }}">{{ site.Params.phone | default "1-855-524-6642" }}</a></p>
 </form>

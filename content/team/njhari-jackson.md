@@ -7,7 +7,7 @@ seo_title: N'Jhari Jackson | Bionic P&O
 name: N'Jhari Jackson
 role: Resident Prosthetist and Orthotist
 location: Melbourne, FL
-photo: /images/uploads/bionic-team-headshot-in-blue-polo.png
+photo: /images/uploads/njhari-jackson.webp
 bio: <p>N’Jhari Jackson is an Orthotics &amp; Prosthetics Resident at Bionic
   Prosthetics &amp; Orthotics, where he is dedicated to helping individuals with
   limb loss and mobility challenges regain independence and improve their

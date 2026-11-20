@@ -8,11 +8,11 @@ location: Chicago, IL
 photo: /images/uploads/cassie-morton.png
 bio: <p>Cassie Morton Graduated from California State University with her
   Masters in Orthotics and Prosthetics in 2024. Shortly after, she began her
-  residency with Bionic in Chicago IL, which she completed in 2025. She has a
+  residency with Bionic in Chicago, IL, which she completed in 2025. She has a
   passion for prosthetics, seeing it as an opportunity to give people back huge
   parts of their lives they may have lost. Cassie spends much of her time
-  playing dungeons and dragons and other tabletop RPG's. Sunny weekends you can
-  probably find her laying in a hammock by Lake Michigan. </p>
+  playing dungeons and dragons and other tabletop RPGs. On sunny weekends you can
+  probably find her lying in a hammock by Lake Michigan. </p>
 entry_type: clinician
 clinic_details:
   - name: Chicago

@@ -150,17 +150,6 @@
     <div class="about-media reveal" data-reveal="up">{{ partial "img.html" (dict "src" . "alt" ($.Params.image_alt | default (printf "%s clinic" $.Title))) }}</div>
     {{ end }}
   </div>
-  {{- $hoursStr := cond (reflect.IsSlice $hours) "" (printf "%v" ($hours | default "")) }}
-  {{- if or $addr $phone .Params.email $hoursStr }}
-  <div class="container cl-glance-wrap">
-    <div class="cl-glance">
-      {{ if $addr }}<div class="cl-glance-card"><span class="cs-icon">{{ partial "icon.html" "pin" }}</span><strong>Address</strong><p>{{ $addr }}{{ with .Params.address2 }}<br>{{ . }}{{ end }}</p></div>{{ end }}
-      {{ if $phone }}<div class="cl-glance-card"><span class="cs-icon">{{ partial "icon.html" "phone" }}</span><strong>Phone</strong><p><a href="tel:{{ partial "tel.html" $phone }}">{{ $phone }}</a></p></div>{{ end }}
-      {{ with $hoursStr }}<div class="cl-glance-card"><span class="cs-icon">{{ partial "icon.html" "clock" }}</span><strong>Hours</strong><p>{{ . }}</p></div>{{ end }}
-      {{ with .Params.email }}<div class="cl-glance-card"><span class="cs-icon">{{ partial "icon.html" "mail" }}</span><strong>Email</strong><p><a href="mailto:{{ . }}">{{ . }}</a></p></div>{{ end }}
-    </div>
-  </div>
-  {{- end }}
   {{ if $gallery }}
   <div class="container cl-gallery">
     {{ range $gallery }}<img title="{{ partial "img-title.html" (dict "alt" (.alt) "src" (.src)) }}" src="{{ .src }}" alt="{{ .alt }}" loading="lazy">{{ end }}
@@ -283,7 +272,7 @@
     <p>{{ $c.body }}</p>
     <div class="final-cta-actions">
       <a href="{{ $c.primary_link }}" class="btn btn-primary btn-lg">{{ $c.primary }}</a>
-      {{ with $phone }}<a href="tel:{{ partial "tel.html" . }}" class="btn btn-outline btn-lg">{{ $c.call_label }} {{ . }}</a>{{ end }}
+      {{ with $phone }}<a href="tel:{{ partial "tel.html" . }}" class="btn btn-outline btn-lg">Call us</a>{{ end }}
     </div>
   </div>
 </section>

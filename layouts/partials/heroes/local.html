@@ -11,7 +11,7 @@
 {{- $phone := .Params.phone -}}
 {{- $clinicBtns := slice -}}
 {{- if .IsPage -}}
-  {{- with $phone }}{{ $clinicBtns = $clinicBtns | append (dict "label" (printf "Call %s" .) "url" (printf "tel:%s" (replaceRE "[^0-9+]" "" .))) }}{{ end -}}
+  {{- with $phone }}{{ $clinicBtns = $clinicBtns | append (dict "label" "Call us" "url" (printf "tel:%s" (replaceRE "[^0-9+]" "" .))) }}{{ end -}}
   {{- if $addr }}{{ $clinicBtns = $clinicBtns | append (dict "label" "Get Directions" "url" (printf "https://www.google.com/maps/dir/?api=1&destination=%s" ($addr | urlquery))) }}{{ end -}}
   {{- $clinicBtns = $clinicBtns | append (dict "label" "Request a Consultation" "url" "/contact/") -}}
   {{- $st := site.GetPage (printf "/locations/%s" (.Params.state | urlize)) -}}
@@ -23,14 +23,6 @@
   <div class="container hx-grid">
     <div class="hx-copy">
       {{ partial "heroes/parts/head.html" . }}
-      {{- if not $isState }}
-      <ul class="hx-facts">
-        {{- with $addr }}<li>{{ partial "heroes/parts/icon.html" "pin" }}<span>{{ . }}</span></li>{{ end }}
-        {{- with .Params.phone }}<li>{{ partial "heroes/parts/icon.html" "phone" }}<a href="tel:{{ replaceRE "[^0-9+]" "" . }}">{{ . }}</a></li>{{ end }}
-        {{- with $hours }}<li>{{ partial "heroes/parts/icon.html" "clock" }}<span>{{ if reflect.IsSlice . }}{{ with index . 0 }}{{ if reflect.IsMap . }}{{ .days | default .day }} {{ .time | default .hours }}{{ else }}{{ . }}{{ end }}{{ end }}{{ else }}{{ . }}{{ end }}</span></li>{{ end }}
-        {{- with .Params.email }}<li>{{ partial "heroes/parts/icon.html" "mail" }}<a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
-      </ul>
-      {{- end }}
       {{ partial "heroes/parts/actions.html" (dict "p" . "default" (cond .IsPage $clinicBtns (slice (dict "label" "Request a Consultation" "url" "/contact/") (dict "label" "All Locations" "url" "/locations/")))) }}
       {{- if and .IsPage (reflect.IsSlice $hours) }}<span class="cl-badge" id="clinic-open-badge" hidden></span>{{ end }}
     </div>

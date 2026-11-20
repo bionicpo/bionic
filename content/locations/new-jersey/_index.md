@@ -6,7 +6,7 @@ type: "state"
 cascade:
   type: "clinic"
 hero:
-  title: "Bionic Prosthetics & Orthotics In NewJersey"
+  title: "Bionic Prosthetics & Orthotics In New Jersey"
   subhead: "At Bionic, we are committed to providing personalized prosthetic and orthotic care with clinics across New Jersey. Whether you're seeking mobility solutions, rehabilitation care, or need adjustments, we’re here to help."
 locations_title: "Our New Jersey Locations"
 consult:
@@ -16,9 +16,9 @@ consult:
   cta_link: "/book-appointment-pay-bill/"
 faq:
   - question: "Q: Do I need a referral to visit a Bionic clinic in New Jersey?"
-    answer: "No, you do not need a referral to visit any of our clinics. You can schedule a consultation directly by calling or emailing the clinic of your choi"
+    answer: "No, you do not need a referral to visit any of our clinics. You can schedule a consultation directly by calling or emailing the clinic of your choice."
   - question: "Q: What services do you offer at New Jersey clinics?"
     answer: "We offer a range of prosthetics and orthotics services, including custom prosthetics, pediatric care, sports prosthetics, and ongoing rehabilitation support."
   - question: "Q: What should I bring to my first appointment?"
-    answer: "Please bring any relevant medical records, your insurance information, and your ID. If you have previous prosthetic or orthotic devices, feel free to bring those as well"
+    answer: "Please bring any relevant medical records, your insurance information, and your ID. If you have previous prosthetic or orthotic devices, feel free to bring those as well."
 ---

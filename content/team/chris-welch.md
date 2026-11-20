@@ -8,8 +8,7 @@ location: Appleton, WI
 photo: /images/uploads/chris-welch.png
 bio: <p>Chris Welch is a Regional Manager at Bionic and is located at the
   Appleton and Green Bay, Wisconsin clinics. He graduated from the University of
-  Hartford with his Master's in Prosthetics and Orthotics. His prosthetic and
-  orthotics residencies were completed in Mankato, MN and Pittsburgh, PA,
+  Hartford with his Master's in Prosthetics and Orthotics. His prosthetics and orthotics residencies were completed in Mankato, MN and Pittsburgh, PA,
   respectively. Chris got into this industry after exploring most medical
   specialties. After job shadowing a prosthetic clinic where he helped assemble
   a microprocessor arm, he was hooked. From then on, Chris was on his way to be

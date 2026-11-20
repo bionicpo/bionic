@@ -8,7 +8,7 @@ location: Elkhart, IN
 photo: /images/uploads/dheerah-bhambhani.png
 bio: <p>Dheeraj Bhambhani joined Bionic in 2016 and has 20 years of clinical
   experience and over 15 years of experience in practice management. He has
-  worked for companies like Ottobock and Endolite. He is senior clinician with
+  worked for companies like Ottobock and Endolite. He is a senior clinician with
   our team and specializes in Microprocessor knees and feet such as Rheo Knee,
   Power Knee, C-Leg, Plie Knee, and others. He loves getting to know his
   patients and forming bonds that last longer than their time at our clinics.

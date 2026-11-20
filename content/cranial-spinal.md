@@ -7,7 +7,14 @@ hero_chips:
   - Lumbar sacral (LSO)
   - Thoracic lumbar sacral (TLSO)
 sections:
+  - type: jump-links
+    links:
+      - label: Cranial helmets
+        target: cranial-helmets
+      - label: Spinal orthotics
+        target: spinal-orthotics
   - type: text-image
+    id: cranial-helmets
     eyebrow: CRANIAL SOLUTIONS
     title: Cranial Orthoses
     body: Custom-fabricated devices designed for infants and for patients recovering
@@ -25,7 +32,7 @@ sections:
       - title: Protective Helmet
         description: Protective helmets are utilized to protect the cranium in
           conditions such as post-surgical states, self-harming conditions, and
-          frequent fall risk (ie. seizures).
+          frequent fall risk (e.g., seizures).
         image: /images/cranial-spinal-protective-helmet.webp
         image_alt: Protective soft helmet
         tone: light
@@ -37,6 +44,7 @@ sections:
         image_alt: Woman wearing a clear face shield orthosis
         tone: light
   - type: product-cards
+    id: spinal-orthotics
     eyebrow: SPINAL SOLUTIONS
     title: Spinal Orthoses
     body: Custom back braces designed to stabilize the spine, reduce pain, and

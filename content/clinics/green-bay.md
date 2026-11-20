@@ -14,7 +14,7 @@ hours: "M-F: 8AM-12PM, 1PM-5PM"
 description: "Founded with the vision of creating a prosthetic and orthotic practice that treats every patient with dignity and first-rate care."
 team:
   - name: "Allen Johnson, CPOA"
-    title: "Resident Prosthetic & Orthotic"
+    title: "Resident Prosthetist and Orthotist"
     location: "Wisconsin"
     clinician: "allen-johnson"
   - name: "Matthew Eckdahl, BEPO"

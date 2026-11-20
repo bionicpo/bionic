@@ -7,7 +7,7 @@ role: Senior Certified Prosthetist & Orthotist
 location: Owensboro, KY
 photo: /images/uploads/jeff-phelps.png
 bio: <p>Jeff Phelps joined the Bionic family in 2021 and works primarily in the
-  Owensboro, Ky office. A 1993 graduate of the University of Texas Southwestern
+  Owensboro, KY, office. A 1993 graduate of the University of Texas Southwestern
   Medical School in Dallas, Jeff received his Bachelor of Science degree in
   orthotics and prosthetics. He was ABC-certified in orthotics in 1995, and in
   prosthetics in 1996. He continues to have a special interest in lower limb

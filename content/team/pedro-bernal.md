@@ -6,7 +6,7 @@ credentials: CPOA
 role: Certified Orthotic and Prosthetic Assistant
 location: Laredo, TX
 photo: /images/uploads/pedro-bernal.png
-bio: <p>Pedro Bernal was born and raised in Laredo, Tx. He attended and
+bio: <p>Pedro Bernal was born and raised in Laredo, TX. He attended and
   graduated from Martin High School in 1981 and has been working in the O &amp;
   P business for 27 years. In his spare time, he enjoys family quality time. He
   loves to travel when there's not much to do in Laredo. He enjoys the outdoor,

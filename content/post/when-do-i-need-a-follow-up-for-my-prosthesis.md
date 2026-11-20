@@ -19,7 +19,7 @@ Think of it like a car service. You wouldn’t wait until your car completely br
 
 ## Why Follow-Ups Matter
 
-Your body changes over time and so do your needs.Follow-ups help us:
+Your body changes over time and so do your needs. Follow-ups help us:
 
 - Spot issues early before they become major problems
 - Adjust your device so it fits and works perfectly
@@ -44,7 +44,7 @@ Pro tip: Mark your calendar after each visit so you never miss the next one.
 
 ### 3️. Life Changes
 
-Weight changes, surgery, new activity levels, or even a growth spurt in kids can mean your device needs adjustment.Your body is telling a new story and your care should adapt to it.
+Weight changes, surgery, new activity levels, or even a growth spurt in kids can mean your device needs adjustment. Your body is telling a new story and your care should adapt to it.
 
 ### 4️. You Have Questions or Concerns
 
@@ -61,6 +61,6 @@ Your peace of mind is part of your care.
 
 ## Bottom Line:
 
-Don’t wait for pain, discomfort, or problems.Follow-ups are like your health’s pit stop: quick, essential, and the best way to keep you moving forward.
+Don’t wait for pain, discomfort, or problems. Follow-ups are like your health’s pit stop: quick, essential, and the best way to keep you moving forward.
 
 [Book your next visit today](/locations/#_blank) because your best days are ahead, and we’ll help you get there.

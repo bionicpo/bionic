@@ -1208,3 +1208,8 @@ figure.cs-quote { display: block; }
 .clinic-result-photo { flex: none; width: 84px; height: 64px; border-radius: 8px; }
 .clinic-result-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block; }
 .clinic-result-body { flex: 1; min-width: 0; }
+
+/* Jump links (cranial & spinal) */
+.jump-links { padding: 1.25rem 0 0; }
+.jump-links ul { display: flex; flex-wrap: wrap; gap: .75rem; list-style: none; margin: 0; padding: 0; }
+.text-image-section[id], .product-section[id] { scroll-margin-top: 90px; }

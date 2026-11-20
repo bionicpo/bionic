@@ -9,7 +9,7 @@ photo: /images/uploads/leeann-von-korff.png
 bio: <p>Leeann joined the Bionic Team in Cincinnati, Ohio as a Prosthetic and
   Orthotic Resident after graduating from Eastern Michigan University with a
   Master’s Degree in Prosthetics and Orthotics. She entered O&amp;P school after
-  graduating from the University of Toledo with a bachelors in Exercise Science.
+  graduating from the University of Toledo with a bachelor’s in Exercise Science.
   Leeann learned about the field of Prosthetics and Orthotics when it was
   briefly mentioned in an introductory course. She proceeded to shadow at
   different clinics and with different practitioners and fell in love with the

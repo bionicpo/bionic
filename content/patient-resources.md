@@ -44,7 +44,7 @@ sections:
             link: "/book-appointment-pay-bill/"
   - type: "resource-directory"
     id: "resources"
-    note: "<em>This list is not complete of all the resources available. This list is also not an official endorsement from Bionic Prosthetics &amp; Orthotics.</em>"
+    note: "<em>This is not a complete list of all available resources. This list is also not an official endorsement from Bionic Prosthetics &amp; Orthotics.</em>"
     groups:
       - id: "general"
         label: "General"
@@ -72,7 +72,7 @@ sections:
           - "[[American Academy of Orthopaedic Surgeons: OrthoInfo|https://orthoinfo.aaos.org/|_blank]] :: Patient guides on fractures, joint conditions, and recovery after surgery."
       - id: "children"
         label: "Children"
-        title: "Children Resources"
+        title: "Children's Resources"
         icon: "baby"
         description: "Programs and support for young amputees and their families."
         points:
@@ -113,7 +113,7 @@ sections:
         points:
           - "[[The Independence Fund|https://www.independencefund.org/|_blank]] :: Support and mobility equipment programs for veterans."
           - "[[Wounded Warrior Project|https://www.woundedwarriorproject.org/|_blank]] :: Programs and support for veterans and service members injured in service."
-          - "[[The Veteran’s Administration|https://www.va.gov/|_blank]] :: Benefits, health care, and prosthetic services for U.S. veterans."
+          - "[[U.S. Department of Veterans Affairs|https://www.va.gov/|_blank]] :: Benefits, health care, and prosthetic services for U.S. veterans."
           - "[[Angel Wings for Veterans|https://angelwingsforveterans.org/|_blank]] :: Assistance and support programs for veterans in need."
 
   - type: "cta-band"

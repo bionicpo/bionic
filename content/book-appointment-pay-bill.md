@@ -8,7 +8,7 @@ hero_book_url: "/locations/"
 hero_pay_url: "https://www.patientnotebook.com/BionicPO/payment"
 hero:
   eyebrow: "BILLING & APPOINTMENTS"
-  title: "Book An Appointment and Pay Bill"
+  title: "Book an Appointment and Pay Your Bill"
   subhead: "Manage your care online: complete new-patient paperwork ahead of time, or securely pay your bill in just a few clicks."
   cta_primary: "Request a Consultation"
   cta_primary_link: "/contact/"

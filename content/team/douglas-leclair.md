@@ -9,7 +9,7 @@ photo: /images/uploads/douglas-leclair.png
 bio: <p>Douglas LeClair is a Certified Orthotist working out of our
   Winston-Salem clinic. Doug went to college at Minnesota State University,
   Mankato where he graduated with a degree in physical education non-teaching.
-  After getting his degree, he enrolled at Century college in Minnesota to
+  After getting his degree, he enrolled at Century College in Minnesota to
   complete his orthotic education. Next, Doug started working at Shriner’s
   Hospital for children in Minnesota for his first 5 years in the field and
   moved to Pittsburgh to work with both pediatric and adult patients for the

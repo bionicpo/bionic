@@ -8,7 +8,7 @@ entry_type: blog_post
 recent_posts: ["what-is-a-prosthetic-arm-a-complete-introduction-for-new-amputees", "understanding-prosthetics-what-to-expect-after-limb-loss"]
 ---
 
-Learning to walk with a prosthesis is a journey, one built on patience, practice, and the right support.For many individuals with limb loss, assistive devices like walkers, canes, or crutches play an important role in building balance, strength, and confidence in daily movement.
+Learning to walk with a prosthesis is a journey, one built on patience, practice, and the right support. For many individuals with limb loss, assistive devices like walkers, canes, or crutches play an important role in building balance, strength, and confidence in daily movement.
 
 At Bionic Prosthetics & Orthotics, we view these devices not as signs of limitation, but as temporary tools that help you move safely while your body adapts.
 
@@ -21,7 +21,7 @@ This blog explains:
 
 ## Why Assistive Devices Matter
 
-After amputation, your body learns new patterns of balance, posture, and weight distribution.Assistive devices help with:
+After amputation, your body learns new patterns of balance, posture, and weight distribution. Assistive devices help with:
 
 - Stability while learning to walk
 - Reducing fall risk during early gait training
@@ -57,7 +57,7 @@ A cane provides light support, often used after walker training.
 - Minor balance concerns
 - Transitioning toward full independence
 - Light balance cue
-- Helps prevent limp
+- Helps prevent a limp
 - Supports proper gait control
 
 Important: The cane should be used on the opposite side of the prosthetic leg.
@@ -106,9 +106,9 @@ Gradual Transition Plan:
 - Reduce indoor use first
 - Walk short distances without the device under supervision
 - Practice weight shifting in front of a counter or table
-- Strengthen core and hip stabiliser daily
+- Strengthen core and hip stabilizers daily
 - Move from walker → cane → no device when safe
 
-Never rush the process, confidence matters more than speed.
+Never rush the process. Confidence matters more than speed.
 
 If you have questions about which assistive device is right for your stage of recovery, reach out to your Bionic clinical team.

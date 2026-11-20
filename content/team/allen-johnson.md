@@ -3,7 +3,7 @@ title: Allen Johnson
 seo_title: Allen Johnson, CPOA | Bionic P&O
 name: Allen Johnson
 credentials: CPOA
-role: Resident Prosthetic & Orthotic
+role: Resident Prosthetist and Orthotist
 location: Green Bay, WI
 photo: /images/uploads/allen-johnson.png
 bio: <p>Allen Johnson joined the Bionic team as a Certified Prosthetic &amp;
@@ -21,7 +21,7 @@ bio: <p>Allen Johnson joined the Bionic team as a Certified Prosthetic &amp;
   mobility clinics to help patients get more active and try sports components
   for their prostheses. He also volunteers with a regional chapter of the
   American Academy of Orthotists and Prosthetists, as research and continuing
-  education are important issues to him. When he out of the office, Allen spends
+  education are important issues to him. When he is out of the office, Allen spends
   most of his time with family or friends and his two dogs. He loves getting out
   into nature for a hike or paddle, playing games, reading, traveling, building
   computers, getting out to a show or sporting event, or tinkering on his latest

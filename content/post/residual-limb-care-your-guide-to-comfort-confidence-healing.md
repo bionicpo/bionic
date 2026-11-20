@@ -34,11 +34,11 @@ Look out for:
 - Tender or sore areas
 - Thickened or shiny skin patches
 
-Use a mirror or ask a caregiver to help you check hard-to-see areas like the back or underside of your limb.If irritation persists, consult your prosthetist immediately even a small issue can lead to bigger complications.
+Use a mirror or ask a caregiver to help you check hard-to-see areas like the back or underside of your limb. If irritation persists, consult your prosthetist immediately even a small issue can lead to bigger complications.
 
 ## Cleanliness & Hygiene Routine
 
-A healthy limb starts with a clean limb.Follow this simple daily routine to reduce the risk of infections and odor:
+A healthy limb starts with a clean limb. Follow this simple daily routine to reduce the risk of infections and odor:
 
 - Wash gently: Use mild, fragrance-free soap and lukewarm water.
 - Dry completely: Pat dry with a soft towel before wearing your prosthesis.
@@ -52,7 +52,7 @@ Pro Tip by [Bionic Prosthetic & Orthotics Experts](/team/#_blank): Never apply h
 
 ## Desensitization: Training Your Limb for Comfort
 
-In the first few weeks post-amputation, your limb may be sensitive to touch.Desensitization helps your skin and nerves adjust to contact and pressure.
+In the first few weeks post-amputation, your limb may be sensitive to touch. Desensitization helps your skin and nerves adjust to contact and pressure.
 
 Try these techniques (once cleared by your clinician):
 
@@ -65,7 +65,7 @@ This not only reduces sensitivity but also prepares you for wearing your Bionic 
 
 ## Preventing Pressure Spots and Skin Breakdown
 
-Even the best prosthesis can cause discomfort if not properly maintained.Here’s how to prevent issues before they start:
+Even the best prosthesis can cause discomfort if not properly maintained. Here’s how to prevent issues before they start:
 
 - Fit check: If your limb size changes, revisit your prosthetist for socket adjustment.
 - Liner hygiene: Wash and rotate liners daily to prevent bacterial buildup.
@@ -87,7 +87,7 @@ Early intervention keeps your bionic prosthetics and orthotics performing at the
 
 ## Long-Term Maintenance: Adapting as You Grow
 
-Your limb will change over time, especially in the first 6 -12 months post-surgery.Schedule routine follow-ups to ensure a proper socket fit and stay proactive about your limb’s needs.
+Your limb will change over time, especially in the first 6 -12 months post-surgery. Schedule routine follow-ups to ensure a proper socket fit and stay proactive about your limb’s needs.
 
 Remember:Healthy skin + Proper fit = Comfortable movement + Longer prosthesis life
 
@@ -97,4 +97,4 @@ With consistent care and regular support from your Bionic care team, you’ll en
 
 ![Residual Limb Care: Your Guide to Comfort, Confidence & Healing image 3](/images/blog/inline/residual-limb-care-your-guide-to-comfort-confidence-healing/3.jpg)
 
-At Bionic Po, we’ve seen hundreds of patients transform their recovery through daily care.From learning to desensitize their limb to mastering new sports with bionic prosthetics, the common thread is consistency, awareness, and teamwork with clinicians.
+At Bionic Po, we’ve seen hundreds of patients transform their recovery through daily care. From learning to desensitize their limb to mastering new sports with bionic prosthetics, the common thread is consistency, awareness, and teamwork with clinicians.

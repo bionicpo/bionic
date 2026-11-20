@@ -12,7 +12,7 @@ bio: <p>Felix Martinez joined Bionic in 2013, but his professional career began
   technical expert, he brings to Bionic a quality and standard of fitting that
   meets international guidelines and leaves a mark of creativity on every device
   that comes out of our state-of-the-art fabrication facility. Félix lives in
-  Thornton, IL with his wife and two kids and enjoys working on home projects on
+  Thornton, IL, with his wife and two kids and enjoys working on home projects on
   weekends. He graduated from the Feinberg School of Prosthetics at Northwestern
   University and holds a BS in Business from DePaul University. </p>
 entry_type: clinician

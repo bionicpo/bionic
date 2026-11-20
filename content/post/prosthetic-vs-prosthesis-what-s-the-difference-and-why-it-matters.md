@@ -105,7 +105,7 @@ You’re entering an ongoing care relationship.
 
 You may also see terms like:
 
-- 3D printed prosthetics
+- 3D-printed prosthetics
 - Digitally designed prostheses
 
 Here again, language matters.
@@ -118,7 +118,7 @@ It can be used to:
 - Prototype components
 - Improve fit precision
 
-But whether something is 3D printed or traditionally fabricated, it is still a prosthesis when it replaces a limb, and prosthetic when describing its function or care.
+But whether something is 3D-printed or traditionally fabricated, it is still a prosthesis when it replaces a limb, and prosthetic when describing its function or care.
 
 ## Why Clear Language Is Part of Good Care
 
@@ -184,9 +184,9 @@ Yes. A prosthesis is a system made up of components such as a socket, suspension
 
 A prosthetist is a licensed professional who evaluates, designs, fits, and adjusts prosthetic devices and provides ongoing care.
 
-### Are 3D printed prosthetics different from regular prostheses?
+### Are 3D-printed prosthetics different from regular prostheses?
 
-3D printing is a fabrication method. A 3D printed device is still a prosthesis if it replaces a limb and functions as part of prosthetic care.
+3D printing is a fabrication method. A 3D-printed device is still a prosthesis if it replaces a limb and functions as part of prosthetic care.
 
 Tags:
 

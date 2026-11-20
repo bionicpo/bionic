@@ -46,7 +46,7 @@ None of this means you’ve done something wrong.
 
 A cranial helmet is a custom-made, lightweight orthotic helmet designed to help guide growth of the baby’s skull.
 
-It does not squeeze the head.It does not hurt the baby.It simply provides a supportive structure that encourages growth where it’s needed, and holds shape where growth is already sufficient.
+It does not squeeze the head. It does not hurt the baby. It simply provides a supportive structure that encourages growth where it’s needed, and holds shape where growth is already sufficient.
 
 Think of it like gently shaping clay while it’s still soft.
 

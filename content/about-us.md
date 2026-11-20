@@ -7,14 +7,14 @@ hero_image: "/images/about-team-group-photo.webp"
 hero:
   eyebrow: TRUSTED CARE SINCE 2007
   title: 'About Us: Bionic Prosthetics and Orthotics'
-  subhead: Founded in 2007, Bionic Prosthetics & Orthotics is a nationally recognized provider of personalized prosthetic and orthotic care, serving patients through clinical locations across the country.
+  subhead: Founded in 2007, Bionic Prosthetics & Orthotics is a multi-location provider of personalized prosthetic and orthotic care, serving patients through clinical locations across the country.
   cta_primary: Request a Consultation
   cta_primary_link: /contact/
   cta_secondary: Meet Our Clinical Team
   cta_secondary_link: /team/
 sections:
 - type: richtext
-  body: <p>We are a fully accredited orthotic and prosthetic facility, committed to delivering care that meets the highest clinical and professional standards. Our team includes certified and state-licensed prosthetists and orthotists with experience across a wide range of specialties, including upper and lower limb prosthetics, spinal and extremity orthotics, pediatric care.</p><p>Quality care begins with listening. We take time to understand each patient’s needs, goals, and daily life, and we stay involved from evaluation through long-term follow-up.</p>
+  body: <p>We are a fully accredited orthotic and prosthetic facility, committed to delivering care that meets the highest clinical and professional standards. Our team includes certified and state-licensed prosthetists and orthotists with experience across a wide range of specialties, including upper and lower limb prosthetics, spinal and extremity orthotics, and pediatric care.</p><p>Quality care begins with listening. We take time to understand each patient’s needs, goals, and daily life, and we stay involved from evaluation through long-term follow-up.</p>
 - type: richtext
   layout: cards
   cols: '3'

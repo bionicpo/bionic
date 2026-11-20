@@ -11,10 +11,10 @@ bio: <p>Matthew Paruch, a Certified Prosthetist Orthotist, has dedicated nearly
   Western Piedmont region. With a Bachelor’s Degree in Prosthetics and Orthotics
   from St. Petersburg College, Matthew specializes in cutting-edge prosthetic
   solutions and pediatric bracing. Leveraging advanced bionic technologies, he
-  adeptly addresses the unique lifestyle challenges of each patient.Our mission
+  adeptly addresses the unique lifestyle challenges of each patient. Our mission
   is to deliver compassionate and competent care to every individual we serve.
   We aim to become an integral part of our patients' lives, supporting them
-  through their journey to improved mobility and well-being.Being entrusted with
+  through their journey to improved mobility and well-being. Being entrusted with
   the opportunity to serve is truly an honor</p>
 entry_type: clinician
 clinic_details:

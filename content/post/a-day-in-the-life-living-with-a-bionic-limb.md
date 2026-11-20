@@ -10,7 +10,7 @@ recent_posts: ["what-is-a-prosthetic-arm-a-complete-introduction-for-new-amputee
 
 ## Real Stories. Real Wins. Real Strength.
 
-Every person who wears a bionic arm or leg carries more than the device itself.They carry stories of resilience, humor, adaptation, identity, and the quiet victories no one sees.
+Every person who wears a bionic arm or leg carries more than the device itself. They carry stories of resilience, humor, adaptation, identity, and the quiet victories no one sees.
 
 At Bionic Prosthetics & Orthotics, we meet people who remind us every day that mobility is not just physical, it\'s emotional, psychological, and deeply human.
 
@@ -70,4 +70,4 @@ At Bionic Po, we provide:
 - Athletic and functional prosthesis fitting
 - Long-term follow-up and adjustment support
 
-We don’t just fit devices, We walk the journey with you.
+We don’t just fit devices. We walk the journey with you.

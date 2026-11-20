@@ -6,7 +6,7 @@ hero_image: "/images/prosthetics-what-is.webp"
 hero:
   eyebrow: YOUR PROSTHETIC JOURNEY STARTS HERE
   title: Prosthetic Solutions
-  subhead: Over 2 million Americans live with limb loss. The right device fits your body, your job, and your life. At Bionic P&O, we build it with you, not just for you.
+  subhead: The right device fits your body, your job, and your life. At Bionic P&O, we build it with you, not just for you.
   cta_primary: Book a Consultation
   cta_primary_link: tel:2197919200
   cta_secondary: Find Nearest Clinic

@@ -32,7 +32,7 @@ Every prosthetic arm, whether simple or highly advanced, is built around the sam
 
 ### Socket
 
-The socket is the foundation of the entire prosthetic. It is a custom-molded shell that fits snugly over your residual limb (the remaining portion of your arm after amputation). A poor-fitting socket can cause discomfort, skin irritation, and reduced function, your prosthetist will take precise measurements and create a personalized mold. Socket materials typically include lightweight plastics, carbon fiber composites, or medical-grade silicone.
+The socket is the foundation of the entire prosthetic. It is a custom-molded shell that fits snugly over your residual limb (the remaining portion of your arm after amputation). A poorly fitting socket can cause discomfort, skin irritation, and reduced function, your prosthetist will take precise measurements and create a personalized mold. Socket materials typically include lightweight plastics, carbon fiber composites, or medical-grade silicone.
 
 ![What Is a Prosthetic Arm? A Complete Introduction for New Amputees image 1](/images/blog/inline/what-is-a-prosthetic-arm-a-complete-introduction-for-new-amputees/1.png)
 
@@ -92,7 +92,7 @@ A prosthetic arm may be recommended if you have experienced amputation at any le
 
 Prosthetic fitting can begin once your surgical site has healed sufficiently and any post-operative swelling has stabilized. In many cases, the rehabilitation process begins before surgery with pre-prosthetic therapy, which focuses on strengthening the muscles you will use to control your device.
 
-Early prosthetic fitting and training has been consistently linked to higher rates of long-term prosthetic use and better functional outcomes. If you are considering a prosthetic arm, the most important step is connecting with an experienced, certified prosthetist as early in your journey as possible.
+Early prosthetic fitting and training have been consistently linked to higher rates of long-term prosthetic use and better functional outcomes. If you are considering a prosthetic arm, the most important step is connecting with an experienced, certified prosthetist as early in your journey as possible.
 
 ## Take the First Step With Bionic Prosthetics & Orthotics
 

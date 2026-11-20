@@ -8,7 +8,7 @@ entry_type: blog_post
 recent_posts: ["what-is-a-prosthetic-arm-a-complete-introduction-for-new-amputees", "understanding-prosthetics-what-to-expect-after-limb-loss"]
 ---
 
-At Bionic, we are thrilled to announce that one of our esteemed Regional Managers and Certified Prosthesis & Orthotists, L. Bradley Watson, has been elected to the board of directors of the National Association for the Advancement of Orthotics and Prosthetics (NAAOP). This prestigious appointment highlights Brad\'s dedication to our profession and his wealth of experience accumulated over 35 years.
+At Bionic, we are thrilled to announce that one of our esteemed Regional Managers and certified prosthetists and orthotists, L. Bradley Watson, has been elected to the board of directors of the National Association for the Advancement of Orthotics and Prosthetics (NAAOP). This prestigious appointment highlights Brad\'s dedication to our profession and his wealth of experience accumulated over 35 years.
 
 Ann Leimkuehler Moss, NAAOP\'s board president, expressed her delight at welcoming Brad to the board. She emphasized Brad\'s extensive experience, including his previous and current roles on the BOC board and the Kentucky state licensure board. These roles underscore Brad\'s unwavering commitment to advancing the field of orthotics and prosthetics.
 

@@ -14,7 +14,7 @@ faq:
   - question: "Is discomfort normal in the beginning?"
     answer: "Some adjustment discomfort is common early on, but ongoing pain or instability should be addressed through follow-up care."
   - question: "Do I need to be active to benefit from a prosthetic leg?"
-    answer: "No, Prosthetic legs are designed to support everyday life, not just high activity levels."
+    answer: "No. Prosthetic legs are designed to support everyday life, not just high activity levels."
   - question: "When should I contact my prosthetist?"
     answer: "Anytime something feels off, uncomfortable, or harder than it should. Early adjustments often prevent bigger issues later."
 entry_type: blog_post
@@ -132,7 +132,7 @@ You don\'t need perfect words to explain what feels wrong. Describing sensations
 
 Your first prosthetic leg isn\'t your final one.
 
-Body changes. Activity levels change. Comfort needs change.
+Your body changes. Activity levels change. Comfort needs change.
 
 Follow-up care allows your prosthetic leg to evolve with you, whether that means adjustments, component changes, or new goals. This ongoing process is what helps prosthetic care stay effective long term.
 
@@ -185,7 +185,7 @@ Some adjustment discomfort is common early on, but ongoing pain or instability s
 
 ### Do I need to be active to benefit from a prosthetic leg?
 
-No, Prosthetic legs are designed to support everyday life, not just high activity levels.
+No. Prosthetic legs are designed to support everyday life, not just high activity levels.
 
 ### When should I contact my prosthetist?
 

@@ -15,7 +15,7 @@ hours: "M-F: 8AM-12PM, 1PM-5PM"
 description: "Providing the very best in prosthetic and orthotic care with individualized patient treatment plans."
 team:
   - name: "Kyndall Mayer"
-    title: "Resident Prosthetist and Othotist"
+    title: "Resident Prosthetist and Orthotist"
     location: "North Carolina"
     clinician: "kyndall-mayer"
 entry_type: clinic

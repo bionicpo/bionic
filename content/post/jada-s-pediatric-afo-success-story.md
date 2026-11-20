@@ -116,7 +116,7 @@ An AFO helps guide the foot and ankle into a more stable position, which reduces
 
 ### 3. Will an AFO limit my child’s movement or play?
 
-No, A properly fitted AFO is designed to support movement, not restrict it. Many children run, jump, ride bikes, and participate in school activities while wearing their AFO comfortably.
+No. A properly fitted AFO is designed to support movement, not restrict it. Many children run, jump, ride bikes, and participate in school activities while wearing their AFO comfortably.
 
 ### 4. When should a child be evaluated for an AFO?
 
@@ -128,7 +128,7 @@ Every child is different. Some wear an AFO for a shorter period, while others ne
 
 ### 6. Are AFOs custom-made for each child?
 
-Yes, Pediatric AFOs are custom-designed based on the child’s anatomy, movement patterns, and growth needs. Comfort, fit, and flexibility are key parts of successful orthotic care.
+Yes. Pediatric AFOs are custom-designed based on the child’s anatomy, movement patterns, and growth needs. Comfort, fit, and flexibility are key parts of successful orthotic care.
 
 ### 7. Can children wear regular shoes with an AFO?
 

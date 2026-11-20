@@ -19,6 +19,6 @@ faq:
     answer: "No, you do not need a referral to visit any of our clinics. You can schedule a consultation directly by calling or emailing the clinic of your choice."
   - question: "Q: What services do you offer at Michigan clinics?"
     answer: "We offer a range of prosthetics and orthotics services, including custom prosthetics, pediatric care, sports prosthetics, and ongoing rehabilitation support."
-  - question: "Q: What should I bring to my first appointment"
+  - question: "Q: What should I bring to my first appointment?"
     answer: "Please bring any relevant medical records, your insurance information, and your ID. If you have previous prosthetic or orthotic devices, feel free to bring those as well."
 ---

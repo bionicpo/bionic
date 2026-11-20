@@ -42,7 +42,7 @@ sections:
     image_alt: Hinged knee brace on a mannequin leg
     tone: light
   - title: Hip Solutions
-    description: Orthotic solutions for patients having hip fractures, dislocations and in post-surgical applications.
+    description: Orthotic solutions for patients with hip fractures or dislocations, or those recovering from surgery.
     image: /images/lower-extremity-hip-solutions.webp
     image_alt: Hip orthosis with a hinged joint and thigh cuff
     tone: light

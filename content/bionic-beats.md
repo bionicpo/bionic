@@ -24,38 +24,38 @@ sections:
   title: Read the Bionic Beats
   intro: 'Edition:'
   items:
-  - label: September
+  - label: September 2026
     pdf: /_files/ugd/45f797_8f0baa1c369f445aae6c034cbc250e04.pdf
     image: /images/bionic-beats/cover-01.jpg
-    image_alt: Bionic Beats September edition cover
-  - label: August
+    image_alt: Bionic Beats September 2026 edition cover
+  - label: August 2026
     pdf: /_files/ugd/45f797_498d81935aa94555acc0277674b8b3a2.pdf
     image: /images/bionic-beats/cover-20.jpg
-    image_alt: Bionic Beats August edition cover
-  - label: July
+    image_alt: Bionic Beats August 2026 edition cover
+  - label: July 2026
     pdf: /_files/ugd/45f797_1275e9fd3ea145d6ab2e39e09dbde22e.pdf
     image: /images/bionic-beats/cover-39.jpg
-    image_alt: Bionic Beats July edition cover
-  - label: June
+    image_alt: Bionic Beats July 2026 edition cover
+  - label: June 2026
     pdf: /_files/ugd/45f797_d83911a4be63419a8ce16fc0b2837353.pdf
     image: /images/bionic-beats/cover-02.jpg
-    image_alt: Bionic Beats June edition cover
-  - label: May
+    image_alt: Bionic Beats June 2026 edition cover
+  - label: May 2026
     pdf: /_files/ugd/45f797_2781129de76b4b9898f9d756ed3c87f0.pdf
     image: /images/bionic-beats/cover-21.jpg
-    image_alt: Bionic Beats May edition cover
-  - label: April
+    image_alt: Bionic Beats May 2026 edition cover
+  - label: April 2026
     pdf: /_files/ugd/45f797_728ebc7cfc3a44a4941281bb39982077.pdf
     image: /images/bionic-beats/cover-40.jpg
-    image_alt: Bionic Beats April edition cover
-  - label: March
+    image_alt: Bionic Beats April 2026 edition cover
+  - label: March 2026
     pdf: /_files/ugd/45f797_2fb8f19e39cc4ca087a415c0926712c6.pdf
     image: /images/bionic-beats/cover-03.jpg
-    image_alt: Bionic Beats March edition cover
-  - label: February
+    image_alt: Bionic Beats March 2026 edition cover
+  - label: February 2026
     pdf: /_files/ugd/45f797_834a78a21c6146d3bcf50dd21467372f.pdf
     image: /images/bionic-beats/cover-22.jpg
-    image_alt: Bionic Beats February edition cover
+    image_alt: Bionic Beats February 2026 edition cover
   - label: January 2026
     pdf: /_files/ugd/45f797_0b3e8cb7794546b78e0231486e3f5845.pdf
     image: /images/bionic-beats/cover-41.png

@@ -12,7 +12,7 @@ recent_posts:
   - understanding-prosthetics-what-to-expect-after-limb-loss
 ---
 
-Sports are more than movement - they’re expression, identity, confidence, and freedom.For individuals with limb loss, adaptive sports offer a powerful path to reclaiming movement and rediscovering what the body can do. With today’s advancements in bionic prosthetics and orthotics, athletes around the world are running, cycling, swimming, climbing, and competing at elite levels. At Bionic Po, we support athletes of all ages and abilities in stepping back into the sports they love or discovering new ones.
+Sports are more than movement - they’re expression, identity, confidence, and freedom. For individuals with limb loss, adaptive sports offer a powerful path to reclaiming movement and rediscovering what the body can do. With today’s advancements in bionic prosthetics and orthotics, athletes around the world are running, cycling, swimming, climbing, and competing at elite levels. At Bionic Po, we support athletes of all ages and abilities in stepping back into the sports they love or discovering new ones.
 
 ## What Are Adaptive Sports?
 

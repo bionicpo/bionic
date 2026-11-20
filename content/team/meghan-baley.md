@@ -7,7 +7,7 @@ role: Clinical Manager - Certified Prosthetist & Orthotist
 location: Bolingbrook, IL
 photo: /images/uploads/meghan-baley.png
 bio: <p>Meghan Baley joined the Bionic Team in January 2020 and leads Bionic's
-  Bolingbrook Clinic in Illinois. She holds a Master’s Degree of Science in
+  Bolingbrook Clinic in Illinois. She holds a Master of Science in
   Orthotics &amp; Prosthetics from Eastern Michigan University and is ABC
   Certified. She has been in practice since 2015 in the O&amp;P field, soon to
   be specializing in cranial remolding. Meghan is instrumental in helping our

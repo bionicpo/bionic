@@ -40,7 +40,7 @@ I am very proud of these accomplishments, and it was not done alone. There was a
 
 Prior to joining the field of Prosthetics and Orthotics, I was an educator. This has been a central part of my clinical care and my involvement in the medical community. Bionic has continually encouraged me to expand my efforts within the community and to focus on education.
 
-We currently work with a local medical magnet high school in in Indiana to provide a day-long seminar on entrance into the field of prosthetics and orthotics. This is a truly rewarding experience and we have already had some of these students trickle into our clinics as interns.
+We currently work with a local medical magnet high school in Indiana to provide a day-long seminar on entrance into the field of prosthetics and orthotics. This is a truly rewarding experience and we have already had some of these students trickle into our clinics as interns.
 
 ![Tony Gutierrez: Growing with Bionic image 5](/images/blog/inline/tony-gutierrez-growing-with-bionic/5.png)
 
@@ -48,9 +48,9 @@ We currently work with a local medical magnet high school in in Indiana to provi
 
 In 2019 I was asked to collaborate with Rosalind Franklin University and the University of Michigan for Bionic to participate in a Department of Defense prosthetic research study focused on the implementation of adjustable above knee socket solutions and the effect on patient preference, comfort, mobility, and balance.
 
-To date, we are about halfway through the study with a recruitment goal of 15 participants at our centers. This research will lead to several key publications to advance the field as a whole and the improve our understanding of above knee socket design, particularly concerning patient adjustability.
+To date, we are about halfway through the study with a recruitment goal of 15 participants at our centers. This research will lead to several key publications to advance the field as a whole and improve our understanding of above knee socket design, particularly concerning patient adjustability.
 
-This opportunity led to further partnership with Rosalind Franklin University as we are currently underway with several other projects including strength comparison of 3D printed sockets to standard fabrication, a survey to assess clinical use and effectiveness of subischial sockets, and evaluation of subischial sockets in a K2-level population.
+This opportunity led to further partnership with Rosalind Franklin University as we are currently underway with several other projects including strength comparison of 3D-printed sockets to standard fabrication, a survey to assess clinical use and effectiveness of subischial sockets, and evaluation of subischial sockets in a K2-level population.
 
 We continue to expand our research partnerships and have worked with Valparaiso University on variations in design of Reciprocating Gait Orthosis (RGO) for a pediatric population.
 
@@ -60,7 +60,7 @@ In the spring of 2019, I was offered an opportunity to go and assist one of our 
 
 In 4 days, we were able to partner with our local clinicians to evaluate, treat, and design prosthetic solutions for over 30 patients. This was such a magical opportunity where we were able to provide care for some patients who either had nothing or a homemade prosthesis.
 
-We were able to design and deliver several prostheses for these patients and give them a chance at increased mobility and bilateral hand use. This was truly a life changing experience, and I am thankful I was given the opportunity to go and serve this patient population, as well as work with prosthetists on a global level to help improve their care.
+We were able to design and deliver several prostheses for these patients and give them a chance at increased mobility and bilateral hand use. This was truly a life-changing experience, and I am thankful I was given the opportunity to go and serve this patient population, as well as work with prosthetists on a global level to help improve their care.
 
 I am still friends with these dedicated clinicians on social media and often share ideas and solutions amongst ourselves to improve our clinical care on a global network.
 

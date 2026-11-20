@@ -17,8 +17,8 @@ consult:
 faq:
   - question: "Q: What should I bring to my first appointment?"
     answer: "Please bring your insurance information, ID, and any medical records you have related to your prosthetic or orthotic needs."
-  - question: "Q: Do Bionic accept insurance?"
+  - question: "Q: Does Bionic accept insurance?"
     answer: "Yes, we accept most major insurance plans. Our team will work with you to verify your coverage."
-  - question: "Q: How long does it take to get fitted for a prosthetic"
+  - question: "Q: How long does it take to get fitted for a prosthetic?"
     answer: "Typically, the fitting process takes about 2-3 appointments to ensure a proper fit and comfort."
 ---

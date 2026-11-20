@@ -10,7 +10,7 @@ hero_image: "/images/upper-extremity-orthotics.webp"
 hero:
   eyebrow: ORTHOTICS
   title: Upper Extremity Orthoses
-  subhead: Orthotics devices are designed to improve the function and structure of the upper extremity joints (shoulder, elbow, wrist, hand). These devices can be utilized in pediatric and adult orthotic care.
+  subhead: Orthotic devices are designed to improve the function and structure of the upper extremity joints (shoulder, elbow, wrist, hand). These devices can be utilized in pediatric and adult orthotic care.
   cta_primary: Request a Consultation
   cta_primary_link: /contact/
   cta_secondary: Explore All Orthotics
@@ -24,7 +24,7 @@ sections:
 - type: product-cards
   items:
   - title: Contracture Management
-    description: Upper limb orthoses which provide support or immobilization to the joints of the upper extremity. Patient with conditions such as carpal tunnel, contracture management and post-surgical recovery.
+    description: Upper limb orthoses which provide support or immobilization to the joints of the upper extremity. Patients with conditions such as carpal tunnel, contracture management and post-surgical recovery may benefit from these orthoses.
     image: /images/upper-extremity-contracture-management.webp
     image_alt: Hand and wrist splint for contracture management
     tone: light

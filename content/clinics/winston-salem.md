@@ -19,7 +19,7 @@ team:
     location: "North Carolina"
     clinician: "douglas-leclair"
   - name: "Kyndall Mayer"
-    title: "Resident Prosthetist and Othotist"
+    title: "Resident Prosthetist and Orthotist"
     location: "North Carolina"
     clinician: "kyndall-mayer"
   - name: "Michael McDonald, CO"

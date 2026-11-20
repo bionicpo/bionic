@@ -15,7 +15,7 @@ hours: "M-F: 8AM-12PM, 1PM-5PM"
 description: "Providing the very best in prosthetic and orthotic care in orthopedic rehabilitation."
 team:
   - name: "Allen Johnson, CPOA"
-    title: "Resident Prosthetic & Orthotic"
+    title: "Resident Prosthetist and Orthotist"
     location: "Wisconsin"
     clinician: "allen-johnson"
   - name: "Chris Welch, CPO"

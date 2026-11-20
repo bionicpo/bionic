@@ -23,7 +23,7 @@ team:
     location: "North Carolina"
     clinician: "kayla-watts"
   - name: "Kyndall Mayer"
-    title: "Resident Prosthetist and Othotist"
+    title: "Resident Prosthetist and Orthotist"
     location: "North Carolina"
     clinician: "kyndall-mayer"
 entry_type: clinic

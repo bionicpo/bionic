@@ -6,8 +6,8 @@ credentials: CFo, LO
 role: Certified Orthotic Fitter / Licensed Orthotist
 location: Clarksville, TN
 photo: /images/uploads/jenny-hutchison.png
-bio: <p>Jenny Hutchison is a certified fitter of orthotics, and licensed
-  Orthotist in the state of Tennessee, and Kentucky. She has 23 years of
+bio: <p>Jenny Hutchison is a certified fitter of orthotics and licensed
+  Orthotist in the states of Tennessee and Kentucky. She has 23 years of
   experience in orthotics. She became ABC certified in 2005, licensed in TN in
   2008 and KY in 2013. She loves what she does in the O&amp;P profession. The
   joy on a patient's face, young and old, when they are pleased with the

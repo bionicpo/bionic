@@ -20,7 +20,7 @@ sections:
       - "Ongoing clinical education to stay current with technology and best practice"
   - type: "richtext"
     title: "Learn more"
-    body: "<p>Read about certification and accreditation on the <a href=\"https://www.abcop.org/\" target=\"_blank\" rel=\"noopener\">ABC website</a>.</p><p><em>Content note: please have this page reviewed and updated with your current accreditation details.</em></p>"
+    body: "<p>Read about certification and accreditation on the <a href=\"https://www.abcop.org/\" target=\"_blank\" rel=\"noopener\">ABC website</a>.</p>"
   - type: "cta-band"
     title: "Questions About Our Credentials?"
     body: "Our team is happy to explain how our clinicians are certified."

@@ -21,7 +21,7 @@ These experiences are common.
 
 That doesn’t mean something is wrong with your prosthetic.
 
-They tell your body and your device are responding to the environment together.
+They show that your body and your device are responding to the environment together.
 
 Understanding how weather impacts prosthetics can help you stay comfortable, confident, and prepared throughout the year.
 
@@ -160,7 +160,7 @@ Cold temperatures can cause your residual limb to shrink, making the prosthetic 
 
 ### 3\. Does moisture from rain or humidity affect my prosthetic?
 
-Yes, Moisture can cause skin irritation and damage prosthetic components if not properly managed. Prolonged exposure to rain or humidity can lead to wear and corrosion, especially for metal parts.
+Yes. Moisture can cause skin irritation and damage prosthetic components if not properly managed. Prolonged exposure to rain or humidity can lead to wear and corrosion, especially for metal parts.
 
 ### 4\. How can I maintain my prosthetic during seasonal changes?
 

@@ -14,7 +14,7 @@
 {{ $img := $s.image | default $.Params.image | default site.Params.defaultImage }}
 {{- /* A text-only intro directly above a product grid acts as that grid's heading: tighter gap, shared width. */ -}}
 {{ $lead := and (not $img) (lt (add $i 1) (len $.Params.sections)) (eq (index $.Params.sections (add $i 1)).type "product-cards") }}
-<section class="section about-section text-image-section{{ if $lead }} is-lead{{ end }}">
+<section class="section about-section text-image-section{{ if $lead }} is-lead{{ end }}"{{ with $s.id }} id="{{ . }}"{{ end }}>
   <div class="container about-inner {{ if eq $s.image_position "left" }}reverse{{ end }}{{ if not $img }} no-media{{ end }}">
     {{ with $img }}
     <div class="about-media reveal" data-reveal="up">
@@ -55,6 +55,15 @@
     </div>
   </div>
 </section>
+
+{{ else if eq $s.type "jump-links" }}
+<nav class="jump-links" aria-label="On this page">
+  <div class="container">
+    <ul>
+      {{ range $s.links }}<li><a class="btn btn-outline-dark" href="#{{ .target }}">{{ .label }}</a></li>{{ end }}
+    </ul>
+  </div>
+</nav>
 
 {{ else if eq $s.type "edition-covers" }}
 <section class="section edition-section"{{ with $s.id }} id="{{ . }}"{{ end }}>

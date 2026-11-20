@@ -9,7 +9,7 @@ photo: /images/uploads/jignesh-s-professional-portrait-in-blue-scrubs.png
 bio: <p>Jignesh Parmar recently joined the Bionic team after being a part of
   Bionic India. He comes with 4 additional years of experience in Prosthetics
   and Orthotics with other international companies like Ottobock. Jignesh is
-  extremely passionate about what he does, and it truly reflects in his work. He
+  extremely passionate about what he does, and this is reflected in his work. He
   is committed to his goal of providing excellent Prosthetic and Orthotic
   services for patients to gain normality. Jignesh lives in Merrillville,
   Indiana, and likes to invest his leisure time to enhance his knowledge and

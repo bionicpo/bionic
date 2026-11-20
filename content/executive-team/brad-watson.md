@@ -12,7 +12,7 @@ description: "Brad Watson is Bionic's Director of Practice Management, certified
 entry_type: executive
 ---
 
-Brad is certified in Prosthetics and Orthotics from both BOC and ABC, and is licensed in Kentucky and Tennessee and has been serving in those communities for over 30 years. Brad is a second generation practitioner, whose father introduced him to the profession early on in his teenage years.
+Brad is certified in Prosthetics and Orthotics from both BOC and ABC, and is licensed in Kentucky and Tennessee and has been serving in those communities for over 30 years. Brad is a second-generation practitioner, whose father introduced him to the profession early on in his teenage years.
 
 He is currently Past Board Chair of BOC and has been serving on the board for 11 years and filled various roles. He is also on the KY State Licensure Board as Vice Chair.
 
